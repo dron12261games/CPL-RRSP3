@@ -1,0 +1,572 @@
+// 
+// things.edf
+// 
+// EDF for Eternity Engine v3.40.50
+//
+// thingtypes define monsters, fireballs, decorations, etc.
+// thingtypes may be defined elsewhere, and order is unimportant.
+// User-defined thing types should use DoomEd numbers greater than 20000, and
+// DeHackEd numbers greater than 10000 in all cases, to remain compatible with
+// future versions of Eternity. See the EDF documentation for important 
+// information on the format of thingtype fields.
+//
+
+// Doom Thing Types ------------------------------------------------------------
+
+// DoomEdNums: 1 - 3999
+// DeHackEd Nums: 0 - 137, 141, 142, 144, 158 - 169
+
+includeifenabled("doom/things.edf", "DOOM")
+
+
+// Heretic Thing Types ---------------------------------------------------------
+
+// DoomEdNums: 7001 - 7299
+// DeHackEd Nums: 300 - 399
+
+includeifenabled("heretic/things.edf", "HERETIC")
+
+
+// Common Objects --------------------------------------------------------------
+
+//
+// The template for all DSDHacked things.
+//
+thingtype _DSDHackedThingtypeTemplate {}
+
+//
+// TeleportSpot 
+//
+// This is the object used to tag line-to-thing teleport exit spots. It is 
+// shared by all gamemodes.
+//
+
+thingtype TeleportSpot : Mobj, 14, 42
+{
+  compatname TeleportDest
+  flags NOSECTOR|NOBLOCKMAP
+}
+
+// BOOM Objects ----------------------------------------------------------------
+
+thingtype BoomPushPoint : Mobj, 5001, 138
+{
+  compatname  PointPusher
+  spawnstate  S_TNT1
+  radius      0.0001220703125 // haleyjd: very odd values...
+  height      0.0001220703125
+  mass        10
+  flags       NOBLOCKMAP
+}
+
+thingtype BoomPullPoint : Mobj, 5002, 139
+{
+  compatname  PointPuller
+  spawnstate  S_TNT1
+  radius      0.0001220703125 // haleyjd: very odd values...
+  height      0.0001220703125
+  mass        10
+  flags       NOBLOCKMAP
+}
+
+// MBF Objects -----------------------------------------------------------------
+
+thingtype MBFHelperDog : Mobj, 888, 140
+{
+  spawnhealth 500
+  painchance  180
+  speed       10
+  radius      12.0
+  height      28.0
+  activesound dgact
+  seesound    dgsit
+  attacksound dgatk
+  painsound   dgpain
+  deathsound  dgdth
+  cflags      SOLID|SHOOTABLE|COUNTKILL|JUMPDOWN|FOOTCLIP|SPACMONSTER|PASSMOBJ|AUTOTRANSLATE
+  obituary_melee "was chased down by a rabid puppy"
+  
+  firstdecoratestate S_DOGS_STND
+  states
+  @"
+  Spawn:
+    DOGS AB 10 A_Look
+    loop
+  See:
+    DOGS AABBCCDD 2 A_Chase
+    loop
+  Melee:
+    DOGS EF 8 A_FaceTarget
+    DOGS G  8 A_SargAttack
+    goto See
+  Pain:
+    DOGS H 2
+    DOGS H 2 A_Pain
+    goto See
+  Death:
+    DOGS I  8
+    DOGS J  8 A_Scream
+    DOGS K  4
+    DOGS L  4 A_Fall
+    DOGS M  4
+    DOGS N -1
+    stop
+  Raise:
+    DOGS NMLKJI 5
+    goto See
+  "@
+}
+
+// Note: Beta BFG fireballs (deh# 141, 142, 144) are defined in doom/things.edf
+
+// SMMU Objects ----------------------------------------------------------------
+
+thingtype SMMUCameraSpot : Mobj, 5003, 1062
+{
+  spawnstate  S_TNT1
+  mass        10
+  flags       NOBLOCKMAP
+}
+
+// Eternity Engine Objects -----------------------------------------------------
+
+// Environmental Sequence Point
+
+thingtype EEEnviroSequence : Mobj, 1300
+{
+  spawnstate S_TNT1
+  cflags     NOBLOCKMAP|NOGRAVITY
+}
+
+// Sector Sequence Override
+
+thingtype EESectorSequence : Mobj, 1500
+{
+  spawnstate S_TNT1
+  cflags     NOBLOCKMAP|NOGRAVITY
+}
+
+thingtype Unknown : Mobj, 5005
+{
+  spawnstate  S_UNKNOWN
+  radius      32.0
+  height      56.0
+  cflags      NOBLOCKMAP|NOGRAVITY
+}
+
+thingtype EESkyboxCam : Mobj, 5006
+{
+  compatname  SkyCamCompat
+  spawnstate  S_TNT1
+  radius      10.0
+  height      10.0
+  mass        10
+  flags       NOBLOCKMAP|NOGRAVITY
+}
+
+thingtype EEParticleDrip : Mobj, 5007, 1051
+{
+  spawnstate  S_TNT1
+  radius      1.0
+  height      1.0
+  flags       NOBLOCKMAP|NOGRAVITY
+  particlefx  DRIP
+}
+
+// What's this??? o_O
+
+thingtype EERavenObj : Unknown, 5008
+{
+  skinsprite EERV
+}
+
+// Hexen compatible map spots for scripting
+
+thingtype EEMapSpot : Mobj, 9001, 1052
+{
+  compatname  MapSpot
+  spawnstate  S_TNT1
+  cflags      NOBLOCKMAP|NOSECTOR|NOGRAVITY
+}
+
+thingtype EEMapSpotGravity : Mobj, 9013, 1053
+{
+  compatname  MapSpotGravity
+  spawnstate  S_TNT1
+  cflags      DONTDRAW|NOSPLASH
+}
+
+// Particle fountains (9027 - 9033)
+
+thingtype EEParticleFountain 
+{
+  spawnstate S_TNT1
+  height     0.0
+}
+
+// Sound Environment Zone controller
+
+thingtype EESoundEnvironment : Mobj, 9048
+{
+  compatname SoundEnvironment
+  spawnstate S_TNT1
+  cflags     NOBLOCKMAP|NOSECTOR|NOGRAVITY
+}
+
+// Polyobject spots
+
+thingtype EEPolyObjAnchor : Mobj, 9300, 1054
+{
+  spawnstate  S_TNT1
+  cflags      NOBLOCKMAP|NOSECTOR|NOGRAVITY
+}
+
+thingtype EEPolyObjSpawnSpot : Mobj, 9301, 1055
+{
+  spawnstate  S_TNT1
+  cflags      NOBLOCKMAP|NOSECTOR|NOGRAVITY
+}
+
+thingtype EEPolyObjSpawnSpotCrush : Mobj, 9302, 1056
+{
+  spawnstate  S_TNT1
+  cflags      NOBLOCKMAP|NOSECTOR|NOGRAVITY
+}
+
+thingtype EEPolyObjSpawnSpotDamage : Mobj, 9303, 1057
+{
+  spawnstate  S_TNT1
+  cflags      NOBLOCKMAP|NOSECTOR|NOGRAVITY
+}
+
+// Ambience object
+
+thingtype EEAmbience : Mobj, 14065
+{
+  compatname AmbientSound
+  spawnstate S_EE_AMBIENCE_SPAWN
+  cflags     NOBLOCKMAP|NOGRAVITY
+}
+
+// Music Changer
+
+thingtype EEMusicChanger : Mobj, 145
+{
+  compatname MusicChanger
+  spawnstate S_TNT1
+  cflags     NOBLOCKMAP|NOSECTOR|NOGRAVITY
+}
+
+// Doom Builder's 3D mode camera spots often get left in maps.
+// Let's define an Unknown object with the default DoomEdNum.
+
+thingtype DoomBuilderCameraSpot : Unknown
+{
+  compatname DoomBuilderCamera
+  translucency 33%
+}
+
+// Terrain Objects
+
+thingtype EETerrainLavaSplash : Mobj, -1, 1045
+{
+  compatname  LavaSplash
+  spawnstate  S_LAVASPLASH1
+  cflags      NOBLOCKMAP|NOGRAVITY|NOSPLASH
+}
+
+thingtype EETerrainLavaSmoke : Mobj, -1, 1046
+{
+  compatname   LavaSmoke
+  spawnstate   S_LAVASMOKE1
+  cflags       NOBLOCKMAP|NOGRAVITY|NOSPLASH
+  translucency 26624
+
+}
+
+thingtype EETerrainWaterSplash : Mobj, -1, 1047
+{
+  compatname  WaterSplash
+  spawnstate  S_SPLASH1
+  deathstate  S_SPLASHX
+  radius      2.0
+  height      4.0
+  cflags      NOBLOCKMAP|DROPOFF|MISSILE|LOGRAV|NORANDOMIZE|NOSPLASH|NOCROSS|CANNOTPUSH|NOZERODAMAGE
+}
+
+thingtype EETerrainWaterBase : Mobj, -1, 1048
+{
+  compatname  WaterSplashBase
+  spawnstate  S_SPLASHBASE1
+  cflags      NOBLOCKMAP|NOGRAVITY|NOSPLASH
+}
+
+thingtype EETerrainSludgeChunk : Mobj, -1, 1049
+{
+  compatname  SludgeChunk
+  spawnstate  S_SLUDGE1
+  deathstate  S_SLUDGEX
+  radius      2.0
+  height      4.0
+  mass        150
+  cflags      NOBLOCKMAP|DROPOFF|MISSILE|LOGRAV|NORANDOMIZE|NOSPLASH|NOCROSS|CANNOTPUSH|NOZERODAMAGE
+}
+
+thingtype EETerrainSludgeBase : Mobj, -1, 1050
+{
+  compatname  SludgeSplash
+  spawnstate  S_SLUDGEBASE1
+  cflags      NOBLOCKMAP|NOGRAVITY|NOSPLASH
+}
+
+// Sector Action Objects -------------------------------------------------------
+
+thingtype EESectorActionProto
+{
+  spawnstate  S_TNT1
+  cflags NOBLOCKMAP|NOSECTOR|NOGRAVITY|NOSPLASH
+}
+
+thingtype EESectorActionExit : EESectorActionProto, 9997
+{
+  compatname  SecActExit
+}
+
+thingtype EESectorActionEnter : EESectorActionProto, 9998
+{
+  compatname  SecActEnter
+}
+
+// Eternity TC Objects ---------------------------------------------------------
+
+// WARNING: NONE of the thingtypes below here are considered documented, and 
+// many are subject to future removal -- most are left-over from Eternity TC
+// development and have not been removed because they use potentially useful
+// code that may be generalized for editor use. DO NOT depend upon the presence,
+// availability, or DeHackEd number of any object below this point.
+
+thingtype ETCFogSpawner 
+{
+  spawnstate  S_SPAWNFOG1
+  flags       NOBLOCKMAP
+  flags2      NOTHRUST|FLOATBOB|DONTDRAW
+}
+
+thingtype ETCSmallFog 
+{
+  spawnstate  S_FOGPATCHS1
+  deathstate  S_FOGPATCHS0
+  speed       65536
+  flags       NOBLOCKMAP|NOGRAVITY|NOCLIP|FLOAT|TRANSLUCENT
+}
+
+thingtype ETCMediumFog 
+{
+  spawnstate  S_FOGPATCHM1
+  deathstate  S_FOGPATCHM0
+  speed       65536
+  flags       NOBLOCKMAP|NOGRAVITY|NOCLIP|FLOAT|TRANSLUCENT
+}
+
+thingtype ETCLargeFog 
+{
+  spawnstate  S_FOGPATCHL1
+  deathstate  S_FOGPATCHL0
+  speed       65536
+  flags       NOBLOCKMAP|NOGRAVITY|NOCLIP|FLOAT|TRANSLUCENT
+}
+
+thingtype ETCTotalInvisiSphere 
+{
+  spawnstate  S_PNS2_1
+  flags       SPECIAL|COUNTITEM|TRANSLUCENT
+}
+
+// Damage Types ----------------------------------------------------------------
+
+// Note: the "Unknown" type, number 0, is defined by the engine and cannot be
+// overridden or altered. It is unnecessary and is not recommended to assign
+// your own damage types numbers. They are provided for backward compatibility
+// only. If the obituary string begins with a $, it is a BEX mnemonic for the
+// internal string to use as the message.
+
+// Normal damagetypes
+
+damagetype Fist       { num  1; obituary "$OB_FIST"       }
+damagetype Pistol     { num  2; obituary "$OB_PISTOL"     } 
+damagetype Shotgun    { num  3; obituary "$OB_SHOTGUN"    }
+damagetype Chaingun   { num  4; obituary "$OB_CHAINGUN"   }
+damagetype Plasma     { num  7; obituary "$OB_PLASMA"     }
+damagetype BFG        { num  8; obituary "$OB_BFG"        }
+damagetype BFG_Splash { num  9; obituary "$OB_BFG_SPLASH" }
+damagetype Chainsaw   { num 10; obituary "$OB_CHAINSAW"   }
+damagetype SShotgun   { num 11; obituary "$OB_SSHOTGUN"   }
+damagetype BetaBFG    { num 22; obituary "$OB_BETABFG"    }
+damagetype BFGBurst   { num 23; obituary "$OB_BFGBURST"   }
+
+// Damagetypes that are sourceless, or want to be treated that way.
+
+damagetype Slime    { num 12; obituary "$OB_SLIME";    sourceless true }
+damagetype Lava     { num 13; obituary "$OB_LAVA";     sourceless true }
+damagetype Crush    { num 14; obituary "$OB_CRUSH";    sourceless true }
+damagetype Telefrag { num 15; obituary "$OB_TELEFRAG"; sourceless true }
+damagetype Falling  { num 16; obituary "$OB_FALLING";  sourceless true }
+damagetype Suicide  { num 17; obituary "$OB_SUICIDE";  sourceless true }
+damagetype Barrel   { num 18; obituary "$OB_BARREL";   sourceless true }
+damagetype Splash   { num 19; obituary "$OB_SPLASH";   sourceless true }
+damagetype Quake    { num 26; obituary "$OB_QUAKE";    sourceless true }
+
+// Damage types that can kill oneself, and thus have a special message for it.
+
+damagetype Rocket
+{ 
+   num 5
+   obituary     "$OB_ROCKET"
+   obituaryself "$OB_ROCKET_SELF"
+}
+
+damagetype R_Splash
+{
+   num 6
+   obituary     "$OB_R_SPLASH"
+   obituaryself "$OB_R_SPLASH_SELF"
+}
+
+damagetype BFG11k_Splash { num 21; obituaryself "$OB_BFG11K_SELF" }
+
+damagetype Grenade
+{ 
+   num 25
+   obituary     "$OB_GRENADE"
+   obituaryself "$OB_GRENADE_SELF"
+}
+
+// These two damagetypes are special in that the message they trigger depends on
+// the thing doing the damage, be it a monster, or a player weapon.
+
+damagetype Hit        { num 20 }
+damagetype PlayerMisc { num 24 }
+
+// These damagetypes are special in that things with certain flag values will 
+// inflict them regardless of the value of their mod field.
+
+damagetype Fire { num 27 }
+
+// Doom Retro MT_EXTRA ----------------------------------------------------------------
+
+// DoomEdNums: -1
+// DeHackEd Nums: 151 - 250
+
+// EMPTYMOBJ macro from Doom Retro's info.c
+thingtype DREmptyMobj : Mobj
+{
+   // Basically everything is just null
+   spawnhealth          0
+   reactiontime         0
+   radius               0.0
+   height               0.0
+   correct_height       0.0
+   mass                 0
+}
+
+thingtype DRExtraMobj00 : DREmptyMobj, -1, 151 {}
+thingtype DRExtraMobj01 : DREmptyMobj, -1, 152 {}
+thingtype DRExtraMobj02 : DREmptyMobj, -1, 153 {}
+thingtype DRExtraMobj03 : DREmptyMobj, -1, 154 {}
+thingtype DRExtraMobj04 : DREmptyMobj, -1, 155 {}
+thingtype DRExtraMobj05 : DREmptyMobj, -1, 156 {}
+thingtype DRExtraMobj06 : DREmptyMobj, -1, 157 {}
+thingtype DRExtraMobj07 : DREmptyMobj, -1, 158 {}
+thingtype DRExtraMobj08 : DREmptyMobj, -1, 159 {}
+thingtype DRExtraMobj09 : DREmptyMobj, -1, 160 {}
+thingtype DRExtraMobj10 : DREmptyMobj, -1, 161 {}
+thingtype DRExtraMobj11 : DREmptyMobj, -1, 162 {}
+thingtype DRExtraMobj12 : DREmptyMobj, -1, 163 {}
+thingtype DRExtraMobj13 : DREmptyMobj, -1, 164 {}
+thingtype DRExtraMobj14 : DREmptyMobj, -1, 165 {}
+thingtype DRExtraMobj15 : DREmptyMobj, -1, 166 {}
+thingtype DRExtraMobj16 : DREmptyMobj, -1, 167 {}
+thingtype DRExtraMobj17 : DREmptyMobj, -1, 168 {}
+thingtype DRExtraMobj18 : DREmptyMobj, -1, 169 {}
+thingtype DRExtraMobj19 : DREmptyMobj, -1, 170 {}
+thingtype DRExtraMobj20 : DREmptyMobj, -1, 171 {}
+thingtype DRExtraMobj21 : DREmptyMobj, -1, 172 {}
+thingtype DRExtraMobj22 : DREmptyMobj, -1, 173 {}
+thingtype DRExtraMobj23 : DREmptyMobj, -1, 174 {}
+thingtype DRExtraMobj24 : DREmptyMobj, -1, 175 {}
+thingtype DRExtraMobj25 : DREmptyMobj, -1, 176 {}
+thingtype DRExtraMobj26 : DREmptyMobj, -1, 177 {}
+thingtype DRExtraMobj27 : DREmptyMobj, -1, 178 {}
+thingtype DRExtraMobj28 : DREmptyMobj, -1, 179 {}
+thingtype DRExtraMobj29 : DREmptyMobj, -1, 180 {}
+thingtype DRExtraMobj30 : DREmptyMobj, -1, 181 {}
+thingtype DRExtraMobj31 : DREmptyMobj, -1, 182 {}
+thingtype DRExtraMobj32 : DREmptyMobj, -1, 183 {}
+thingtype DRExtraMobj33 : DREmptyMobj, -1, 184 {}
+thingtype DRExtraMobj34 : DREmptyMobj, -1, 185 {}
+thingtype DRExtraMobj35 : DREmptyMobj, -1, 186 {}
+thingtype DRExtraMobj36 : DREmptyMobj, -1, 187 {}
+thingtype DRExtraMobj37 : DREmptyMobj, -1, 188 {}
+thingtype DRExtraMobj38 : DREmptyMobj, -1, 189 {}
+thingtype DRExtraMobj39 : DREmptyMobj, -1, 190 {}
+thingtype DRExtraMobj40 : DREmptyMobj, -1, 191 {}
+thingtype DRExtraMobj41 : DREmptyMobj, -1, 192 {}
+thingtype DRExtraMobj42 : DREmptyMobj, -1, 193 {}
+thingtype DRExtraMobj43 : DREmptyMobj, -1, 194 {}
+thingtype DRExtraMobj44 : DREmptyMobj, -1, 195 {}
+thingtype DRExtraMobj45 : DREmptyMobj, -1, 196 {}
+thingtype DRExtraMobj46 : DREmptyMobj, -1, 197 {}
+thingtype DRExtraMobj47 : DREmptyMobj, -1, 198 {}
+thingtype DRExtraMobj48 : DREmptyMobj, -1, 199 {}
+thingtype DRExtraMobj49 : DREmptyMobj, -1, 200 {}
+thingtype DRExtraMobj50 : DREmptyMobj, -1, 201 {}
+thingtype DRExtraMobj51 : DREmptyMobj, -1, 202 {}
+thingtype DRExtraMobj52 : DREmptyMobj, -1, 203 {}
+thingtype DRExtraMobj53 : DREmptyMobj, -1, 204 {}
+thingtype DRExtraMobj54 : DREmptyMobj, -1, 205 {}
+thingtype DRExtraMobj55 : DREmptyMobj, -1, 206 {}
+thingtype DRExtraMobj56 : DREmptyMobj, -1, 207 {}
+thingtype DRExtraMobj57 : DREmptyMobj, -1, 208 {}
+thingtype DRExtraMobj58 : DREmptyMobj, -1, 209 {}
+thingtype DRExtraMobj59 : DREmptyMobj, -1, 210 {}
+thingtype DRExtraMobj60 : DREmptyMobj, -1, 211 {}
+thingtype DRExtraMobj61 : DREmptyMobj, -1, 212 {}
+thingtype DRExtraMobj62 : DREmptyMobj, -1, 213 {}
+thingtype DRExtraMobj63 : DREmptyMobj, -1, 214 {}
+thingtype DRExtraMobj64 : DREmptyMobj, -1, 215 {}
+thingtype DRExtraMobj65 : DREmptyMobj, -1, 216 {}
+thingtype DRExtraMobj66 : DREmptyMobj, -1, 217 {}
+thingtype DRExtraMobj67 : DREmptyMobj, -1, 218 {}
+thingtype DRExtraMobj68 : DREmptyMobj, -1, 219 {}
+thingtype DRExtraMobj69 : DREmptyMobj, -1, 220 {}
+thingtype DRExtraMobj70 : DREmptyMobj, -1, 221 {}
+thingtype DRExtraMobj71 : DREmptyMobj, -1, 222 {}
+thingtype DRExtraMobj72 : DREmptyMobj, -1, 223 {}
+thingtype DRExtraMobj73 : DREmptyMobj, -1, 224 {}
+thingtype DRExtraMobj74 : DREmptyMobj, -1, 225 {}
+thingtype DRExtraMobj75 : DREmptyMobj, -1, 226 {}
+thingtype DRExtraMobj76 : DREmptyMobj, -1, 227 {}
+thingtype DRExtraMobj77 : DREmptyMobj, -1, 228 {}
+thingtype DRExtraMobj78 : DREmptyMobj, -1, 229 {}
+thingtype DRExtraMobj79 : DREmptyMobj, -1, 230 {}
+thingtype DRExtraMobj80 : DREmptyMobj, -1, 231 {}
+thingtype DRExtraMobj81 : DREmptyMobj, -1, 232 {}
+thingtype DRExtraMobj82 : DREmptyMobj, -1, 233 {}
+thingtype DRExtraMobj83 : DREmptyMobj, -1, 234 {}
+thingtype DRExtraMobj84 : DREmptyMobj, -1, 235 {}
+thingtype DRExtraMobj85 : DREmptyMobj, -1, 236 {}
+thingtype DRExtraMobj86 : DREmptyMobj, -1, 237 {}
+thingtype DRExtraMobj87 : DREmptyMobj, -1, 238 {}
+thingtype DRExtraMobj88 : DREmptyMobj, -1, 239 {}
+thingtype DRExtraMobj89 : DREmptyMobj, -1, 240 {}
+thingtype DRExtraMobj90 : DREmptyMobj, -1, 241 {}
+thingtype DRExtraMobj91 : DREmptyMobj, -1, 242 {}
+thingtype DRExtraMobj92 : DREmptyMobj, -1, 243 {}
+thingtype DRExtraMobj93 : DREmptyMobj, -1, 244 {}
+thingtype DRExtraMobj94 : DREmptyMobj, -1, 245 {}
+thingtype DRExtraMobj95 : DREmptyMobj, -1, 246 {}
+thingtype DRExtraMobj96 : DREmptyMobj, -1, 247 {}
+thingtype DRExtraMobj97 : DREmptyMobj, -1, 248 {}
+thingtype DRExtraMobj98 : DREmptyMobj, -1, 249 {}
+thingtype DRExtraMobj99 : DREmptyMobj, -1, 250 {}
+

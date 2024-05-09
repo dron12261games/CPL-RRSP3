@@ -1,0 +1,65 @@
+===========================================================================
+Update to               : -
+Primary purpose         : Single play
+===========================================================================
+Release date            : -
+Author                  : Kras
+Email Address           : ilakolcov52@gmail.com
+
+Description             : this is a short card, designed for cartridge
+                          starvation and with a reference to one game.
+                          barrels of blood, etc. are garbage. An attempt to
+                          recreate the last location of the game in 3 hours
+                          and from memory. You don't have to kill all the
+                          monsters.
+
+===========================================================================
+* What is included *
+
+New levels              : 1
+Sounds                  : No
+Music                   : Yes
+Graphics                : No
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : 1
+Single Player           : No
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Not implemented
+
+
+* Construction *
+
+Base                    : doom 2
+Build Time              : 3 h
+Editor(s) used          : doom builder
+Known Bugs              : l don`t know
+May Not Run With        : DSDA doom
+Tested With             : doom retro, GZdoom/
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons Attribution 4.0
+International License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by/4.0/
+
+You are free to copy and redistribute the material in any medium or format;
+and remix, transform, and build upon the material for any purpose, even
+commercially. If you do so, you must give appropriate credit, provide a link
+to the license, and indicate if changes were made. You may do so in any
+reasonable manner, but not in any way that suggests the licensor endorses you
+or your use.
+
+* Where to get the file that this text file describes *
+
+The Usual: ftp://archives.gamers.org/pub/idgames/ and mirrors

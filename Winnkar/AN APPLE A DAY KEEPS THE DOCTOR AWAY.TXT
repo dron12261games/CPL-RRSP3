@@ -1,0 +1,69 @@
+===========================================================================
+Archive Maintainer      : -
+Update to               : V1
+Advanced engine needed  : Boom
+Primary purpose         : Single play
+===========================================================================
+Title                   : An apple a day keeps the doctor away
+Filename                : An apple a day keeps the doctor away.wad
+Release date            : 01.05.2024
+Author                  : Winnkar
+Email Address           : sinkarroma@gmail.com
+Other Files By Author   : NO
+Misc. Author Info       : 14 years old kid, making wads and music
+
+Description             : My MAP07 (Dead Simple) version. Use infight when
+                          this need.
+
+Additional Credits to   : MIDI: Winnkar - Winnkar got the minigun ("Shawn's
+                          Got the Shotgun" remake)
+===========================================================================
+* What is included *
+
+New levels              : 1
+Sounds                  : No
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Yes
+
+
+* Construction *
+
+Base                    : doom2.wad
+Build Time              : 3 hours
+Editor(s) used          : GZDoom Builder, SLADE3, FL Studio 20, GIMP
+May Not Run With        : -
+Tested With             : dsda-doom 0.26.2
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons Attribution-NonCommercial
+4.0 International License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by-nc/4.0/
+
+You are free to copy and redistribute the material in any medium or format;
+and remix, transform, and build upon the material. If you do so, you must
+give appropriate credit, provide a link to the license, and indicate if
+changes were made. You may do so in any reasonable manner, but not in any way
+that suggests the licensor endorses you or your use. You may not use the
+material for commercial purposes.
+
+* Where to get the file that this text file describes *
+
+The Usual: ftp://archives.gamers.org/pub/idgames/ and mirrors
+FTP sites: Google Disk
