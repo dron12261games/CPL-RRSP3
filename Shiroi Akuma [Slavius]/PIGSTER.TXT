@@ -1,0 +1,62 @@
+===========================================================================
+Primary purpose         : Single play
+===========================================================================
+Title                   : Pigster will come
+Filename                : pigster.wad
+Release date            : 09.06.24
+Author                  : Shiroi Akuma aka Slavius [B0S]
+Email Address           : slavius47@gmail.com
+
+Description             : You're alone, stucked in the labyrinth with evil,
+                          menacing PIGSTERS. Try to survive and kill them
+                          all. Good luck...
+
+===========================================================================
+* What is included *
+
+New levels              : 1
+Sounds                  : Yes
+Music                   : No
+Graphics                : Yes
+Dehacked/BEX Patch      : Yes
+Demos                   : No
+Other                   : complevel - 9
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Yes
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : 8 hours
+Editor(s) used          : Ultimate Doom Builder, XWE,Adobe Photoshop
+May Not Run With        : Will work with all boom-compatible source ports
+Tested With             : DSDA 0.27.5, PRBoom+ 2.6.66
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons Attribution-NonCommercial
+4.0 International License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by-nc/4.0/
+
+You are free to copy and redistribute the material in any medium or format;
+and remix, transform, and build upon the material. If you do so, you must
+give appropriate credit, provide a link to the license, and indicate if
+changes were made. You may do so in any reasonable manner, but not in any way
+that suggests the licensor endorses you or your use. You may not use the
+material for commercial purposes.
+
+* Where to get the file that this text file describes *
+
+The Usual: ftp://archives.gamers.org/pub/idgames/ and mirrors

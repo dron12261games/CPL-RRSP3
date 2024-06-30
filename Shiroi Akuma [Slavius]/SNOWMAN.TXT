@@ -1,0 +1,68 @@
+===========================================================================
+Primary purpose         : Single play
+===========================================================================
+Title                   : Snowman
+Filename                : snowman.pk3
+Release date            : 22.05.24
+Author                  : Shiroi Akuma aka Slavius [B0S]
+Email Address           : slavius47@gmail.com
+
+Description             : You woke up at the morning and make you way to
+                          work. But there is something you forgot about.
+                          Maybe killing some demons will refresh your memory?
+                          REMINDER: If you have heavy performance issue then try snowmanL.pk3
+
+Additional Credits to   : Music: Nightwish - Walking in the Air
+                          Hotline Miami 2 OST - Videodrome
+                          Resources from: Siberian Settlement
+                          Thirty Years With Doom
+                          VERY special thanks to: RastaManGames
+===========================================================================
+* What is included *
+
+New levels              : 1
+Sounds                  : No
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Yes
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : 10 hours
+Editor(s) used          : Ultimate Doom Builder, XWE, SLADE, Adobe Photoshop
+May Not Run With        : Will run only on UDMF source ports
+Tested With             : GZDoom 4.11, VKDoom
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons Attribution-NonCommercial
+4.0 International License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by-nc/4.0/
+
+You are free to copy and redistribute the material in any medium or format;
+and remix, transform, and build upon the material. If you do so, you must
+give appropriate credit, provide a link to the license, and indicate if
+changes were made. You may do so in any reasonable manner, but not in any way
+that suggests the licensor endorses you or your use. You may not use the
+material for commercial purposes.
+
+* Where to get the file that this text file describes *
+
+The Usual: ftp://archives.gamers.org/pub/idgames/ and mirrors
