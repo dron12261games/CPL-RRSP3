@@ -1,0 +1,70 @@
+===========================================================================
+Advanced engine needed  : MBF21 Compatible
+Primary purpose         : Single play
+===========================================================================
+Title                   : Unfinished Dream of All Living Drons
+Filename                : UNFINISHED DREAM OF ALL LIVING DRONS.WAD
+Release date            : 30 May 2024
+Author                  : StorkGreen
+Email Address           : -
+Other Files By Author   : List here:
+                          https://www.doomworld.com/profile/33018-storkgreen
+                          /?tab=field_core_pfield_1
+Misc. Author Info       : Mother who hold herself in own womb
+
+Description             : [EN]
+                          Each dronzavrik has their own dream...
+                          
+                          [RU]
+                          У каждого дронзаврика есть своя мечта...
+
+===========================================================================
+* What is included *
+
+New levels              : 1
+Sounds                  : Yes
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : Yes
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : No
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : 1,5 hours
+Editor(s) used          : UDB, SLADE 3
+May Not Run With        : Engines that do not support MBF21, UMAPINFO,
+                          DEHEXTRA
+Tested With             : DSDA 0.27.5
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons Attribution-NonCommercial
+4.0 International License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by-nc/4.0/
+
+You are free to copy and redistribute the material in any medium or format;
+and remix, transform, and build upon the material. If you do so, you must
+give appropriate credit, provide a link to the license, and indicate if
+changes were made. You may do so in any reasonable manner, but not in any way
+that suggests the licensor endorses you or your use. You may not use the
+material for commercial purposes.
+
+* Where to get the file that this text file describes *
+
+The Usual: ftp://archives.gamers.org/pub/idgames/ and mirrors

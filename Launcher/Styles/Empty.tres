@@ -1,0 +1,9 @@
+[gd_resource type="StyleBoxFlat" format=3 uid="uid://ctq4n7oxp2ihe"]
+
+[resource]
+content_margin_right = 1.0
+bg_color = Color(0, 0, 0, 1)
+draw_center = false
+border_color = Color(0.203922, 0.227451, 0.25098, 1)
+shadow_color = Color(0, 0, 0, 0)
+anti_aliasing = false

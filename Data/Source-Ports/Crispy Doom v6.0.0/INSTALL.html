@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>INSTALL</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="crispy-doom-installation">Crispy Doom installation</h1>
+<p>These are instructions for how to install and set up Crispy Doom for
+play.</p>
+<h1 id="obtaining-an-iwad-file">Obtaining an IWAD file</h1>
+<p>To play, you need an IWAD file. This file contains the game data
+(graphics, sounds, etc). The full versions of the games are proprietary
+and need to be bought. The IWAD file has one of the following names:</p>
+<table>
+<thead>
+<tr class="header">
+<th>IWAD</th>
+<th>Game</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>doom1.wad</td>
+<td>Shareware Doom</td>
+</tr>
+<tr class="even">
+<td>doom.wad</td>
+<td>Registered / Ultimate Doom</td>
+</tr>
+<tr class="odd">
+<td>doom2.wad</td>
+<td>Doom 2</td>
+</tr>
+<tr class="even">
+<td>tnt.wad</td>
+<td>Final Doom: TNT: Evilution</td>
+</tr>
+<tr class="odd">
+<td>plutonia.wad</td>
+<td>Final Doom: Plutonia Experiment</td>
+</tr>
+<tr class="even">
+<td>chex.wad</td>
+<td>Chex Quest</td>
+</tr>
+<tr class="odd">
+<td>freedoom1.wad</td>
+<td>Freedoom: Phase 1</td>
+</tr>
+<tr class="even">
+<td>freedoom2.wad</td>
+<td>Freedoom: Phase 2</td>
+</tr>
+<tr class="odd">
+<td>freedm.wad</td>
+<td>FreeDM</td>
+</tr>
+</tbody>
+</table>
+<p>If you don’t have a copy of a commercial version, you can download
+the shareware version of Doom (extract the file named doom1.wad):</p>
+<ul>
+<li><a
+href="https://www.doomworld.com/idgames/idstuff/doom/win95/doom95">https://www.doomworld.com/idgames/idstuff/doom/win95/doom95</a>
+(idstuff/doom/win95/doom95.zip in your nearest /idgames mirror)</li>
+</ul>
+<p>If you have a commercial version on a CD-ROM, obtaining the IWAD file
+is usually straightforward. Simply locate the IWAD file on the disc and
+copy it off.</p>
+<p>The Doom games are available to purchase for download on Steam (<a
+href="https://store.steampowered.com/">https://store.steampowered.com/</a>),
+all releases containing the classic games including Doom 3: BFG Edition
+are supported. Crispy Doom will autodetect IWADs installed by Steam and
+you do not need to do anything.</p>
+<p>The Doom and Strife: Veteran Edition games are available for purchase
+on GOG.com (<a href="https://www.gog.com/">https://www.gog.com/</a>).
+Crispy Doom will autodetect IWADs from the standalone or GOG Galaxy
+installers and you do not need to do anything.</p>
+<p>Older floppy disk versions are harder to deal with. The easiest way
+to install from floppies is to run the original installer program inside
+an emulator such as DOSbox (<a
+href="https://www.dosbox.com/">https://www.dosbox.com/</a>). As an
+alternative to using an emulator, it is possible to extract the files
+manually. On the install disk(s), you will find several files with
+numbered extensions (eg. “doom_se.1”).</p>
+<p>From the command line it is possible to combine these files into a
+single large file, using a command similar to the following:</p>
+<p>copy doom_se.1+doom_se.2+doom_se.3+doom_se.4+doom_se.5
+doom_se.lzh</p>
+<p>The resulting file is an LHA archive file, and it can be extracted
+using an LHA archive tool (there is one available for almost every
+operating system).</p>
+<h1 id="running-the-game">Running the game</h1>
+<p>Crispy Doom needs to know where to find your IWAD file. To do this,
+do one of the following:</p>
+<ul>
+<li><p>Within Explorer, simply place the IWAD file in the same folder as
+the Crispy Doom files, and double-click
+<code>crispy-doom.exe</code>.</p></li>
+<li><p>Run Crispy Doom from the command prompt with the
+<code>-iwad</code> command line parameter to specify the IWAD file to
+use, eg.</p>
+<pre><code>crispy-doom -iwad c:\games\doom2.wad</code></pre></li>
+<li><p>Set the environment variable DOOMWADDIR to the location of a
+directory containing your IWAD files.</p></li>
+<li><p>If you have multiple IWADs in different directories, set the
+environment variable DOOMWADPATH to be a semicolon-separated list of
+directories to search (similar to the PATH environment
+variable).</p></li>
+</ul>
+<h1 id="playing-with-freedoom">Playing with Freedoom</h1>
+<p>Freedoom is an open content project to create a Doom engine-based
+game that is entirely free software. The website can be found here:</p>
+<p><a
+href="https://freedoom.github.io/">https://freedoom.github.io/</a></p>
+<p>Check out the <a
+href="https://www.chocolate-doom.org/wiki/index.php/Freedoom">Chocolate
+Doom wiki’s page on Freedoom</a> for more information.</p>
+<h1 id="playing-with-chex-quest">Playing with Chex Quest</h1>
+<p>Chex Quest is a game based on Doom with some minor modifications that
+was distributed with boxes of Chex cereal in 1997. It is possible to
+play Chex Quest using Crispy Doom. To do this, the following files are
+needed:</p>
+<ul>
+<li><p>The IWAD file “chex.wad”, from the Chex Quest CD.</p></li>
+<li><p>The dehacked patch “chex.deh”, which can be found here: <a
+href="https://www.doomworld.com/idgames/utils/exe_edit/patches/chexdeh">https://www.doomworld.com/idgames/utils/exe_edit/patches/chexdeh</a>
+(utils/exe_edit/patches/chexdeh.zip in your nearest /idgames
+mirror)</p></li>
+</ul>
+<p>Copy these files into a directory together and use the
+<code>-iwad</code> command line parameter to specify the Chex Quest IWAD
+file:</p>
+<p>crispy-doom -iwad chex.wad</p>
+<h1 id="installing-upgrades">Installing upgrades</h1>
+<p>Crispy Doom requires a version 1.9 IWAD file. Generally, if you
+install a recent version of Doom you should have a version 1.9 IWAD.
+However, if you are installing from a very old CD version or from floppy
+disks, you might find you have an older version.</p>
+<p>The most obvious symptom of an out of date IWAD file is that the game
+will exit at the title screen before the demo starts, with the message
+“Demo is from a different game version!”. If this happens, your IWAD
+file is out of date and you need to upgrade.</p>
+<p>Upgrade patches are available that will update your game to the
+latest version, the following sites have the patches:</p>
+<ul>
+<li><a
+href="http://www.doom2.net/doom2/utils.html">http://www.doom2.net/doom2/utils.html</a></li>
+<li><a
+href="http://www.gamers.org/pub/idgames/idstuff/doom">http://www.gamers.org/pub/idgames/idstuff/doom</a></li>
+<li><a
+href="http://www.gamers.org/pub/idgames/idstuff/doom2">http://www.gamers.org/pub/idgames/idstuff/doom2</a></li>
+</ul>
+<p>Please see the <a href="https://doomwiki.org/wiki/Game_patch">Doom
+Wiki’s page on game patches</a> for more information.</p>
+<p>As the patches are binary patches that run as DOS executables, on
+recent 64-bit versions of Windows you will need to use a DOS emulator
+(such as DOSBox) to run them.</p>
+<h1 id="music-support">Music support</h1>
+<p>Crispy Doom includes OPL emulation code that accurately reproduces
+the way that the in-game music sounded under DOS when using an
+Adlib/Soundblaster card. This is, however, not to everyone’s taste.</p>
+<p>Crispy Doom includes a number of different options for better quality
+MIDI playback; see the file README.Music for more details of how to set
+these up.</p>
+</body>
+</html>

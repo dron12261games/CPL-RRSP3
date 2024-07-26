@@ -1,0 +1,254 @@
+keys,en,ru
+WELCOME_BTN,Welcome,Привет
+SETTINGS_BTN,Settings,Настройки
+MAPSLIST_BTN,Maps list,Список карт
+ABOUT_BTN,About,О Проекте
+START_MSG,"Welcome, player! 
+
+[fill]This is special open-source launcher for comfort play to Russian Random Speedmap Pack 3.[/fill] 
+
+Before we start, we need to configure paths to IWADs!","Приветствую, игрок! 
+
+[fill]Это специальный лаунчер с открытым исходным кодом, созданный для удобного и корректного игрового опыта в Russian Random Speedmap Pack 3.[/fill]
+
+Прежде чем мы начнем нам нужно настроить пути до IWADов!"
+START_BTN,Let's Begin!,Начнем!
+MUSIC_MSG,Music: Rustacean by AD_79,Музыка: Rustacean от AD_79
+SITE_MSG,Official RRSP3 site,Официальный сайт RRSP3
+IWADS_TITLE,Check your IWADs,Проверим твои IWADы
+IWADS_DESC,"[fill]Distributing IWADs is illegal, so you will need to get your copies of the games into the IWADs folder, which you can open using the button below.[/fill]","[fill]Распространение IWADов является нелегальным, поэтому вам нужно будет поместить свои копии игр в папку IWADs, которую вы можете открыть с помощью кнопки ниже.[/fill]"
+IWADS_BTN,IWADs folder,Папка для IWADов
+WARN_TITLE,WARNING,ВНИМАНИЕ
+WARN_DESC,"[fill]Despite the fact that you can freely take wads directly in the project folder for free use, [color=green]for the first playthrough it is highly recommended to play through this launcher[/color], because many maps were created for certain ports and certain settings. 
+
+And it is [color=red]STRONGLY NOT RECOMMENDED TO USE ANY MODS[/color], even if they do not change the gameplay. You risk breaking some of the maps in this way, a number of levels do not explicitly support any mods![/fill]
+
+[color=yellow]You have been warned![/color]","[fill]Несмотря на то, что вы можете свободно брать вады прямо в папке проекта для свободного использования, [color=green]для первого прохождения настоятельно рекомендуется играть через этот лаунчер[/color], потому что многие карты были созданы для определенных портов с определенными настройками. 
+
+И [color=red]НАСТОЯТЕЛЬНО НЕ РЕКОМЕНДУЕТСЯ ИСПОЛЬЗОВАТЬ ЛЮБЫЕ МОДЫ[/color], даже если они не меняют геймплей. Так вы рискуете сломать некоторые карты, а ряд уровней вообще не поддерживают никаких модов![/fill]
+
+[color=yellow]Вы были предупреждены![/color]"
+LANG_TITLE,Launcher interface language,Язык интерфейса в лаунчере
+HOURS_TITLE,Hours,Часов
+SOURCEPORT_TITLE,Source-port,Исходный порт
+PLAY_BTN,PLAY,ИГРАТЬ
+THANKS_TITLE,Thank you for playing!,Спасибо за игру!
+THANKS_DESC,"[fill]Thank you for paying attention to our project! Our team was hard at work trying to make interesting and memorable non-long various maps. Veterans with a lot of experience experimented with different ideas, and newcomers developed and honed their skills, showing things from their not yet blurry look.[/fill]","[fill]Спасибо за то, что обратили внимание на наш проект! Наша команда усердно трудилась, пытаясь сделать интересные и запоминающиеся недлинные разнообразные карты. Ветераны с большим опытом экспериментировали с различными идеями, а новички оттачивали свои навыки, показывая все со своей еще не размытой точки зрения.[/fill]"
+LEADER_TITLE," Organization and leading project
+ website, launcher and promotion"," Организация и ведение проекта
+ сайт, лаунчер и продвижение"
+ASSIST_TITLE,Assisting with project leading,Помощь с проведением проекта
+MAPPERS_TITLE,Mappers,Мапперы
+PROMOTION_TITLE,Additional help with promotion,Дополнительная помощь с продвижением
+OTHERPROJECTS_TITLE,Also take a look at our previous projects,Также взгляните на наши прошлые проекты
+COMPLETED,Completed,Пройдено
+MISS_IWAD,You dont have IWAD for this map,У вас нету IWAD для этой карты
+STEP1_MSG,1. Select mapper,1. Выбери маппера
+STEP2_MSG,2. Select map,2. Выбери карту
+STEP3_MSG,3. Look at map info,3. Прочти информацию о карте
+STEP4_MSG,4. Select source-port,4. Выбери сурс-порт
+STEP4PORT_MSG,    means recommended source-port to play selected map,    означает рекомендуемый для игры порт
+STEP5_MSG,5. Play map,5. Пройди карту
+STEP6_MSG,6. After playing mark map as completed,6. После игры пометь карту пройденой
+TUTORIAL_END,Got it,Понятно
+ART_CREDIT,Exclusive art by,Эксклюзивный арт от
+LITE_TITLE,Choose map version,Выбери версию карты
+LITE_MSG,"[fill]This map can be a little demanding on your computer, but it does have a [color=green]Lite version[/color] that is a bit more stripped down in terms of visuals and will be able to go on some weaker computers. Which version would you rather play?[/fill] ","[fill]Эта карта может быть требовательной к вашему компьютеру, но у нее есть [color=green]Lite версия[/color], которая немного урезана по визуальным эффектам и сможет пойти на некоторых более слабых компьютерах. В какую версию вы предпочтете играть?[/fill]"
+LITE_DEFAULT_PLAY,Play default version,Играть в обычную версию
+LITE_LITE_PLAY,Play Lite version,Играть в Lite версию
+LITE_CANCEL,Cancel,Отмена
+ERROR_TITLE,Errors in RRSP 3 files,Ошибки в файлах RRSP 3
+ERROR_MSG,"[fill]It looks like some of the RRSP 3 files have been deleted, moved, renamed or just broken. [color=red]Please do not touch anything in the Data folder and the rrsp3.dat file!!![/color] And make sure that there are no Cyrillic characters (including Russian characters) in the path to the RRSP3 Launcher!!![/fill]","[fill]Похоже что часть файлов RRSP 3 были удалены, перемещены, переименованы или просто сломаны. [color=red]Пожалуйста, не трогайте ничего в папке Data и файле rrsp3.dat!!![/color] И проследите что в пути к лаунчеру RRSP3 нет символов кириллицы (в том числе русских символов)!!![/fill]"
+ERROR_MISSED,The following files were not found:,Следующие файлы не были найдены:
+ERROR_MSG2,"[fill]If you were unable to recover your files, re-download RRSP 3 from the official website.[/fill]","[fill]Если вы не смогли восстановить файлы, перекачайте RRSP 3 с официального сайта.[/fill]"
+ABOUT_MAPPER,About mapper,Про маппера
+MAPPER_TITLE,About mapper,Про маппера
+MAPPER_OK,Ok,Ок
+PROJECT_LEADER,PROJECT LEADER,ЛИДЕР ПРОЕКТА
+PROJECT_ASSIST,LEAD ASSISTANT,ПОМОЩНИК ЛИДЕРА
+GREAT_TESTER,GREAT TESTER,ОТЛИЧНЫЙ ТЕСТЕР
+DRON12261_INFO,"[fill]Russian Doom modder, level designer, programmer, and graphic artist who contributed to several community projects and released a number of standalone mods and maps.
+
+He is also known for organizing Russian Random Speedmapping Sessions.
+
+At the end of 2023, the Russian mappers community made a special megawad in his honor - Gift for DRON12261.
+
+He was also a deathmatch player and took second place in the Rampage Duel League 2023 Rookie Division and competed in the Bombora Champions tournament, hosted by LegacyZ in 2021.
+
+In early 2024, he took second place in the ENDOOM Mapping Contest 2024 in the Modern group with map - DOOM PSX: Damnation of Eternity.[/fill]
+
+Big fan of Eternity Engine and Doom PSX!
+
+[fill]He also has github page with a lot of doom projects: [url=""https://github.com/dron12261games""]dron12261games[/url][/fill]","[fill]Русский Doom мододел, дизайнер уровней, программист и графический художник, участвовавший в нескольких проектах сообщества и выпустивший ряд самостоятельных модов и карт.
+
+Он также известен за организацию фестиваля Russian Random Speedmapping Sessions.
+
+В конце 2023 года русскоязычное сообщество мапперов создало специальный мегавад в его честь - Gift for DRON12261.
+
+Он также был активным игроком в Deathmatch и занял второе место в Rampage Duel League 2023 Rookie Division, а также участвовал в турнире Bombora Champions, организованном LegacyZ в 2021 году.
+
+В начале 2024 года занял второе место в ENDOOM Mapping Contest 2024 в группе Modern с картой - DOOM PSX: Damnation of Eternity.[/fill]
+
+Большой фанат Eternity Engine и Doom PSX!
+
+[fill]У него также есть страница на github с большим количеством проектов по Doom: [url=""https://github.com/dron12261games""]dron12261games[/url][/fill]"
+DOOMWADS_INFO,"Video creator, programmer and level designer.
+
+[fill]He does weekly WAD showcases and recap compilations on his YouTube channel ""Doom Wads"".
+
+He is also the creator of the following games: Monument, Colsword, Colojon, Lord of Magnets and etc.[/fill]","Создатель видео, программист и дизайнер уровней.
+
+[fill]На своем YouTube-канале ""Doom Wads"" он делает еженедельные показы WAD-ов и подборки рекапов.
+
+Он также является создателем следующих игр: Monument, Colsword, Colojon, Lord of Magnets и др.[/fill]"
+SILVERMINER_INFO,"[fill]Russian Doom hacker, composer and graphic artist who contributed to a number of community projects, released 3 megawads and a single level wad.
+
+Best known for making a vanilla megawad Plutonia 3: Going to Surface and contributing to Doomer Boards Projects.[/fill]","[fill]Русский Doom-хакер, композитор и графический художник, участвовавший в ряде проектов сообщества, выпустивший 3 мегавада и одноуровневый вад.
+
+Наиболее известен созданием ванильного мегавада Plutonia 3: Going to Surface и участием в Doomer Boards Projects.[/fill]"
+STORKGREEN_INFO,"[fill]Mapper, who is primely focused on fast-paced, action-packed maps of the short length, and big DeHacked fan.
+
+Contributed to a few community projects, released some maps on his own.[/fill]","[fill]Маппер, который в первую очередь ориентирован на быстрые, насыщенные действием карты небольшой длины, и большой фанат DeHacked.
+
+Участвовал в нескольких проектах сообщества, выпустил несколько карт самостоятельно.[/fill]"
+GEORGENASH_INFO,"Newbie russian mapper.
+
+Big fan of Hexen, Heretic and of course Eternity Engine.","Русский маппер новичок
+
+Огромный фанат Hexen, Heretic и, разумеется, Eternity Engine."
+GRANITMASTER_INFO,"[fill]Creator of various arthouse and experiment projects for UDMF, participant in various public projects.[/fill]","[fill]Создатель различных артхаусных и экспериментальных проектов для UDMF, участник различных общественных проектов.[/fill]"
+TRACKFEDERAL_INFO,"[fill]Beginning russian Doom level designer and tester who contributed to several community projects.[/fill]
+
+Active participant in the Russian doom community.
+
+[fill]Known for taking part in projects such as RRSP, Thirty Years with Doom, Death by 1000 lines, Amalgoom and MAYhem 2024.[/fill]","[fill]Начинающий русский маппер и тестировщик уровней Doom, участвовавший в нескольких проектах сообщества.[/fill]
+
+Активный участник Russian Doom Community.
+
+[fill]Известен участием в таких проектах, как RRSP, Thirty Years with Doom, Death by 1000 lines, Amalgoom и MAYhem 2024.[/fill]"
+EAR1H_INFO,"The introduction to doom builder was in March 2021.
+
+[fill]In November 2021 he started developing mappacks, and in January 2024 he started being active in the doom community.[/fill]
+
+He also has a large and elaborate ""Gravitron"" map to his credit.","Знакомство с doom builder состоялось в марте 2021 года.
+
+[fill]В ноябре 2021 года он начал разрабатывать маппаки, а в январе 2024 года начал активно участвовать в doom-сообществе.[/fill]
+
+Так же на его счету большая и проработанная карта ""Gravitron""."
+WINNKAR_INFO,"[fill]Russian mapper who likes to make levels under the format BOOM. Does not know the theory of music, but it does not prevent him to create midi.
+
+He considers mapping just as a fun entertainment, ""I WANT FUN, MORE FUN!""
+
+Participated in the first and second Russian Random Speedmap Pack by DRON12261.[/fill]
+
+Also known for his ""Mega Rofls"" wad.","[fill]Русский маппер, который любит делать уровни под формат BOOM. Не знает теории музыки, но это не мешает ему создавать миди.
+
+Рассматривает маппинг просто как веселое развлечение, ""I WANT FUN, MORE FUN!""
+
+Участвовал в первом и втором Russian Random Speedmap Pack от DRON12261.[/fill]
+
+Также известен своим вадом ""Mega Rofls""."
+ASTAR_INFO,"Russian mapper, horror enthusiast, music composer.
+
+Known for creating the ""Gallery of Suicide"" map.","Российский маппер, любитель ужасов, музыкальный композитор.
+
+Известен созданием карты ""Gallery of Suicide""."
+KRAS_INFO,[fill]Ambitious newbie mapper who is just starting to flame out with mapping.[/fill],"[fill]Амбициозный маппер-новичок, который только начинает осваивать маппинг.[/fill]"
+RASTAMANGAMES_INFO,"[fill]Siberian Doom fan from the Far North of Russia that is capable of mapping and modding.
+
+He is huge admirer of the urban/city/town theme in the world of custom WADs.
+
+You may saw his works such ""Urban Crusade"", ""Siberian Settlement"" and ""Another Doomed City District"".
+
+Also participated in many community projects such as Hordamex, DIY, Jamal Jones Trilogy, 666CRETS and many more.[/fill]","[fill]Сибирский фанат Doom с Крайнего Севера России, способный к маппингу и моддингу.
+
+Он большой поклонник урбанистической/городской/деревенской тематики в мире пользовательских WADов.
+
+Вы могли видеть такие его работы, как ""Urban Crusade"", ""Siberian Settlement"" и ""Another Doomed City District"".
+
+Также участвовал во многих проектах сообщества, таких как ""Hordamex"", ""DIY"", ""Jamal Jones Trilogy"", ""666CRETS"" и многие другие.[/fill]"
+SHIRIOAKUMA_INFO,"Active Russian Doom Community member since 2009.
+
+Also member of now defunctioned RDC clan [B0S].
+
+[fill]Contributed maps in many community projects like Whitemare 1,2, Thirty Years With Doom, RRSP2.
+
+Also author of standalone maps and mapsets: Chikai Jigoku and Irregular Entropy.
+
+Winner in Classic category of Endoom Mapping Contest with map Vogel im Kafig.[/fill]","Активный участник российского Doom-сообщества с 2009 года.
+
+Также состоит в ныне расформированном RDC клане [B0S].
+
+[fill]Участвовал в создании карт для многих проектов сообщества, таких как Whitemare 1,2, Thirty Years With Doom, RRSP2.
+
+Также автор самостоятельных карт и наборов карт: Chikai Jigoku и Irregular Entropy.
+
+Победитель в категории Classic в Endoom Mapping Contest с картой Vogel im Kafig.[/fill]"
+CHAINIE_INFO,"[fill]Russian Doom level designer and artist who contributed to a number of community projects, most notably those from the Russian Doom community.[/fill]
+
+Member of a now defunct Russian Doom clan called Clan [B0S].
+
+[fill]Known for his skillful mapping to the limitations of vanilla Doom. He is also a talented graphic artist who loves to create his own textures.
+
+Now under his authorship, a large megawad for vanilla Doom is in development - ""Doom ni Youkoso!"".[/fill]","[fill]Российский дизайнер и художник уровней Doom, участвовавший в ряде проектов сообщества, в основном в проектах русского Doom-сообщества.[/fill]
+
+Член ныне не существующего российского Doom-клана под названием Clan [B0S].
+
+[fill]Известен своим искусным маппингом под ограничения ванильного Doom. Также является талантливым художником, который любит создавать свои текстуры.
+
+Сейчас под его авторством в разработке находится большой мегавад для ванильного Doom - ""Doom ni Youkoso!"".[/fill]"
+VOLTAREVOLTAGE_INFO,"He escaped from the asylum, and that says it all.
+
+[fill]Really enjoys experimenting with the technical features of the Doom engine while mapping, showing new awesome things.[/fill]
+
+He is known for his ""MMD"" Episode and map for Amalgoom.","Он сбежал из психушки, и этим все сказано.
+
+[fill]Очень любит экспериментировать с техническими особенностями движка Doom во время маппинга, показывая новые удивительные вещи.[/fill]
+
+Известен по эпизоду «MMD» и карте для Amalgoom."
+BROY_INFO,"Newbie in Russian Doom community, level designer, modder.
+
+[fill]At the moment it is his first community project and there are many ambitious wads to be made.[/fill]","Новичок в российском Doom-сообществе, дизайнер уровней, моддер.
+
+[fill]На данный момент это его первый проект в сообществе и в планах много амбициозных вадов.[/fill]"
+DEATHWISH_INFO,"[fill]Experienced modern mapper and programmer from Siberia. Also a bit of modder.
+
+First got acquainted with map editor in the early 2010. Played Doom when I went to kindergarten in the early 2000.
+
+Has several interesting works in his portfolio, including some not yet released.[/fill]","[fill]Опытный современный маппер и программист из Сибири. Также немного мододел.
+
+Впервые познакомился с редактором карт в начале 2010 года. Играл в Doom, когда ходил в детский сад в начале 2000 года.
+
+Имеет в своем портфолио несколько интересных работ, включая еще не вышедшие.[/fill]"
+NIKOLANCHIK_INFO,"Doom mapper from Kazakhstan.
+
+[fill]He is known for his participation in a small number of projects, the release of single maps and the Escape from Hell megawad (in development).[/fill]","Doom маппер из Казахстана.
+
+[fill]Известен участием в небольшом количестве проектов, выпуском одиночных карт и мегавадом Escape from Hell (в разработке).[/fill]"
+FISHGOGGLES_INFO,"[fill]Russian doom mapper, aiming primarily for multiplayer projects, who is also working on his own deathmatch mappack.[/fill]","[fill]Русский дум-маппер, нацеленный в основном на многопользовательские проекты, который также работает над своим собственным маппаком для deathmatch.[/fill]"
+HOVEQ_INFO,[fill]Newbie mapper who has just started to explore builder and has good hopes.[/fill],"[fill]Маппер-новичок, который только начал осваивать билдер и подает большие надежды.[/fill]"
+PETYAN_INFO,"He have put hats on cybers in junkfood 3.
+
+[fill]Doom level designer and speedruner who contributed to a number of community projects.
+
+As of June 2024, he submitted nearly 90 demos to the Doom Speed Demo Archive.[/fill]
+
+Their project Sepia was recognized with a Cacoward in 2023.","Он надевал шляпы на киберов в junkfood 3.
+
+[fill]Дизайнер уровней и спидранер Doom, участвовавший в ряде проектов сообщества.
+
+По состоянию на июнь 2024 года, он отправил около 90 демок в Doom Speed Demo Archive.[/fill]
+
+Его проект Sepia получил Cacoward в 2023 году."
+ASYNCUNICORN_INFO,[fill]Russian Doom level designer who contributed to several community projects and released a number of standalone maps.[/fill],"[fill]Русский дизайнер уровней Doom, участвовавший в нескольких проектах сообщества и выпустивший несколько самостоятельных карт.[/fill]"
+MYNAMEIS_INFO,"[fill]A dumbass that makes a bunch of stuff but never ends up actually finishing it.
+
+Can work well with UDMF and surprisingly utilizes the technicalities of various modern ports for Doom.[/fill]","[fill]Балбес, который делает кучу вещей, но никогда не доводит их до конца.
+
+Умеет хорошо работать с UDMF и удивлять использованием технических особенностей разных современных портов для Doom.[/fill]"
+HERETIC926_INFO,[fill]Russian Doom level designer. Contributed for many community projects such as Amalgoom and Rusty Drill.[/fill],"[fill]Российский дизайнер уровней Doom. Участвовал в создании многих проектов сообщества, таких как Amalgoom и Rusty Drill.[/fill]"
+MANWITHAGUN_INFO,"[fill]Russian Doom level designer, Youtube Doom content creator and speedrunner who contributed in number of community projects, mostly in speedmapping such as PUSS.
+
+He also the one who gave first inspiration for DRON12261 to start the Russian Random Speedmapping Sessions.[/fill]","[fill]Российский дизайнер уровней Doom, создатель контента по Doom на Youtube и спидраннер, участвовавший во многих проектах сообщества, в основном в спидмаппинге, таких как PUSS.
+
+Также именно он вдохновил DRON12261 на организацию Russian Random Speedmapping Sessions.[/fill]"

@@ -1,0 +1,1070 @@
+[gd_scene load_steps=19 format=3 uid="uid://du6x4s3tr0g37"]
+
+[ext_resource type="Theme" uid="uid://daekltb0f1ck0" path="res://RRSP3Theme.tres" id="1_0hdmg"]
+[ext_resource type="ButtonGroup" uid="uid://dlt8fcm7kkxkp" path="res://MenuButtonGroup.tres" id="2_bpgu4"]
+[ext_resource type="Script" path="res://RRSP3Launcher.gd" id="2_g6hvu"]
+[ext_resource type="Texture2D" uid="uid://b1psg5ue4h3rk" path="res://1.png" id="2_mnswk"]
+[ext_resource type="FontFile" uid="uid://b3mkxoie3sohl" path="res://Fonts/UpheavalPro-Regular.ttf" id="3_65rt8"]
+[ext_resource type="Texture2D" uid="uid://bth8p14qmkyec" path="res://Icons/volume.png" id="3_obhhh"]
+[ext_resource type="Texture2D" uid="uid://cusuc3vbgnb6l" path="res://icon.svg" id="4_465ei"]
+[ext_resource type="Texture2D" uid="uid://cuibbs2lhqit7" path="res://Icons/mute.png" id="5_wkwmb"]
+[ext_resource type="StyleBox" uid="uid://cn7062223pnp0" path="res://Styles/PanelBG.tres" id="8_562ef"]
+[ext_resource type="Texture2D" uid="uid://dsojyrhmoguoi" path="res://Icons/Checked.png" id="8_g6esy"]
+[ext_resource type="AudioStream" uid="uid://dyesshn7tbaie" path="res://Music/Rustacean.mp3" id="9_heq17"]
+[ext_resource type="Texture2D" uid="uid://bvow1pnmr6x3v" path="res://Icons/Unchecked.png" id="9_oqr7w"]
+[ext_resource type="StyleBox" uid="uid://doh0q8vmac86e" path="res://Styles/Normal.tres" id="12_duv6n"]
+[ext_resource type="StyleBox" uid="uid://bwa7rjtt5bqwh" path="res://Styles/TextBG.tres" id="12_e8vmq"]
+[ext_resource type="StyleBox" uid="uid://biv2ymope3j8p" path="res://Styles/PanelBGBorder.tres" id="12_s35i2"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ijb40"]
+draw_center = false
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_46qef"]
+
+[sub_resource type="SystemFont" id="SystemFont_0anjs"]
+font_names = PackedStringArray("Monospace")
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Launcher" type="Control" parent="." node_paths=PackedStringArray("musicPlayer", "musicVolumeSlider", "welcomeBtn", "settingsBtn", "mapsListBtn", "aboutBtn", "tabsContainer", "welcomeTab", "settingsTab", "mapsListTab", "aboutTab", "musicBtn", "startBtn", "DoomUChk", "Doom2Chk", "PlutoniaChk", "TNTChk", "HereticChk", "HexenChk", "mappersList", "mapsList", "screenshotMap", "txtField", "playBtn", "sourcePortList", "mapNameField", "mapHoursFiels", "mapIWADFields", "mapFormatFields", "rrsp1Btn", "rrsp2Btn", "gfd12261Btn")]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 800.0
+offset_bottom = 900.0
+theme = ExtResource("1_0hdmg")
+script = ExtResource("2_g6hvu")
+checkedIcon = ExtResource("8_g6esy")
+uncheckedIcon = ExtResource("9_oqr7w")
+musicPlayer = NodePath("BG Music")
+musicVolumeSlider = NodePath("Footer/HBoxContainer/MarginContainer/Music Volume Slider")
+welcomeBtn = NodePath("Menu Buttons/Welcome Btn")
+settingsBtn = NodePath("Menu Buttons/Settings Btn")
+mapsListBtn = NodePath("Menu Buttons/Maps List Btn")
+aboutBtn = NodePath("Menu Buttons/About Btn")
+menuBtnGroup = ExtResource("2_bpgu4")
+tabsContainer = NodePath("Tabs")
+welcomeTab = NodePath("Tabs/Welcome Tab")
+settingsTab = NodePath("Tabs/Settings Tab")
+mapsListTab = NodePath("Tabs/Maps List Tab")
+aboutTab = NodePath("Tabs/About Tab")
+musicBtn = NodePath("Footer/HBoxContainer/Music Button")
+musicOnIcon = ExtResource("3_obhhh")
+musicOffIcon = ExtResource("5_wkwmb")
+startBtn = NodePath("Tabs/Welcome Tab/Start Button")
+DoomUChk = NodePath("Tabs/Settings Tab/Ch Doom 1")
+Doom2Chk = NodePath("Tabs/Settings Tab/Ch Doom 2")
+PlutoniaChk = NodePath("Tabs/Settings Tab/Ch Plutonia")
+TNTChk = NodePath("Tabs/Settings Tab/Ch TNT")
+HereticChk = NodePath("Tabs/Settings Tab/Ch Heretic")
+HexenChk = NodePath("Tabs/Settings Tab/Ch Hexen")
+mappersList = NodePath("Tabs/Maps List Tab/Mappers List")
+mapsList = NodePath("Tabs/Maps List Tab/Maps List")
+screenshotMap = NodePath("Tabs/Maps List Tab/Screenshot")
+txtField = NodePath("Tabs/Maps List Tab/TXT Field")
+playBtn = NodePath("Tabs/Maps List Tab/Play Btn")
+sourcePortList = NodePath("Tabs/Maps List Tab/Source-port List")
+mapNameField = NodePath("Tabs/Maps List Tab/Map Name")
+mapHoursFiels = NodePath("Tabs/Maps List Tab/Map Hours")
+mapIWADFields = NodePath("Tabs/Maps List Tab/Map IWAD")
+mapFormatFields = NodePath("Tabs/Maps List Tab/Map Format")
+rrsp1Btn = NodePath("Tabs/About Tab/RRSP1 Btn")
+rrsp2Btn = NodePath("Tabs/About Tab/RRSP2 Btn")
+gfd12261Btn = NodePath("Tabs/About Tab/GFD12261 Btn")
+
+[node name="Tabs" type="TabContainer" parent="Launcher"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 60.0
+offset_bottom = -40.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("3_65rt8")
+tab_alignment = 1
+tabs_visible = false
+
+[node name="Welcome Tab" type="TabBar" parent="Launcher/Tabs"]
+visible = false
+layout_mode = 2
+tab_alignment = 1
+
+[node name="RRSP3 Logo" type="TextureRect" parent="Launcher/Tabs/Welcome Tab"]
+layout_mode = 0
+offset_left = 38.0
+offset_top = 18.0
+offset_right = 758.0
+offset_bottom = 558.0
+texture = ExtResource("2_mnswk")
+expand_mode = 1
+
+[node name="Start Text" type="RichTextLabel" parent="Launcher/Tabs/Welcome Tab"]
+layout_mode = 0
+offset_left = 38.0
+offset_top = 578.0
+offset_right = 758.0
+offset_bottom = 698.0
+theme_override_colors/default_color = Color(0.752941, 0.752941, 0.752941, 1)
+text = "Welcome, player! This is special open-source launcher for comfort play to Russian Random Speedmap Pack 3. Before we start, we need to configure paths to IWADs!
+
+When you will be ready, push the button below!"
+
+[node name="Start Button" type="Button" parent="Launcher/Tabs/Welcome Tab"]
+layout_mode = 0
+offset_left = 38.0
+offset_top = 718.0
+offset_right = 758.0
+offset_bottom = 778.0
+theme_override_fonts/font = ExtResource("3_65rt8")
+theme_override_font_sizes/font_size = 48
+text = "LET'S BEGIN"
+
+[node name="Settings Tab" type="TabBar" parent="Launcher/Tabs"]
+visible = false
+layout_mode = 2
+tab_alignment = 1
+
+[node name="Iwads Header" type="Label" parent="Launcher/Tabs/Settings Tab"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 20.0
+offset_right = 760.0
+offset_bottom = 70.0
+theme_override_fonts/font = ExtResource("3_65rt8")
+theme_override_font_sizes/font_size = 42
+text = "Check your IWADs"
+horizontal_alignment = 1
+
+[node name="Ch Doom 1" type="CheckBox" parent="Launcher/Tabs/Settings Tab"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 70.0
+offset_right = 400.0
+offset_bottom = 110.0
+theme_override_colors/font_disabled_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_icons/checked_disabled = ExtResource("8_g6esy")
+theme_override_icons/unchecked_disabled = ExtResource("9_oqr7w")
+theme_override_styles/normal = ExtResource("8_562ef")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_ijb40")
+disabled = true
+button_pressed = true
+text = " Ultimate Doom"
+
+[node name="Ch Doom 2" type="CheckBox" parent="Launcher/Tabs/Settings Tab"]
+layout_mode = 0
+offset_left = 400.0
+offset_top = 70.0
+offset_right = 760.0
+offset_bottom = 110.0
+theme_override_colors/font_disabled_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_icons/checked_disabled = ExtResource("8_g6esy")
+theme_override_icons/unchecked_disabled = ExtResource("9_oqr7w")
+theme_override_styles/normal = ExtResource("8_562ef")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_ijb40")
+disabled = true
+button_pressed = true
+text = " Doom 2"
+
+[node name="Ch Plutonia" type="CheckBox" parent="Launcher/Tabs/Settings Tab"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 110.0
+offset_right = 400.0
+offset_bottom = 150.0
+theme_override_colors/font_disabled_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_icons/checked_disabled = ExtResource("8_g6esy")
+theme_override_icons/unchecked_disabled = ExtResource("9_oqr7w")
+theme_override_styles/normal = ExtResource("8_562ef")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_ijb40")
+disabled = true
+text = " Final Doom: Plutonia Experiment"
+
+[node name="Ch TNT" type="CheckBox" parent="Launcher/Tabs/Settings Tab"]
+layout_mode = 0
+offset_left = 400.0
+offset_top = 110.0
+offset_right = 760.0
+offset_bottom = 150.0
+theme_override_colors/font_disabled_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_icons/checked_disabled = ExtResource("8_g6esy")
+theme_override_icons/unchecked_disabled = ExtResource("9_oqr7w")
+theme_override_styles/normal = ExtResource("8_562ef")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_ijb40")
+disabled = true
+text = " Final Doom: TNT Evilution"
+
+[node name="Ch Heretic" type="CheckBox" parent="Launcher/Tabs/Settings Tab"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 150.0
+offset_right = 400.0
+offset_bottom = 190.0
+theme_override_colors/font_disabled_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_icons/checked_disabled = ExtResource("8_g6esy")
+theme_override_icons/unchecked_disabled = ExtResource("9_oqr7w")
+theme_override_styles/normal = ExtResource("8_562ef")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_ijb40")
+disabled = true
+text = " Heretic"
+
+[node name="Ch Hexen" type="CheckBox" parent="Launcher/Tabs/Settings Tab"]
+layout_mode = 0
+offset_left = 400.0
+offset_top = 150.0
+offset_right = 760.0
+offset_bottom = 190.0
+theme_override_colors/font_disabled_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_icons/checked_disabled = ExtResource("8_g6esy")
+theme_override_icons/unchecked_disabled = ExtResource("9_oqr7w")
+theme_override_styles/normal = ExtResource("8_562ef")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_ijb40")
+disabled = true
+button_pressed = true
+text = " Hexen"
+
+[node name="Iwads Text" type="RichTextLabel" parent="Launcher/Tabs/Settings Tab"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 190.0
+offset_right = 760.0
+offset_bottom = 260.0
+theme_override_colors/default_color = Color(0.753984, 0.753984, 0.753984, 1)
+text = "Distributing IWADs is illegal, so you will need to get your copies of the games into the IWADs folder, which you can open using the button below. You can find out how you can obtain these IWADs here."
+
+[node name="Iwads Button" type="Button" parent="Launcher/Tabs/Settings Tab"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 260.0
+offset_right = 760.0
+offset_bottom = 320.0
+theme_override_fonts/font = ExtResource("3_65rt8")
+theme_override_font_sizes/font_size = 32
+text = "IWADs folder"
+
+[node name="Warning Header" type="Label" parent="Launcher/Tabs/Settings Tab"]
+layout_mode = 2
+offset_left = 40.0
+offset_top = 340.0
+offset_right = 760.0
+offset_bottom = 390.0
+theme_override_fonts/font = ExtResource("3_65rt8")
+theme_override_font_sizes/font_size = 42
+text = "WARNING"
+horizontal_alignment = 1
+
+[node name="Warning Text" type="RichTextLabel" parent="Launcher/Tabs/Settings Tab"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 390.0
+offset_right = 760.0
+offset_bottom = 530.0
+theme_override_colors/default_color = Color(0.752941, 0.752941, 0.752941, 1)
+bbcode_enabled = true
+text = "Despite the fact that you can freely take vads directly in the project folder for free use, for the first playthrough it is highly recommended to play through this launcher, because many maps were created for certain ports and certain settings. And it is STRONGLY NOT RECOMMENDED TO USE ANY MODS, even if they do not change the gameplay. You risk breaking some of the maps in this way, a number of levels do not explicitly support any mods! You have been warned!"
+autowrap_mode = 2
+
+[node name="Language Header" type="Label" parent="Launcher/Tabs/Settings Tab"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 660.0
+offset_right = 760.0
+offset_bottom = 710.0
+theme_override_fonts/font = ExtResource("3_65rt8")
+theme_override_font_sizes/font_size = 42
+text = "Launcher interface language"
+horizontal_alignment = 1
+
+[node name="Russian Btn" type="Button" parent="Launcher/Tabs/Settings Tab"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 720.0
+offset_right = 380.0
+offset_bottom = 780.0
+theme_override_fonts/font = ExtResource("3_65rt8")
+theme_override_font_sizes/font_size = 32
+text = "RUSSIAN"
+
+[node name="English Btn" type="Button" parent="Launcher/Tabs/Settings Tab"]
+layout_mode = 0
+offset_left = 420.0
+offset_top = 720.0
+offset_right = 760.0
+offset_bottom = 780.0
+theme_override_fonts/font = ExtResource("3_65rt8")
+theme_override_font_sizes/font_size = 32
+text = "ENGLISH"
+
+[node name="Maps List Tab" type="TabBar" parent="Launcher/Tabs"]
+layout_mode = 2
+tab_alignment = 1
+
+[node name="Mappers List" type="OptionButton" parent="Launcher/Tabs/Maps List Tab"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 780.0
+offset_bottom = 70.0
+theme_override_fonts/font = ExtResource("3_65rt8")
+theme_override_font_sizes/font_size = 32
+alignment = 1
+icon_alignment = 2
+item_count = 1
+selected = 0
+popup/item_0/text = "DRON12261"
+popup/item_0/id = 0
+
+[node name="Screenshot" type="TextureRect" parent="Launcher/Tabs/Maps List Tab"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 420.0
+offset_right = 180.0
+offset_bottom = 550.0
+texture = ExtResource("4_465ei")
+
+[node name="Screenshot2" type="TextureRect" parent="Launcher/Tabs/Maps List Tab"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 570.0
+offset_right = 180.0
+offset_bottom = 700.0
+texture = ExtResource("4_465ei")
+
+[node name="Maps List" type="ItemList" parent="Launcher/Tabs/Maps List Tab"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 90.0
+offset_right = 780.0
+offset_bottom = 300.0
+theme_override_styles/panel = ExtResource("12_e8vmq")
+item_count = 5
+item_0/text = "Drowsy Journey"
+item_0/icon = SubResource("ViewportTexture_46qef")
+item_1/text = "Quaked in Heat"
+item_2/text = "Tech Gone Mad"
+item_3/text = "ZX-27 Outpost"
+item_4/text = "Forgotten Eden"
+
+[node name="TXT Field" type="CodeEdit" parent="Launcher/Tabs/Maps List Tab"]
+layout_mode = 0
+offset_left = 201.0
+offset_top = 420.0
+offset_right = 780.0
+offset_bottom = 700.0
+theme_override_colors/font_readonly_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = SubResource("SystemFont_0anjs")
+theme_override_font_sizes/font_size = 12
+theme_override_styles/read_only = ExtResource("12_e8vmq")
+editable = false
+context_menu_enabled = false
+shortcut_keys_enabled = false
+selecting_enabled = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+virtual_keyboard_enabled = false
+middle_mouse_paste_enabled = false
+
+[node name="Play Btn" type="Button" parent="Launcher/Tabs/Maps List Tab"]
+layout_mode = 0
+offset_left = 610.0
+offset_top = 720.0
+offset_right = 780.0
+offset_bottom = 780.0
+theme_override_fonts/font = ExtResource("3_65rt8")
+theme_override_font_sizes/font_size = 48
+text = "PLAY"
+
+[node name="Source-port List" type="OptionButton" parent="Launcher/Tabs/Maps List Tab"]
+layout_mode = 0
+offset_left = 200.0
+offset_top = 720.0
+offset_right = 610.0
+offset_bottom = 780.0
+theme_override_fonts/font = ExtResource("3_65rt8")
+theme_override_font_sizes/font_size = 32
+alignment = 1
+item_count = 1
+selected = 0
+popup/item_0/text = "DSDA"
+popup/item_0/id = 0
+
+[node name="Source-port Label" type="Label" parent="Launcher/Tabs/Maps List Tab"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 720.0
+offset_right = 200.0
+offset_bottom = 780.0
+theme_override_font_sizes/font_size = 38
+theme_override_styles/normal = ExtResource("12_duv6n")
+text = "Source-port:"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Map Name" type="Label" parent="Launcher/Tabs/Maps List Tab"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 320.0
+offset_right = 780.0
+offset_bottom = 360.0
+theme_override_fonts/font = ExtResource("3_65rt8")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "MAP NAME
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Map Hours" type="Label" parent="Launcher/Tabs/Maps List Tab"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 360.0
+offset_right = 210.0
+offset_bottom = 400.0
+theme_override_fonts/font = ExtResource("3_65rt8")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "HOURS
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Map IWAD" type="Label" parent="Launcher/Tabs/Maps List Tab"]
+layout_mode = 0
+offset_left = 510.0
+offset_top = 360.0
+offset_right = 780.0
+offset_bottom = 400.0
+theme_override_fonts/font = ExtResource("3_65rt8")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "IWAD
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Map Format" type="Label" parent="Launcher/Tabs/Maps List Tab"]
+layout_mode = 0
+offset_left = 210.0
+offset_top = 360.0
+offset_right = 510.0
+offset_bottom = 400.0
+theme_override_fonts/font = ExtResource("3_65rt8")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "Format
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="About Tab" type="TabBar" parent="Launcher/Tabs"]
+visible = false
+layout_mode = 2
+tab_alignment = 1
+
+[node name="Thanks Header" type="Label" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 20.0
+offset_right = 760.0
+offset_bottom = 70.0
+theme_override_fonts/font = ExtResource("3_65rt8")
+theme_override_font_sizes/font_size = 42
+text = "Thank you for playing!"
+horizontal_alignment = 1
+
+[node name="Thanks Text" type="RichTextLabel" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 70.0
+offset_right = 760.0
+offset_bottom = 160.0
+theme_override_colors/default_color = Color(0.752941, 0.752941, 0.752941, 1)
+text = "Thank you for paying attention to our project! Our team was hard at work trying to make interesting and memorable non-long various maps. Veterans with a lot of experience experimented with different ideas, and newcomers developed and honed their skills, showing things from their still unwashed point of view."
+
+[node name="Leader Header" type="RichTextLabel" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 170.0
+offset_right = 560.0
+offset_bottom = 240.0
+theme_override_fonts/normal_font = ExtResource("3_65rt8")
+theme_override_font_sizes/normal_font_size = 28
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = " Organization and leading project
+ website, launcher and promotion"
+scroll_active = false
+shortcut_keys_enabled = false
+
+[node name="Leader Text" type="Label" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 560.0
+offset_top = 170.0
+offset_right = 760.0
+offset_bottom = 240.0
+theme_override_colors/font_color = Color(0.676285, 0.516586, 1, 1)
+theme_override_fonts/font = ExtResource("3_65rt8")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "Dron12261"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Assist Header" type="Label" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 250.0
+offset_right = 760.0
+offset_bottom = 280.0
+theme_override_fonts/font = ExtResource("3_65rt8")
+theme_override_font_sizes/font_size = 28
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "Assisting with project leading"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Assist Text" type="Label" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 280.0
+offset_right = 760.0
+offset_bottom = 310.0
+theme_override_colors/font_color = Color(0.570586, 0.836725, 0.490428, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "Doom Wads"
+horizontal_alignment = 1
+
+[node name="Mappers Header" type="Label" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 320.0
+offset_right = 760.0
+offset_bottom = 350.0
+theme_override_fonts/font = ExtResource("3_65rt8")
+theme_override_font_sizes/font_size = 28
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "Mappers"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Dron12261" type="Label" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 350.0
+offset_right = 280.0
+offset_bottom = 380.0
+theme_override_colors/font_color = Color(0.807528, 0.772276, 0.287814, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "Dron12261"
+horizontal_alignment = 1
+
+[node name="Doom Wads" type="Label" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 280.0
+offset_top = 350.0
+offset_right = 520.0
+offset_bottom = 380.0
+theme_override_colors/font_color = Color(0.807528, 0.772276, 0.287814, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "Doom Wads"
+horizontal_alignment = 1
+
+[node name="SilverMiner" type="Label" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 520.0
+offset_top = 350.0
+offset_right = 760.0
+offset_bottom = 380.0
+theme_override_colors/font_color = Color(0.807528, 0.772276, 0.287814, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "SilverMiner"
+horizontal_alignment = 1
+
+[node name="StorkGreen" type="Label" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 380.0
+offset_right = 280.0
+offset_bottom = 410.0
+theme_override_colors/font_color = Color(0.807528, 0.772276, 0.287814, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "StorkGreen"
+horizontal_alignment = 1
+
+[node name="GeorgeNash" type="Label" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 280.0
+offset_top = 380.0
+offset_right = 520.0
+offset_bottom = 410.0
+theme_override_colors/font_color = Color(0.807528, 0.772276, 0.287814, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "George Nash"
+horizontal_alignment = 1
+
+[node name="GranitMaster" type="Label" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 520.0
+offset_top = 380.0
+offset_right = 760.0
+offset_bottom = 410.0
+theme_override_colors/font_color = Color(0.807528, 0.772276, 0.287814, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "GranitMaster"
+horizontal_alignment = 1
+
+[node name="Track Federal" type="Label" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 410.0
+offset_right = 280.0
+offset_bottom = 440.0
+theme_override_colors/font_color = Color(0.807528, 0.772276, 0.287814, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "Track Federal"
+horizontal_alignment = 1
+
+[node name="Ear1h" type="Label" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 280.0
+offset_top = 410.0
+offset_right = 520.0
+offset_bottom = 440.0
+theme_override_colors/font_color = Color(0.807528, 0.772276, 0.287814, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "Ear1h"
+horizontal_alignment = 1
+
+[node name="Winnkar" type="Label" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 520.0
+offset_top = 410.0
+offset_right = 760.0
+offset_bottom = 440.0
+theme_override_colors/font_color = Color(0.807528, 0.772276, 0.287814, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "Winnkar"
+horizontal_alignment = 1
+
+[node name="Astar" type="Label" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 440.0
+offset_right = 280.0
+offset_bottom = 470.0
+theme_override_colors/font_color = Color(0.807528, 0.772276, 0.287814, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "Aster"
+horizontal_alignment = 1
+
+[node name="Kras" type="Label" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 280.0
+offset_top = 440.0
+offset_right = 520.0
+offset_bottom = 470.0
+theme_override_colors/font_color = Color(0.807528, 0.772276, 0.287814, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "Kras"
+horizontal_alignment = 1
+
+[node name="RastaManGames" type="Label" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 520.0
+offset_top = 440.0
+offset_right = 760.0
+offset_bottom = 470.0
+theme_override_colors/font_color = Color(0.807528, 0.772276, 0.287814, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "RastaManGames"
+horizontal_alignment = 1
+
+[node name="Shiroi Akuma" type="Label" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 470.0
+offset_right = 280.0
+offset_bottom = 500.0
+theme_override_colors/font_color = Color(0.807528, 0.772276, 0.287814, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "Shiroi Akuma [Slavius]"
+horizontal_alignment = 1
+
+[node name="Chainie" type="Label" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 280.0
+offset_top = 470.0
+offset_right = 520.0
+offset_bottom = 500.0
+theme_override_colors/font_color = Color(0.807528, 0.772276, 0.287814, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "Chainie"
+horizontal_alignment = 1
+
+[node name="VoltareVoltage" type="Label" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 520.0
+offset_top = 470.0
+offset_right = 760.0
+offset_bottom = 500.0
+theme_override_colors/font_color = Color(0.807528, 0.772276, 0.287814, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "VoltareVoltage"
+horizontal_alignment = 1
+
+[node name="Broy" type="Label" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 500.0
+offset_right = 280.0
+offset_bottom = 530.0
+theme_override_colors/font_color = Color(0.807528, 0.772276, 0.287814, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "Broy"
+horizontal_alignment = 1
+
+[node name="DeathWish" type="Label" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 280.0
+offset_top = 500.0
+offset_right = 520.0
+offset_bottom = 530.0
+theme_override_colors/font_color = Color(0.807528, 0.772276, 0.287814, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "DeathWish"
+horizontal_alignment = 1
+
+[node name="Nikolanchik" type="Label" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 520.0
+offset_top = 500.0
+offset_right = 760.0
+offset_bottom = 530.0
+theme_override_colors/font_color = Color(0.807528, 0.772276, 0.287814, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "Nikolanchik"
+horizontal_alignment = 1
+
+[node name="Fishgoggles" type="Label" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 530.0
+offset_right = 280.0
+offset_bottom = 560.0
+theme_override_colors/font_color = Color(0.807528, 0.772276, 0.287814, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "Fishgoggles"
+horizontal_alignment = 1
+
+[node name="hoveq" type="Label" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 280.0
+offset_top = 530.0
+offset_right = 520.0
+offset_bottom = 560.0
+theme_override_colors/font_color = Color(0.807528, 0.772276, 0.287814, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "hoveq"
+horizontal_alignment = 1
+
+[node name="Petyan" type="Label" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 520.0
+offset_top = 530.0
+offset_right = 760.0
+offset_bottom = 560.0
+theme_override_colors/font_color = Color(0.807528, 0.772276, 0.287814, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "Petyan"
+horizontal_alignment = 1
+
+[node name="Async Unicorn" type="Label" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 560.0
+offset_right = 280.0
+offset_bottom = 590.0
+theme_override_colors/font_color = Color(0.807528, 0.772276, 0.287814, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "Async Unicorn"
+horizontal_alignment = 1
+
+[node name="MyNameIs" type="Label" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 280.0
+offset_top = 560.0
+offset_right = 520.0
+offset_bottom = 590.0
+theme_override_colors/font_color = Color(0.807528, 0.772276, 0.287814, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "MyNameIs [Dezette]"
+horizontal_alignment = 1
+
+[node name="Heretic926" type="Label" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 520.0
+offset_top = 560.0
+offset_right = 760.0
+offset_bottom = 590.0
+theme_override_colors/font_color = Color(0.807528, 0.772276, 0.287814, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "Heretic926"
+horizontal_alignment = 1
+
+[node name="Man With A Gun" type="Label" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 280.0
+offset_top = 590.0
+offset_right = 520.0
+offset_bottom = 620.0
+theme_override_colors/font_color = Color(0.807528, 0.772276, 0.287814, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "Man With A Gun"
+horizontal_alignment = 1
+
+[node name="Contibutors Header" type="Label" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 630.0
+offset_right = 760.0
+offset_bottom = 660.0
+theme_override_fonts/font = ExtResource("3_65rt8")
+theme_override_font_sizes/font_size = 28
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "Additional help with promotion"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LegacyZ (Dant3)" type="Label" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 660.0
+offset_right = 280.0
+offset_bottom = 690.0
+theme_override_colors/font_color = Color(0.52475, 0.792569, 0.943143, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "LegacyZ (Dant3)"
+horizontal_alignment = 1
+
+[node name="Endoomer" type="Label" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 280.0
+offset_top = 660.0
+offset_right = 520.0
+offset_bottom = 690.0
+theme_override_colors/font_color = Color(0.52475, 0.792569, 0.943143, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "Endoomer"
+horizontal_alignment = 1
+
+[node name="Hellknight1390" type="Label" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 520.0
+offset_top = 660.0
+offset_right = 760.0
+offset_bottom = 690.0
+theme_override_colors/font_color = Color(0.52475, 0.792569, 0.943143, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = ExtResource("12_s35i2")
+text = "Hellknight1390"
+horizontal_alignment = 1
+
+[node name="Prev Project Header" type="Label" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 700.0
+offset_right = 760.0
+offset_bottom = 730.0
+theme_override_fonts/font = ExtResource("3_65rt8")
+theme_override_font_sizes/font_size = 28
+text = "Also take a look at our previous projects"
+horizontal_alignment = 1
+
+[node name="RRSP1 Btn" type="Button" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 730.0
+offset_right = 280.0
+offset_bottom = 780.0
+theme_override_fonts/font = ExtResource("3_65rt8")
+theme_override_font_sizes/font_size = 20
+text = "Russian Random
+Speedmap Pack 1"
+
+[node name="RRSP2 Btn" type="Button" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 280.0
+offset_top = 730.0
+offset_right = 520.0
+offset_bottom = 780.0
+theme_override_fonts/font = ExtResource("3_65rt8")
+theme_override_font_sizes/font_size = 20
+text = "Russian Random
+Speedmap Pack 2"
+
+[node name="GFD12261 Btn" type="Button" parent="Launcher/Tabs/About Tab"]
+layout_mode = 0
+offset_left = 520.0
+offset_top = 730.0
+offset_right = 760.0
+offset_bottom = 780.0
+theme_override_fonts/font = ExtResource("3_65rt8")
+theme_override_font_sizes/font_size = 20
+text = "Gift for DRON12261"
+
+[node name="Menu Buttons" type="HBoxContainer" parent="Launcher"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 60.0
+grow_horizontal = 2
+alignment = 1
+
+[node name="Welcome Btn" type="Button" parent="Launcher/Menu Buttons"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_fonts/font = ExtResource("3_65rt8")
+toggle_mode = true
+button_pressed = true
+button_group = ExtResource("2_bpgu4")
+text = "Welcome"
+
+[node name="Settings Btn" type="Button" parent="Launcher/Menu Buttons"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_fonts/font = ExtResource("3_65rt8")
+toggle_mode = true
+button_group = ExtResource("2_bpgu4")
+text = "Settings"
+
+[node name="Maps List Btn" type="Button" parent="Launcher/Menu Buttons"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_fonts/font = ExtResource("3_65rt8")
+toggle_mode = true
+button_group = ExtResource("2_bpgu4")
+text = "Maps List"
+
+[node name="About Btn" type="Button" parent="Launcher/Menu Buttons"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_fonts/font = ExtResource("3_65rt8")
+toggle_mode = true
+button_group = ExtResource("2_bpgu4")
+text = "About"
+
+[node name="Footer" type="Panel" parent="Launcher"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -40.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Launcher/Footer"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Music Button" type="Button" parent="Launcher/Footer/HBoxContainer"]
+clip_contents = true
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 0.15
+toggle_mode = true
+icon = ExtResource("3_obhhh")
+icon_alignment = 1
+expand_icon = true
+
+[node name="MarginContainer" type="MarginContainer" parent="Launcher/Footer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 0.5
+theme_override_constants/margin_left = 5
+theme_override_constants/margin_right = 5
+
+[node name="Music Volume Slider" type="HSlider" parent="Launcher/Footer/HBoxContainer/MarginContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 1
+size_flags_stretch_ratio = 0.5
+min_value = -40.0
+max_value = 0.0
+step = 4.0
+
+[node name="Music Label" type="MarginContainer" parent="Launcher/Footer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/margin_left = 5
+
+[node name="Label" type="Label" parent="Launcher/Footer/HBoxContainer/Music Label"]
+layout_mode = 2
+text = "Music: Rustacean by AD_79"
+
+[node name="Credits Label" type="MarginContainer" parent="Launcher/Footer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/margin_right = 5
+
+[node name="Label" type="Label" parent="Launcher/Footer/HBoxContainer/Credits Label"]
+layout_mode = 2
+text = "Launcher by DRON12261"
+horizontal_alignment = 2
+
+[node name="BG Music" type="AudioStreamPlayer" parent="Launcher"]
+stream = ExtResource("9_heq17")
+volume_db = -20.0
+autoplay = true
+
+[connection signal="pressed" from="Launcher/Tabs/Welcome Tab/Start Button" to="Launcher" method="_on_start_button_pressed"]
+[connection signal="pressed" from="Launcher/Tabs/Settings Tab/Iwads Button" to="Launcher" method="_on_iwads_button_pressed"]
+[connection signal="item_selected" from="Launcher/Tabs/Maps List Tab/Mappers List" to="Launcher" method="_on_mappers_list_item_selected"]
+[connection signal="item_selected" from="Launcher/Tabs/Maps List Tab/Maps List" to="Launcher" method="_on_maps_list_item_selected"]
+[connection signal="pressed" from="Launcher/Tabs/About Tab/RRSP1 Btn" to="Launcher" method="_on_rrsp_1_btn_pressed"]
+[connection signal="pressed" from="Launcher/Tabs/About Tab/RRSP2 Btn" to="Launcher" method="_on_rrsp_2_btn_pressed"]
+[connection signal="pressed" from="Launcher/Tabs/About Tab/GFD12261 Btn" to="Launcher" method="_on_gfd_12261_btn_pressed"]
+[connection signal="toggled" from="Launcher/Menu Buttons/Welcome Btn" to="Launcher" method="_on_welcome_btn_toggled"]
+[connection signal="toggled" from="Launcher/Menu Buttons/Settings Btn" to="Launcher" method="_on_settings_btn_toggled"]
+[connection signal="toggled" from="Launcher/Menu Buttons/Maps List Btn" to="Launcher" method="_on_maps_list_btn_toggled"]
+[connection signal="toggled" from="Launcher/Menu Buttons/About Btn" to="Launcher" method="_on_about_btn_toggled"]
+[connection signal="toggled" from="Launcher/Footer/HBoxContainer/Music Button" to="Launcher" method="_on_music_button_toggled"]
+[connection signal="value_changed" from="Launcher/Footer/HBoxContainer/MarginContainer/Music Volume Slider" to="Launcher" method="_on_music_volume_slider_value_changed"]
+[connection signal="finished" from="Launcher/BG Music" to="Launcher" method="_on_bg_music_finished"]

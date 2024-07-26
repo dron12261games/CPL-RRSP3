@@ -1,0 +1,68 @@
+===========================================================================
+Advanced engine needed  : GZDoom
+Primary purpose         : Single play
+===========================================================================
+Title                   : Return To Shattered Nazi Dream
+Filename                : RETURN TO SHATTERED NAZI DREAM.WAD
+Release date            : 29 April 2024
+Author                  : Ear1h
+Email Address           : -
+
+Description             : [EN]
+                          The exploration of the ancient chambers begun by 
+                          the Nazis
+                          
+                          [RU]
+                          Исследование древних покоев, начатое нацистами.
+
+Additional Credits to   : RTCW, Blade Of Agony
+===========================================================================
+* What is included *
+
+New levels              : 1
+Sounds                  : Yes
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : Custom Actors and weapons
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom2
+Map #                   : MAP01
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Not implemented
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : 9.5 hours
+Editor(s) used          : Ultimate Doom Builder, SLADE, Photohop
+Known Bugs              : -
+May Not Run With        : -
+Tested With             : GZDoom Latest version, LZDoom 3.7.2
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons Attribution-NonCommercial
+4.0 International License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by-nc/4.0/
+
+You are free to copy and redistribute the material in any medium or format;
+and remix, transform, and build upon the material. If you do so, you must
+give appropriate credit, provide a link to the license, and indicate if
+changes were made. You may do so in any reasonable manner, but not in any way
+that suggests the licensor endorses you or your use. You may not use the
+material for commercial purposes.
+
+* Where to get the file that this text file describes *
+
+The Usual: ftp://archives.gamers.org/pub/idgames/ and mirrors

@@ -1,0 +1,72 @@
+===========================================================================
+Advanced engine needed  : Limit-Removing
+Primary purpose         : Single play
+===========================================================================
+Title                   : Hell city
+Filename                : HELL CITY.WAD
+Release date            : 5 May 2024
+Author                  : Kras
+Email Address           : ilakolcov52@gmail.com
+
+Description             : [EN]
+                          This is a simple map with an attempt to bring 
+                          the action game closer to DOOM 1 . I do not know 
+                          how I did it. I hope the map is good and playable.
+                          
+                          [RU]
+                          Это простая карта с попыткой приблизить экшен к 
+                          DOOM 1. Я не знаю, насколько мне это удалось. 
+                          Надеюсь, карта будет хорошей и играбельной.
+
+===========================================================================
+* What is included *
+
+New levels              : 1
+Sounds                  : No
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Not implemented
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : 10 hours
+Editor(s) used          : doom builder
+Known Bugs              : slimetrails
+May Not Run With        : Cripsy doom
+Tested With             : doom retro, DSDA doom, GZdoom
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons Attribution 4.0
+International License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by/4.0/
+
+You are free to copy and redistribute the material in any medium or format;
+and remix, transform, and build upon the material for any purpose, even
+commercially. If you do so, you must give appropriate credit, provide a link
+to the license, and indicate if changes were made. You may do so in any
+reasonable manner, but not in any way that suggests the licensor endorses you
+or your use.
+
+* Where to get the file that this text file describes *
+
+The Usual: ftp://archives.gamers.org/pub/idgames/ and mirrors
+
+

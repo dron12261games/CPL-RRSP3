@@ -1,0 +1,71 @@
+===========================================================================
+Advanced engine needed  : MBF21, UMAPINFO
+Primary purpose         : Singleplayer
+===========================================================================
+Title                   : Rain currently known as purple
+Filename                : RAIN CURRENTLY KNOWN AS PURPLE.WAD
+Release date            : 11 July 24
+Author                  : Petyan
+Email Address           : [REDACTED]
+Other Files By Author   : ------
+Misc. Author Info       : :)
+
+Description             : [EN]
+                          Purplish map.
+                          
+                          [RU]
+                          Пурпурная карта.
+
+Additional Credits to   : 32-24tex, Napsalm for the rain dehacked/decohack.
+                          Music - cosmic_bird.mod by marvin of skarla
+===========================================================================
+* What is included *
+
+New levels              : 1
+Sounds                  : Yes
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : Yes
+Demos                   : No
+Other                   : UMAPINFO, COMPLVL Lump
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : DOOM2
+Map #                   : MAP01
+Single Player           : Designed for
+Cooperative 2-4 Player  : Player starts only
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Yes
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : 10 hours
+Editor(s) used          : Ultimate Doom Builder, Slade, Aseprite
+Known Bugs              : Possibly
+May Not Run With        : DSDA-Doom versions prior to 0.24.x
+Tested With             : DSDA-Doom 0.27.5
+
+
+* Copyright / Permissions *
+
+Authors MAY use the contents of this file as a base for
+modification or reuse.  Permissions have been obtained from original
+authors for any of their resources modified or included in this file.
+
+You MAY distribute this file, provided you include this text
+file, with no modifications.  You may distribute this file in any
+electronic format (BBS, Diskette, CD, etc) as long as you include
+this file intact.  I have received permission from the original
+authors of any modified or included content in this file to allow
+further distribution.
+
+
+* Where to get the file that this text file describes *
+
+The Usual: ftp://archives.gamers.org/pub/idgames/ and mirrors

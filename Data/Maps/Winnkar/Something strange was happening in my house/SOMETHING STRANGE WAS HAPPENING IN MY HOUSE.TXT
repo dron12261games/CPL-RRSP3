@@ -1,0 +1,95 @@
+===========================================================================
+Advanced engine needed  : Boom
+Primary purpose         : Single play
+===========================================================================
+Title                   : Something strange was happening in my house
+Filename                : SOMETHING STRANGE WAS HAPPENING IN MY HOUSE.WAD
+Release date            : 14 July 2024
+Author                  : Winnkar
+Email Address           : sinkarroma@gmail.com
+Other Files By Author   : No
+Misc. Author Info       : 14 years old kid, making wads and music
+
+Description             : [EN]
+                          Something strange was going on in my house. I just
+                          came back from my hard work, but what do I see, the
+                          monsters from under the bed have become a reality?
+                          
+                          No! They're just demons that appeared to have
+                          created a hellish replica of my house. Help Doomguy
+                          punish the demons! Get inside him, and shoot.... 
+                          
+                          If there are difficulties in passing, or you want to
+                          pass on UV MAX, check out the demo in the menu.
+                          
+                          [RU]
+                          В моем доме творится что-то странное. Я только что 
+                          вернулся с тяжелой работы, но что же я вижу - 
+                          монстры из-под кровати стали реальностью?
+
+                          Нет! Это просто демоны, которые, как оказалось, 
+                          создали адскую копию моего дома. Помогите Думгаю 
+                          наказать демонов! Заберитесь внутрь его дома и 
+                          стреляйте в них...
+
+                          Если возникли трудности с прохождением, или вы 
+                          хотите пройти на UV MAX, посмотрите демо в меню.
+
+Additional Credits to   : SOUNDTRACK:
+                          Winnkar - Speedmap Theme
+                          Winnkar - Leaving from Winnkar speedmap
+                          Daniel Bernstein - Dark Carnival (From Blood)
+                          NEW TEXTURES:
+                          Winnkar
+===========================================================================
+* What is included *
+
+New levels              : 1
+Sounds                  : No
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : Yes
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Yes
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : 5 hours
+Editor(s) used          : GZDoom Builder, SLADE3, FL Studio 20, GIMP
+Known Bugs              : No
+May Not Run With        : Not tested
+Tested With             : dsda-doom 0.26.2
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0 International License. To view a
+copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+You are free to copy and redistribute the material in any medium or format.
+If you do so, you must give appropriate credit, provide a link to the
+license, and indicate if changes were made. You may do so in any reasonable
+manner, but not in any way that suggests the licensor endorses you or your
+use. You may not use the material for commercial purposes. If you remix,
+transform, or build upon the material, you may not distribute the modified
+material.
+
+* Where to get the file that this text file describes *
+
+The Usual: ftp://archives.gamers.org/pub/idgames/ and mirrors
+FTP sites: MediaFire

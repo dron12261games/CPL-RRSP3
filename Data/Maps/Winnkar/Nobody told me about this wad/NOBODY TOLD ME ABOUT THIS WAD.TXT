@@ -1,0 +1,73 @@
+===========================================================================
+Advanced engine needed  : Limit-Removing
+Primary purpose         : Single play
+===========================================================================
+Title                   : Nobody told me about this wad
+Filename                : NOBODY TOLD ME ABOUT THIS WAD.WAD
+Release date            : 12 July 2024
+Author                  : Winnkar
+Email Address           : sinkarroma@gmail.com
+Other Files By Author   : No, why?
+Misc. Author Info       : 14 years old kid, making wads and music
+
+Description             : [EN]
+                          Just another doom 1 speedmap.
+                          
+                          [RU]
+                          Еще один спидмап для Doom 1.
+
+Additional Credits to   : Winnkar - Speedmap Theme
+                          Winnkar - Leaving from Winnkar speedmap
+                          Winnkar - The irreversibility of death
+===========================================================================
+* What is included *
+
+New levels              : 1
+Sounds                  : No
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : Yes
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom
+Map #                   : E1M1
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : -
+Difficulty Settings     : Yes
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : 2 hours
+Editor(s) used          : GZDoom Builder, SLADE3, FL Studio 20, GIMP
+Known Bugs              : -
+May Not Run With        : -
+Tested With             : dsda-doom 0.26.2
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons Attribution-NonCommercial
+4.0 International License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by-nc/4.0/
+
+You are free to copy and redistribute the material in any medium or format;
+and remix, transform, and build upon the material. If you do so, you must
+give appropriate credit, provide a link to the license, and indicate if
+changes were made. You may do so in any reasonable manner, but not in any way
+that suggests the licensor endorses you or your use. You may not use the
+material for commercial purposes.
+
+* Where to get the file that this text file describes *
+
+The Usual: ftp://archives.gamers.org/pub/idgames/ and mirrors
+Web sites: -
+FTP sites: MediaFire

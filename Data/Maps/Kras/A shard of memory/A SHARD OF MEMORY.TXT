@@ -1,0 +1,74 @@
+===========================================================================
+Advanced engine needed  : Boom
+Primary purpose         : Single play
+===========================================================================
+Title                   : A shard of memory
+Filename                : A SHARD OF MEMORY.WAD
+Release date            : 9 May 2024
+Author                  : Kras
+Email Address           : ilakolcov52@gmail.com
+
+Description             : [EN]
+                          This is a short map designed for ammo starvation 
+                          with a reference to one game, Signalis. The 
+                          barrels and blood are garbage. An attempt to 
+                          recreate the last location of this game in 3 hours 
+                          from memory. You don't need to kill all the 
+                          monsters.
+                          
+                          [RU]
+                          Это короткая карта, рассчитанная на патронное 
+                          голодание с отсылкой к одной игре - "Signalis". 
+                          Бочки и кровь это мусор. Попытка воссоздать 
+                          последнюю локацию их этой игры за 3 часа по памяти. 
+                          Вам не обязательно убивать всех монстров.
+
+===========================================================================
+* What is included *
+
+New levels              : 1
+Sounds                  : No
+Music                   : Yes
+Graphics                : No
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01
+Single Player           : No
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Not implemented
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : 3 hours
+Editor(s) used          : doom builder
+May Not Run With        : DSDA doom
+Tested With             : doom retro, GZdoom
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons Attribution 4.0
+International License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by/4.0/
+
+You are free to copy and redistribute the material in any medium or format;
+and remix, transform, and build upon the material for any purpose, even
+commercially. If you do so, you must give appropriate credit, provide a link
+to the license, and indicate if changes were made. You may do so in any
+reasonable manner, but not in any way that suggests the licensor endorses you
+or your use.
+
+* Where to get the file that this text file describes *
+
+The Usual: ftp://archives.gamers.org/pub/idgames/ and mirrors

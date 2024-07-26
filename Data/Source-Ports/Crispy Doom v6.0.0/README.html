@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>README</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="crispy-doom">Crispy Doom</h1>
+<p><a href="https://github.com/fabiangreffrath/crispy-doom"><img
+src="https://github.com/fabiangreffrath/crispy-doom/blob/master/data/doom.png"
+alt="Crispy Doom Icon" /></a></p>
+<p><a href="https://github.com/fabiangreffrath/crispy-doom"><img
+src="https://img.shields.io/github/languages/top/fabiangreffrath/crispy-doom.svg"
+alt="Top Language" /></a> <a
+href="https://github.com/fabiangreffrath/crispy-doom"><img
+src="https://img.shields.io/github/languages/code-size/fabiangreffrath/crispy-doom.svg"
+alt="Code Size" /></a> <a
+href="https://github.com/fabiangreffrath/crispy-doom/blob/master/COPYING.md"><img
+src="https://img.shields.io/github/license/fabiangreffrath/crispy-doom.svg?logo=gnu"
+alt="License" /></a> <a
+href="https://github.com/fabiangreffrath/crispy-doom/releases"><img
+src="https://img.shields.io/github/release/fabiangreffrath/crispy-doom.svg"
+alt="Release" /></a> <a
+href="https://github.com/fabiangreffrath/crispy-doom/releases"><img
+src="https://img.shields.io/github/release-date/fabiangreffrath/crispy-doom.svg"
+alt="Release Date" /></a> <a
+href="https://github.com/fabiangreffrath/crispy-doom/releases"><img
+src="https://img.shields.io/github/downloads/fabiangreffrath/crispy-doom/latest/total.svg"
+alt="Downloads" /></a> <a
+href="https://github.com/fabiangreffrath/crispy-doom/commits/master"><img
+src="https://img.shields.io/github/commits-since/fabiangreffrath/crispy-doom/latest.svg"
+alt="Commits" /></a> <a
+href="https://github.com/fabiangreffrath/crispy-doom/commits/master"><img
+src="https://img.shields.io/github/last-commit/fabiangreffrath/crispy-doom.svg"
+alt="Last Commit" /></a> <a
+href="https://github.com/fabiangreffrath/crispy-doom/actions/workflows/main.yml"><img
+src="https://github.com/fabiangreffrath/crispy-doom/actions/workflows/main.yml/badge.svg"
+alt="Build Status" /></a></p>
+<p>Crispy Doom is a limit-removing enhanced-resolution Doom source port
+based on <a
+href="https://www.chocolate-doom.org/wiki/index.php/Chocolate_Doom">Chocolate
+Doom</a>.</p>
+<p>Its name means that its internal 640x400 resolution looks "crisp" and
+is also a <a href="http://www.mathsisfun.com/recipie.html">slight
+reference</a> to its origin.</p>
+<h2 id="synopsis">Synopsis</h2>
+<p>Crispy Doom is a friendly fork of <a
+href="https://www.chocolate-doom.org/wiki/index.php/Chocolate_Doom">Chocolate
+Doom</a> that provides a higher display resolution, removes the <a
+href="https://doomwiki.org/wiki/Static_limits">static limits</a> of the
+Doom engine and offers further optional visual, tactical and physical
+enhancements while remaining entirely config file, savegame, netplay and
+demo compatible with the original.</p>
+<h2 id="objectives-and-features">Objectives and features</h2>
+<p>Crispy Doom is a source port that aims to provide a faithful Doom
+gaming experience while also featuring some user-requested improvements
+and enhancements. It is forked off of Chocolate Doom to take advantage
+of its free and open-source code base, portability, accuracy and
+compatibility with Vanilla Doom.</p>
+<p>Its core features are:</p>
+<ul>
+<li>Enhanced 640x400 display resolution, with the original 320x200
+resolution still available in the "High Resolution Rendering: Off"
+mode.</li>
+<li>Widescreen rendering for using all the available horizontal space of
+screens with aspect ratios up to 24:9.</li>
+<li>Uncapped rendering framerate with interpolation and optional
+vertical synchronization (VSync) with the screen refresh rate.</li>
+<li>Intermediate gamma correction levels (0.5, 1.5, 2.5 and 3.5).</li>
+<li>Removal of all static engine limits, or at least raising of the less
+crucial ones.</li>
+<li>Full support for the "Doom Classic" WADs shipped with the "Doom 3:
+BFG Edition", especially the "No Rest For The Living" episode shipped in
+the NERVE.WAD file.</li>
+<li>Support for all versions of John Romero's Episode 5: Sigil for
+Ultimate Doom.</li>
+</ul>
+<p>Furthermore, the following optional user-visible and audible features
+are available:</p>
+<ul>
+<li>Jumping.</li>
+<li>Free vertical looking, including mouse look and vertical
+aiming.</li>
+<li>Aiming support by a crosshair that may get directly rendered into
+the game world.</li>
+<li>A new minimal Crispy HUD, displaying only the status bar
+numbers.</li>
+<li>Clean Screenshot feature, enabling to take screenshots without HUD
+elements and even without status bar numbers and weapon sprites at
+higher screen sizes.</li>
+<li>Colorized status bar numbers, HUD texts and blood sprites for
+certain monsters.</li>
+<li>Translucency for certain sprites and status bar elements in the
+Crispy HUD.</li>
+<li>Randomly mirrored death animations and corpse sprites.</li>
+<li>Command line options to allow for playing with flipped player weapon
+sprites and/or entirely flipped level geometry.</li>
+<li>Players may walk over or under monsters and hanging corpses.</li>
+<li>Centered Weapons when firing, weapon recoil thrust and pitch.</li>
+<li>Reports whenever a secret is revealed.</li>
+<li>Level statistics and extended coloring in the Automap.</li>
+<li>Playing sounds in full length, and misc. other sound fixes.</li>
+<li>Demo recording and/or playback timers and progress bar.</li>
+<li>Demo continue and take-over features, handing controls over to the
+player when demo playback is finished or interrupted.</li>
+</ul>
+<p>Most of these features are disabled by default and need to get
+enabled either in the in-game "Crispness" menu, in the crispy-doom-setup
+tool or as command line parameters. They are implemented in a way that
+preserves demo-compatibility with Vanilla Doom and network game
+compatibility with Chocolate Doom. Furthermore, Crispy Doom's savegames
+and config files are compatible, though not identical (see the <a
+href="https://github.com/fabiangreffrath/crispy-doom/wiki/Compatibility">Compatibility
+section in the Wiki</a>), to Vanilla Doom's.</p>
+<p>Crispy Doom strives for maximum compatibility with all
+"limit-removing Vanilla" maps -- but not Boom or ZDoom maps. More
+specifically, Crispy Doom supports some select advanced features such as
+<a href="https://doomwiki.org/wiki/ANIMATED">ANIMATED</a> and <a
+href="https://doomwiki.org/wiki/SWITCHES">SWITCHES</a> lumps, MBF sky
+transfers, SMMU swirling flats and <a
+href="https://doomwiki.org/wiki/MUSINFO">MUSINFO</a> -- but neither
+generalized linedef and sector types nor DECORATE and MAPINFO.</p>
+<p>Many additional less user-visible features have been implemented,
+e.g. fixed engine limitations and crashes, fixed rendering bugs, fixed
+harmless game logic bugs, full support for DEHACKED files and lumps in
+BEX format, additional and improved cheat codes, an improved Automap,
+and many more! Due to the extra DEHACKED states added from <a
+href="https://doomwiki.org/wiki/MBF">MBF</a>, Crispy Doom supports <a
+href="https://www.doomworld.com/forum/topic/84859-black-ops-smooth-weapons-dehacked-mod">enhancer</a>
+<a
+href="https://www.doomworld.com/forum/topic/85991-smoothed-smooth-monsters-for-doom-retro-and-crispy-doom">mods</a>
+that can make the gameplay even more pleasing to the eyes. For a
+detailed list of features and changes please refer to the release notes
+below.</p>
+<h3 id="new-controls-with-default-bindings">New controls (with default
+bindings)</h3>
+<ul>
+<li>Move Forward (alt.) <kbd>W</kbd></li>
+<li>Move Backward (alt.) <kbd>S</kbd></li>
+<li>Strafe Left (alt.) <kbd>A</kbd></li>
+<li>Strafe Right (alt.) <kbd>D</kbd></li>
+<li>Jump (bindable to joystick and mouse buttons as well) <kbd>/</kbd>
+(as in Hexen and Strife)</li>
+<li>Quick Reverse (bindable to mouse buttons as well)</li>
+<li>Mouse Look (bindable to mouse buttons or permanent)</li>
+<li>Look up (bindable to joystick axes as well) <kbd>PgDn</kbd> (as in
+Heretic)</li>
+<li>Look down (bindable to joystick axes as well) <kbd>Del</kbd> (as in
+Heretic)</li>
+<li>Center view <kbd>End</kbd> (as in Heretic)</li>
+<li>Toggle always run <kbd>⇪</kbd></li>
+<li>Toggle vertical mouse movement (new in 5.4)</li>
+<li>Delete savegame <kbd>Del</kbd></li>
+<li>Go to next level</li>
+<li>Reload current level</li>
+<li>Save a clean screenshot</li>
+<li>Toggle Automap overlay mode <kbd>O</kbd></li>
+<li>Toggle Automap rotate mode <kbd>R</kbd></li>
+<li>Resurrect from savegame (single player mode only) "Run" + "Use"</li>
+</ul>
+<h3 id="new-command-line-parameters">New command line parameters</h3>
+<ul>
+<li><code>-dm3</code> specifies the Deathmatch 3.0 rules (weapons stay,
+items respawn) for netgames (since 4.1).</li>
+<li><code>-episode 1</code> launches Hell on Earth and
+<code>-episode 2</code> launches No Rest for the Living episode if the
+Doom 2 IWAD shipped with the Doom 3: BFG Edition is used.</li>
+<li><code>-warp 1a</code> warps to the secret level E1M10: Sewers of
+XBox Doom IWAD (since 2.3).</li>
+<li><code>-mergedump &lt;file&gt;</code> merges the PWAD file(s) given
+on the command line with the IWAD file and writes the resulting data
+into the <code>&lt;file&gt;</code> given as argument. May be considered
+as a replacement for the <code>DEUSF.EXE</code> tool (since 2.3).</li>
+<li><code>-lumpdump</code> dumps raw content of a lump into a file
+(since 5.7).</li>
+<li><code>-blockmap</code> forces a (re-)building of the BLOCKMAP lumps
+for loaded maps (since 2.3).</li>
+<li><code>-playdemo demoname -warp N</code> plays back fast-forward up
+to the requested map (since 3.0).</li>
+<li><code>-loadgame N -record demoname</code> and
+<code>-loadgame N -playdemo demoname</code> allow to record and play
+demos starting from a savegame instead of the level start (since
+4.0).</li>
+<li><code>-playdemo demoname1 -record demoname2</code> plays back
+fast-forward until the end of demoname1 and continues recording as
+demoname2 (new in 5.5).</li>
+<li><code>-fliplevels</code> loads mirrored versions of the maps (this
+was the default on April 1st up to version 5.0).</li>
+<li><code>-flipweapons</code> flips the player's weapons (new in
+5.3).</li>
+<li><code>-levelstat</code> prints a levelstat.txt file with statistics
+for each completed level (new in 5.9.0).</li>
+<li><code>-pistolstart</code> reset health, armor and inventory at start
+of each level in Doom (new in 5.9.2)</li>
+<li><code>-wandstart</code> reset health, armor and inventory at start
+of each level in Heretic (new in 5.9.2)</li>
+<li><code>-doubleammo</code> doubles ammo pickup rate in Doom and Strife
+(new in 5.11).</li>
+<li><code>-moreammo</code> increases ammo pickup rate by 50% in Heretic
+(new in 5.11).</li>
+<li><code>-moremana</code> increases mana pickup rate by 50% in Hexen
+(new in 5.11).</li>
+<li><code>-fast</code> enables fast monsters in Heretic and Hexen (new
+in 5.11).</li>
+<li><code>-autohealth</code> enables automatic use of Quartz flasks and
+Mystic urns in Heretic and Hexen (new in 5.11).</li>
+<li><code>-keysloc</code> enables display of keys on the automap in
+Heretic (new in 5.11).</li>
+</ul>
+<h3 id="new-cheat-codes">New cheat codes</h3>
+<ul>
+<li><code>TNTWEAP</code> followed by a weapon number gives or removes
+this weapon (8 = Chainsaw, 9 = SSG). <code>TNTWEAP0</code> takes away
+all weapons and ammo except for the pistol and 50 bullets. Try to load
+Doom 1 with <code>DOOM2.WAD</code> as a PWAD and type
+<code>TNTWEAP9</code> to play the SSG in Doom 1.</li>
+<li><code>TNTEM</code>, <code>KILLEM</code> or <code>FHHALL</code> kill
+all monsters on the current map (and disables all cube spitters).</li>
+<li><code>SPECHITS</code> triggers all <a
+href="https://doomwiki.org/wiki/Linedef_type">Linedef actions</a> on a
+map at once, no matter if they are enabled by pushing, walking over or
+shooting or whether they require a key or not. It also triggers all boss
+monster and Commander Keen actions if possible.</li>
+<li><code>NOTARGET</code> or <code>FHSHH</code> toggle deaf and blind
+monsters that do not act until attacked.</li>
+<li><code>TNTHOM</code> toggles the flashing <a
+href="https://doomwiki.org/wiki/Hall_of_mirrors_effect">HOM</a>
+indicator (disabled by default).</li>
+<li><code>SHOWFPS</code> or <code>IDRATE</code> toggle printing the FPS
+in the upper right corner.</li>
+<li><code>NOMOMENTUM</code> toggles a debug aid for pixel-perfect
+positioning on a map (not recommended to use in-game).</li>
+<li><code>GOOBERS</code> triggers an easter egg, i.e. an "homage to an
+old friend". ;-)</li>
+<li><code>IDBEHOLD0</code> disables all currently active power-ups
+(since 2.2).</li>
+<li><code>IDCLEV00</code> restarts the current level (since 2.0).</li>
+<li><code>IDMUS00</code> restarts the current music (new in 5.1).</li>
+<li><code>VERSION</code> shows the engine version, build date and SDL
+version (new in 5.1).</li>
+<li><code>SKILL</code> shows the current skill level (new in
+5.5.2).</li>
+</ul>
+<h2 id="download">Download</h2>
+<p>Source code and Windows binaries (compatible with both x86 and x64
+editions) for the latest release can be found on the <a
+href="https://github.com/fabiangreffrath/crispy-doom/releases/latest">Release</a>
+page.</p>
+<p>To install on OSX, get macports and then run "sudo port install
+crispy-doom".</p>
+<p>The most recent list of changes can be found in the <a
+href="https://github.com/fabiangreffrath/crispy-doom/blob/master/CHANGELOG.md">Changelog</a>.</p>
+<p>A complete history of changes and releases can be found in the <a
+href="https://github.com/fabiangreffrath/crispy-doom/wiki/Changelog">Wiki</a>
+or on the <a
+href="https://github.com/fabiangreffrath/crispy-doom/releases">Releases</a>
+page.</p>
+<p>To install on Ubuntu ("Eoan Ermine" 19.10 and later)/Debian ("Buster"
+10 and later) based systems:</p>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt-get install crispy-doom</span></code></pre></div>
+<p>Daily builds of Crispy Doom can be found here: <a
+href="http://latest.chocolate-doom.org/">http://latest.chocolate-doom.org/</a></p>
+<p>Crispy Doom can play nearly all variants of Doom. If you don't own
+any, you may download the <a
+href="http://cdn.debian.net/debian/pool/non-free/d/doom-wad-shareware/doom-wad-shareware_1.9.fixed.orig.tar.gz">Shareware
+version of Doom</a>, extract it and copy the DOOM1.WAD file into your
+Crispy Doom directory. Alternatively, you may want to play Crispy Doom
+with <a
+href="https://www.chocolate-doom.org/wiki/index.php/Freedoom">Freedoom</a>
+and a MegaWAD.</p>
+<h3 id="sources">Sources</h3>
+<p><a href="https://www.openhub.net/p/crispy-doom"><img
+src="https://www.openhub.net/p/crispy-doom/widgets/project_thin_badge?style=flat&amp;format=gif"
+alt="Open Hub" /></a></p>
+<p>The Crispy Doom source code is available at GitHub: <a
+href="https://github.com/fabiangreffrath/crispy-doom">https://github.com/fabiangreffrath/crispy-doom</a>.
+It can be <a
+href="https://github.com/fabiangreffrath/crispy-doom/releases">downloaded
+in either ZIP or TAR.GZ format</a> or cloned via</p>
+<pre><code> git clone https://github.com/fabiangreffrath/crispy-doom.git</code></pre>
+<p>Brief instructions to set up a build system on Windows can be found
+<a
+href="https://github.com/fabiangreffrath/crispy-doom/wiki/Building-on-Windows">in
+the Crispy Doom Wiki</a>. A much more detailed guide is provided <a
+href="https://www.chocolate-doom.org/wiki/index.php/Building_Chocolate_Doom_on_Windows">in
+the Chocolate Doom Wiki</a>, but applies to Crispy Doom as well for most
+parts.</p>
+<p>Compilation on Debian systems (Debian 10 "buster" or later) should be
+as simple as</p>
+<pre><code> sudo apt install build-essential automake git
+ sudo apt build-dep crispy-doom</code></pre>
+<p>to install the prerequisites and then</p>
+<pre><code> cd crispy-doom
+ autoreconf -fiv
+ ./configure
+ make</code></pre>
+<p>After successful compilation the resulting binaries can be found in
+the <code>src/</code> directory.</p>
+<h2 id="more-documentation">More documentation</h2>
+<ul>
+<li><strong><a
+href="https://github.com/fabiangreffrath/crispy-doom/wiki/Changelog">Changelog</a></strong></li>
+<li><strong><a
+href="https://github.com/fabiangreffrath/crispy-doom/wiki/Compatibility">Compatibility</a></strong></li>
+<li><strong><a
+href="https://github.com/fabiangreffrath/crispy-doom/wiki/Crispness">Crispness</a></strong></li>
+<li><strong><a
+href="https://github.com/fabiangreffrath/crispy-doom/wiki/FAQ">FAQ</a></strong></li>
+</ul>
+<h2 id="contact">Contact</h2>
+<p>The canonical homepage for Crispy Doom is <a
+href="https://github.com/fabiangreffrath/crispy-doom">https://github.com/fabiangreffrath/crispy-doom</a></p>
+<p>Crispy Doom is maintained by <a
+href="mailto:fabian@greffXremovethisXrath.com">Fabian Greffrath</a>.</p>
+<p>Please report any bugs, glitches or crashes that you encounter to the
+GitHub <a
+href="https://github.com/fabiangreffrath/crispy-doom/issues">Issue
+Tracker</a>.</p>
+<h2 id="acknowledgement">Acknowledgement</h2>
+<p>Although I have played the thought of hacking on Chocolate Doom's
+renderer for quite some time already, it was Brad Harding's <a
+href="https://www.chocolate-doom.org/wiki/index.php/Doom_Retro">Doom
+Retro</a> that provided the incentive to finally do it. However, his
+fork aims at a different direction and I did not take a single line of
+code from it. Lee Killough's <a
+href="https://doomwiki.org/wiki/WinMBF">MBF</a> was studied and used to
+debug the code, especially in the form of Team Eternity's <a
+href="https://doomwiki.org/wiki/WinMBF">WinMBF</a> source port, which
+made it easier to compile and run on my machine. And of course there is
+fraggle's <a
+href="https://www.chocolate-doom.org/wiki/index.php/Chocolate_Doom">Chocolate
+Doom</a> with its exceptionally clean and legible source code. Please
+let me take this opportunity to appreciate all these authors for their
+work!</p>
+<p>Also, thanks to plums of the <a
+href="https://www.doomworld.com/vb/">Doomworld forums</a> for beta
+testing, "release manager" Zodomaniac and "art director" JNechaevsky for
+the continuous flow of support and inspiration during the post-3.x
+development cycle and (last but not the least) <a
+href="http://www.moddb.com/members/cacodemon9000">Cacodemon9000</a> for
+his <a
+href="http://www.moddb.com/games/doom-ii/addons/infested-outpost">Infested
+Outpost</a> map that helped to track down quite a few bugs!</p>
+<p>Furthermore, thanks to VGA for his aid with adding support for his
+two mods: <a
+href="https://www.doomworld.com/forum/topic/84859-black-ops-smooth-weapons-dehacked-mod">PerK
+&amp; NightFright's Black Ops smooth weapons add-on converted to
+DEHACKED</a> and <a
+href="https://www.doomworld.com/forum/topic/85991-smoothed-smooth-monsters-for-doom-retro-and-crispy-doom">Gifty's
+Smooth Doom smooth monster animations converted to DEHACKED</a> that can
+make the gameplay even more pleasing to the eyes.</p>
+<h2 id="legalese">Legalese</h2>
+<p>Doom is © 1993-1996 Id Software, Inc.; Boom 2.02 is © 1999 id
+Software, Chi Hoang, Lee Killough, Jim Flynn, Rand Phares, Ty Halderman;
+PrBoom+ is © 1999 id Software, Chi Hoang, Lee Killough, Jim Flynn, Rand
+Phares, Ty Halderman, © 1999-2000 Jess Haas, Nicolas Kalkhof, Colin
+Phipps, Florian Schulze, © 2005-2006 Florian Schulze, Colin Phipps, Neil
+Stevens, Andrey Budko; Chocolate Doom is © 1993-1996 Id Software, Inc.,
+© 2005 Simon Howard; Chocolate Hexen is © 1993-1996 Id Software, Inc., ©
+1993-2008 Raven Software, © 2008 Simon Howard; Strawberry Doom is ©
+1993-1996 Id Software, Inc., © 2005 Simon Howard, © 2008-2010
+GhostlyDeath; Crispy Doom is additionally © 2014-2019 Fabian Greffrath;
+all of the above are released under the <a
+href="https://www.gnu.org/licenses/gpl-2.0.html">GPL-2+</a>.</p>
+<p>SDL 2.0, SDL_mixer 2.0 and SDL_net 2.0 are © 1997-2016 Sam Lantinga
+and are released under the <a
+href="http://www.gzip.org/zlib/zlib_license.html">zlib license</a>.</p>
+<p>Secret Rabbit Code (libsamplerate) is © 2002-2011 Erik de Castro Lopo
+and is released under the <a
+href="http://www.gnu.org/licenses/gpl-2.0.html">GPL-2+</a>. Libpng is ©
+1998-2014 Glenn Randers-Pehrson, © 1996-1997 Andreas Dilger, © 1995-1996
+Guy Eric Schalnat, Group 42, Inc. and is released under the <a
+href="http://www.libpng.org/pub/png/src/libpng-LICENSE.txt">libpng
+license</a>. Zlib is © 1995-2013 Jean-loup Gailly and Mark Adler and is
+released under the <a href="http://www.zlib.net/zlib_license.html">zlib
+license</a>.</p>
+<p>The Crispy Doom icon (as shown at the top of this page) has been
+contributed by Philip Kiwan.</p>
+</body>
+</html>

@@ -1,0 +1,295 @@
+; Default Nugget HUD
+
+; Ammo count
+nughud_ammo_x     44
+nughud_ammo_y     171
+nughud_ammo_wide  -1
+nughud_ammo_align 1
+
+; Ammo icon
+nughud_ammoicon_x     -1
+nughud_ammoicon_y     0
+nughud_ammoicon_wide  0
+nughud_ammoicon_align -1
+nughud_ammoicon_vlign 1
+nughud_ammoicon_big   0
+
+; Health count
+nughud_health_x     90
+nughud_health_y     171
+nughud_health_wide  -1
+nughud_health_align 1
+
+; Health icon
+nughud_healthicon_x     -1
+nughud_healthicon_y     0
+nughud_healthicon_wide  0
+nughud_healthicon_align -1
+nughud_healthicon_vlign 1
+
+; Arms numbers
+
+nughud_arms1_x    -1
+nughud_arms1_y    0
+nughud_arms1_wide 0
+
+nughud_arms2_x    111
+nughud_arms2_y    172
+nughud_arms2_wide -1
+
+nughud_arms3_x    119
+nughud_arms3_y    172
+nughud_arms3_wide -1
+
+nughud_arms4_x    127
+nughud_arms4_y    172
+nughud_arms4_wide -1
+
+nughud_arms5_x    135
+nughud_arms5_y    172
+nughud_arms5_wide -1
+
+nughud_arms6_x    111
+nughud_arms6_y    182
+nughud_arms6_wide -1
+
+nughud_arms7_x    119
+nughud_arms7_y    182
+nughud_arms7_wide -1
+
+nughud_arms8_x    127
+nughud_arms8_y    182
+nughud_arms8_wide -1
+
+nughud_arms9_x    135
+nughud_arms9_y    182
+nughud_arms9_wide -1
+
+; Frags count
+nughud_frags_x     160
+nughud_frags_y     171
+nughud_frags_wide  0
+nughud_frags_align 0
+
+; Face
+nughud_face_x    -1
+nughud_face_y    168
+nughud_face_wide 0
+nughud_face_bg   1
+
+; Armor count
+nughud_armor_x     221
+nughud_armor_y     171
+nughud_armor_wide  1
+nughud_armor_align 1
+
+; Armor icon
+nughud_armoricon_x     -1
+nughud_armoricon_y     0
+nughud_armoricon_wide  0
+nughud_armoricon_align -1
+nughud_armoricon_vlign 1
+
+; Blue Key
+nughud_key0_x    239
+nughud_key0_y    171
+nughud_key0_wide 1
+
+; Yellow Key
+nughud_key1_x    239
+nughud_key1_y    181
+nughud_key1_wide 1
+
+; Red Key
+nughud_key2_x    239
+nughud_key2_y    191
+nughud_key2_wide 1
+
+; Bullets count
+nughud_ammo0_x     288
+nughud_ammo0_y     173
+nughud_ammo0_wide  1
+nughud_ammo0_align 1
+
+; Shells count
+nughud_ammo1_x     288
+nughud_ammo1_y     179
+nughud_ammo1_wide  1
+nughud_ammo1_align 1
+
+; Cells count
+nughud_ammo2_x     288
+nughud_ammo2_y     191
+nughud_ammo2_wide  1
+nughud_ammo2_align 1
+
+; Rockets count
+nughud_ammo3_x     288
+nughud_ammo3_y     185
+nughud_ammo3_wide  1
+nughud_ammo3_align 1
+
+; Max Bullets count
+nughud_maxammo0_x     314
+nughud_maxammo0_y     173
+nughud_maxammo0_wide  1
+nughud_maxammo0_align 1
+
+; Max Shells count
+nughud_maxammo1_x     314
+nughud_maxammo1_y     179
+nughud_maxammo1_wide  1
+nughud_maxammo1_align 1
+
+; Max Cells count
+nughud_maxammo2_x     314
+nughud_maxammo2_y     191
+nughud_maxammo2_wide  1
+nughud_maxammo2_align 1
+
+; Max Rockets count
+nughud_maxammo3_x     314
+nughud_maxammo3_y     185
+nughud_maxammo3_wide  1
+nughud_maxammo3_align 1
+
+; Time display
+nughud_time_x     -1
+nughud_time_y     -1
+nughud_time_wide  -1
+nughud_time_align -1
+nughud_time_stack 3
+nughud_time_order 2
+
+; Stats display
+nughud_sts_x     -1
+nughud_sts_y     -1
+nughud_sts_wide  -1
+nughud_sts_align -1
+nughud_sts_stack 3
+nughud_sts_order 1
+nughud_sts_ml    -1
+
+; Level Name display
+nughud_title_x     -1
+nughud_title_y     -1
+nughud_title_wide  -1
+nughud_title_align -1
+nughud_title_stack 3
+nughud_title_order 0
+
+; Powerup Timers display
+nughud_powers_x     -1
+nughud_powers_y     -1
+nughud_powers_wide  -1
+nughud_powers_align -1
+nughud_powers_stack 2
+nughud_powers_order 0
+
+; Coordinates display
+nughud_coord_x     -1
+nughud_coord_y     -1
+nughud_coord_wide  -1
+nughud_coord_align -1
+nughud_coord_stack 2
+nughud_coord_order 1
+nughud_coord_ml    -1
+
+; FPS display
+nughud_fps_x     -1
+nughud_fps_y     -1
+nughud_fps_wide  -1
+nughud_fps_align -1
+nughud_fps_stack 2
+nughud_fps_order 2
+
+; Rendering-statistics display
+nughud_rate_x     2
+nughud_rate_y     192
+nughud_rate_wide  -1
+nughud_rate_align -1
+nughud_rate_stack 1
+nughud_rate_order 0
+
+; Message display
+nughud_message_x     -1
+nughud_message_y     -1
+nughud_message_wide  -1
+nughud_message_align -1
+nughud_message_stack 1
+nughud_message_defx  1
+
+; Secret Message/Milestone Completion display
+nughud_secret_x     160
+nughud_secret_y     42
+nughud_secret_wide  0
+nughud_secret_align 0
+nughud_secret_stack 1
+nughud_secret_order 0
+
+; Stack 1 (top-left corner)
+nughud_stack1_x     2
+nughud_stack1_y     0
+nughud_stack1_wide  -1
+nughud_stack1_align -1
+nughud_stack1_vlign 1
+
+; Stack 2 (top-right corner)
+nughud_stack2_x     318
+nughud_stack2_y     0
+nughud_stack2_wide  1
+nughud_stack2_align 1
+nughud_stack2_vlign 1
+
+; Stack 3 (bottom-left corner)
+nughud_stack3_x     2
+nughud_stack3_y     168
+nughud_stack3_wide  -1
+nughud_stack3_align -1
+nughud_stack3_vlign -1
+
+; Stack 4 (bottom-right corner)
+nughud_stack4_x     318
+nughud_stack4_y     168
+nughud_stack4_wide  1
+nughud_stack4_align 1
+nughud_stack4_vlign -1
+
+; Stack 5
+; (All remaining Stacks have the same properties)
+nughud_stack5_x     0
+nughud_stack5_y     0
+nughud_stack5_wide  0
+nughud_stack5_align -1
+nughud_stack5_vlign 1
+
+; Example Patch
+; (All other Patches have the same properties)
+nughud_patch1_x     0
+nughud_patch1_y     0
+nughud_patch1_wide  0
+nughud_patch1_align -1
+nughud_patch1_vlign 1
+nughud_patch1_name  ""
+
+; Example Status-Bar Chunk
+; (All other Chunks have the same properties)
+nughud_sbchunk1_x     -1
+nughud_sbchunk1_y     0
+nughud_sbchunk1_wide  0
+nughud_sbchunk1_sx    0
+nughud_sbchunk1_sy    0
+nughud_sbchunk1_sw    1
+nughud_sbchunk1_sh    32
+
+; Draw percentage signs
+nughud_percents 1
+
+; Apply graphic offsets when drawing Patches
+nughud_patch_offsets 1
+
+; Vertical offset for weapon sprites
+nughud_weapheight 0
+
+; Vertical offset for view window
+nughud_viewoffset 0

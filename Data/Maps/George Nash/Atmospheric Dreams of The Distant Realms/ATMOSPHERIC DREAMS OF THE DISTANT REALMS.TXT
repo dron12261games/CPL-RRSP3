@@ -1,0 +1,116 @@
+===========================================================================
+Advanced engine needed  : GZDoom
+Primary purpose         : Single play
+===========================================================================
+Title                   : Atmospheric Dreams of The Distant Realms
+Filename                : ATMOSPHERIC DREAMS OF THE DISTANT REALMS.PK3
+Release date            : 28 May 2024
+Author                  : George Nash
+Email Address           : gnash150109@gmail.com
+
+Description             : [EN]
+                          "a frozen lake and a fortress, somewhere in the
+                          depths of a distant forest"
+                          
+                          The main goal was to create something beautiful in
+                          the first place, so some other aspects may not be 
+                          as good. The map is focused mainly on combat and
+                          includes several boss encounters. It may seem not
+                          so easy for someone, but actually it contains
+                          everything to pass. I do not recommend to play it
+                          as fighter, if you dont want to challenge
+                          yourself.
+                          
+                          Infightings are disabled, so dont waste your time
+                          on that.
+                          
+                          Freelook is disabled, but you can turn it on in
+                          gzdoom settings if you need (may cause some visual
+                          sloppiness if you would observe something you are
+                          not supposed to).
+                          
+                          Also, you need to turn on fog mode in settings and
+                          dynamic lights (if it is disabled).
+                          
+                          [RU]
+                          "Замерзшее озеро и крепость, где-то в глубине 
+                          далекого леса"
+
+                          Главной целью было создать что-то красивое, поэтому 
+                          некоторые другие аспекты могут быть не так хороши. 
+                          Карта ориентирована в основном на бой и включает в 
+                          себя несколько встреч с боссами. Кому-то она может 
+                          показаться не такой уж простой, но на самом деле в 
+                          ней есть все для прохождения. Я не рекомендую 
+                          играть в нее за воина, если вы не хотите бросить 
+                          себе вызов.
+                          
+                          Инфайт отключен, так что не тратьте на это свое 
+                          время.
+                          
+                          Freelook отключен, но вы можете включить его в 
+                          настройках gzdoom, если вам это необходимо (может 
+                          вызвать некоторую визуальную неряшливость, если вы 
+                          будете наблюдать то, что вам не положено).
+                          
+                          Также необходимо включить режим тумана в настройках 
+                          и динамическое освещение (если оно отключено).
+
+Additional Credits to   : Creators from Realm667:
+                          Eriance, Ghastly Dragon, Amuscaria.
+                          
+                          "CountryCide" mod creators for some forest
+                          textures.
+                          
+                          Anchor Cross for souls HUD mod.
+			  
+                          Depressive Silence for their music.
+===========================================================================
+* What is included *
+
+New levels              : 1
+Sounds                  : Yes
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Hexen
+Map #                   : 01
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Not implemented
+
+
+* Construction *
+
+Base                    : New
+Build Time              : 10h
+Editor(s) used          : UDB
+May Not Run With        : runs only with GZDoom
+Tested With             : GZDoom 4.12.1
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons Attribution-NonCommercial
+4.0 International License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by-nc/4.0/
+
+You are free to copy and redistribute the material in any medium or format;
+and remix, transform, and build upon the material. If you do so, you must
+give appropriate credit, provide a link to the license, and indicate if
+changes were made. You may do so in any reasonable manner, but not in any way
+that suggests the licensor endorses you or your use. You may not use the
+material for commercial purposes.
+
+* Where to get the file that this text file describes *
+
+The Usual: ftp://archives.gamers.org/pub/idgames/ and mirrors

@@ -1,0 +1,78 @@
+===========================================================================
+Advanced engine needed  : ZDoom
+Primary purpose         : Single play
+===========================================================================
+Title                   : Pesochniy Island
+Filename                : PESOCHNIY ISLAND.WAD
+Release date            : 23 April 2024
+Author                  : SilverMiner
+Email Address           : [redacted]
+Other Files By Author   : Plutonia 3 (multiple versions throughout 2017), 
+                          Boggy Region (multiple versions throughout 
+                          2018-2020 including builds of the Curse of Boggy 
+                          Region and Boggy Region United), Mudicewind 
+                          (texture pack for Negative Two and 96 Kilobytes 
+                          Challenge, 2021), Shadow Healer (2023)
+Misc. Author Info       : 
+
+Description             : [EN]
+                          Small island without sand however
+                          
+                          [RU]
+                          Маленький остров без песка.
+
+Additional Credits to   : Music: "Gestation" by Immorpher, Nickelbak - 
+                          Believe it or not, Yellowcard - Breathing; Sounds: 
+                          icibcxx1 and iciboxx1 from Fallout (1997)
+===========================================================================
+* What is included *
+
+New levels              : 1
+Sounds                  : Yes
+Music                   : Yes
+Graphics                : No
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01
+Single Player           : Designed for
+Cooperative 2-4 Player  : Yes
+Deathmatch 2-4 Player   : Yes
+Other game styles       : None
+Difficulty Settings     : Not implemented
+
+
+* Construction *
+
+Base                    : Sea around Lidar. (The way this sea is built dates 
+                          all thru early March 2020 initially featured in 
+                          "Not an Island")
+Build Time              : 4.5 hours
+Editor(s) used          : GZDB 1.14, Slade 3.1.1.5
+May Not Run With        : The map probably can't be finished in source ports 
+                          without jumping
+Tested With             : Zdoom 2.8.1
+
+
+* Copyright / Permissions *
+
+Authors MAY use the contents of this file as a base for modification or
+reuse as long as the authors of the used contents are mentioned in credits 
+of the derived mod.  Permissions have been obtained from original authors 
+for any of their resources modified or included in this file.
+
+You MAY distribute this file, provided you include this text file, with no
+modifications.  You may distribute this file in any electronic format (BBS,
+Diskette, CD, etc) as long as you include this file intact.  I have
+received permission from the original authors of any modified or included
+content in this file to allow further distribution.
+
+* Where to get the file that this text file describes *
+
+The Usual: ftp://archives.gamers.org/pub/idgames/ and mirrors

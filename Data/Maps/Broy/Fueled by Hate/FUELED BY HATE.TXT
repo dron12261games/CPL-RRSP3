@@ -1,0 +1,122 @@
+===========================================================================
+Advanced engine needed  : Limit-Removing
+Primary purpose         : Single play
+===========================================================================
+Title                   : Fueled by Hate
+Filename                : FUELED BY HATE.WAD
+Release date            : 22 June 2024
+Author                  : Broy
+Misc. Author Info       : I am a newcomer to doom mapping and what is worse 
+                          - this is my first speedmapping project.
+
+Description             : [EN]
+                          First things first, you should not use freelook,
+                          jump, crouch. There is some DeHackEd edits. You
+                          punch faster, max hp is 300% and the Mastermind is
+                          at his full potential. Now he is a formidable foe.
+                          This level is not recommended to be played on UV
+                          in your first try, but it is your choice. The idea
+                          of level itself and level aestetics came to me 
+                          from E4M1, Episode 3 and Sigil.
+                          
+                          The idea of the level is eternal agony and
+                          bloodlust which drain your health over time. You
+                          should fight your way through to destroy another
+                          Mastermind and to escape the Hell again. Destroy
+                          him, incinerate him with your rage, let him
+                          experience at least 1% of your eternal agony. Burn
+                          it to the ground, make sure that not even a memory
+                          remains of it.
+
+                          Your soul is dead. Hatred is fuel. Hell must be 
+                          purged.
+                          
+                          [RU]
+                          Прежде всего, не используй свободный обзор, 
+                          прыжки и приседания. Были внесены некоторые 
+                          правки с помощью DeHackEd. Так, Думгай бьёт 
+                          быстрее, максимальное количество здоровья 
+                          увеличено до 300%, и Мастермайнд достиг своего 
+                          полного потенциала. Теперь он – грозный 
+                          противник. Не рекомендуется играть в этот 
+                          уровень на сложности UV в первый раз, но этот 
+                          выбор за вами. Идея самого уровня и его 
+                          окружения исходит из E4M1, третьего эпизода и 
+                          Сигила.
+
+                          Идея уровня – вечная агония и жажда крови, 
+                          которые со временем истощают здоровье игрока. 
+                          Ты должен пробиться сквозь врагов, чтобы 
+                          уничтожить очередного Мастермайнда и снова 
+                          сбежать из Ада. Уничтожь босса, испепели его 
+                          своей яростью, пусть он испытает хотя бы 1% 
+                          твоей вечной агонии. Сожги его останки дотла, 
+                          убедись, что о нём не останется даже воспоминаний.
+
+                          Твоя душа мертва. Ненависть – это топливо. Ад 
+                          должен быть очищен.
+
+Additional Credits to   : On the Prown - Command and Conquer: Tiberian Dawn
+                          OST by Frank Klepacki.
+                          Dron12261 for this opportunity. Thank you a lot!
+                          Dark Abishai, BNDash, Nikolanchik, Track Federal
+                          and Makankosappo300 for testing.
+===========================================================================
+* What is included *
+
+New levels              : E3M8
+Sounds                  : No
+Music                   : Yes
+Graphics                : No
+Dehacked/BEX Patch      : Yes, attack speed for your fists is increased and 
+                          the Spider Mastermind is... Well, you'll see.
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom
+Map #                   : E3M8
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Yes
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : 7,5 hours
+Editor(s) used          : Ultimate Doom Builder, Whacked4, Slade
+Known Bugs              : Chocolate Doom runs well but one of the last 
+                          arenas exceeds the limits. Thus, it is not 
+                          recommended. In Doom Retro the final boss has 
+                          the original amount of hp. It breaks the idea 
+                          of the fight. Don't use it.
+May Not Run With        : Chocolate Doom, DOS Vanilla
+Tested With             : Crispy Doom (designed for), PrBoom+, DSDA Doom,
+                          Nugget Doom, Doom Retro 5.4 (works well but 
+                          there is a bug).
+                          Make sure you play on -complevel 3.
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons Attribution-NonCommercial
+4.0 International License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by-nc/4.0/
+
+You are free to copy and redistribute the material in any medium or format;
+and remix, transform, and build upon the material. If you do so, you must
+give appropriate credit, provide a link to the license, and indicate if
+changes were made. You may do so in any reasonable manner, but not in any way
+that suggests the licensor endorses you or your use. You may not use the
+material for commercial purposes.
+
+* Where to get the file that this text file describes *
+
+Web sites: https://drive.google.com/drive/folders
+/1iTQgp-zLS6BEcgqKU6NW-WEM74szoRRd?usp=sharing

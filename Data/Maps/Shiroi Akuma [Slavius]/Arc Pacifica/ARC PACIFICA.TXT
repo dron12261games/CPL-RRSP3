@@ -1,0 +1,76 @@
+===========================================================================
+Advanced engine needed  : GZDoom
+Primary purpose         : Single play
+===========================================================================
+Title                   : ARC Pacifica
+Filename                : ARC PACIFICA.WAD
+Release date            : 28 June 2024
+Author                  : Shiroi Akuma aka Slavius [B0S]
+Email Address           : slavius47@gmail.com
+
+Description             : [EN]
+                          ARC Comlpex based somewhere in Pacific Ocean. Map
+                          heavily inspired by Doom 2016 and Doom Eternal.
+                          
+                          If you expirience performance issues - try 
+                          ARC PACIFICA_L.WAD
+                          
+                          [RU]
+                          АРК Комлпекс базируется где-то в Тихом океане. 
+                          Карта сильно вдохновлена Doom 2016 и Doom Eternal.
+                          
+                          Если у вас проблемы с производительностью,
+                          попробуйте ARC PACIFICA_L.WAD
+
+Additional Credits to   : Mick Gordon (OST from Doom 2016 and Doom Eternal),
+                          Realm667, Star Wars Dark Forces (textures)
+===========================================================================
+* What is included *
+
+New levels              : 1
+Sounds                  : Yes
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Yes
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : 10 hours
+Editor(s) used          : Ultimate Doom Builder, XWE, SLADE, Adobe Photoshop,
+                          Audacity
+May Not Run With        : Any of boom ports
+Tested With             : GZDoom 4.11
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons Attribution-NonCommercial
+4.0 International License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by-nc/4.0/
+
+You are free to copy and redistribute the material in any medium or format;
+and remix, transform, and build upon the material. If you do so, you must
+give appropriate credit, provide a link to the license, and indicate if
+changes were made. You may do so in any reasonable manner, but not in any way
+that suggests the licensor endorses you or your use. You may not use the
+material for commercial purposes.
+
+* Where to get the file that this text file describes *
+
+The Usual: ftp://archives.gamers.org/pub/idgames/ and mirrors

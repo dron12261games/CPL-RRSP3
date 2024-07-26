@@ -1,0 +1,75 @@
+===========================================================================
+Advanced engine needed  : MBF21 Compatible, highly recommend to play with 
+                          Software Renderer for best visuals.
+Primary purpose         : Single play
+===========================================================================
+Title                   : If You're Into It, I'm Out of It
+Filename                : IF YOU'RE INTO IT, I'M OUT OF IT.WAD
+Release date            : 14 July 2024
+Author                  : Async Unicorn
+Email Address           : scp-096@scpfoundation.net
+Other Files By Author   : Many.
+Misc. Author Info       : Strange person. Probably SCP-096.
+
+Description             : [EN]
+                          Ordinary techbase.
+                          
+                          [RU]
+                          Обычная технобаза.
+
+Additional Credits to   : Christoph De Babalon, Shoebill, breakcore artists
+                          and "unfeeling - i am really tired, sorry" for
+                          inspiration.
+                          
+                          Clan B0S and "Sacrament" WAD for HUD
+===========================================================================
+* What is included *
+
+New levels              : Single one.
+Sounds                  : No
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Not implemented
+
+
+* Construction *
+
+Base                    : New from scratch.
+Build Time              : 10 hours.
+Editor(s) used          : Ultimate Doom Builder
+Known Bugs              : Open encyclopedia.
+May Not Run With        : Scissors, Microwave, Bugatti, MBF21 uncompatible
+                          ports.
+Tested With             : GZDoom, Doom Retro, Woof, Nugget Doom
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons Attribution-NonCommercial
+4.0 International License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by-nc/4.0/
+
+You are free to copy and redistribute the material in any medium or format;
+and remix, transform, and build upon the material. If you do so, you must
+give appropriate credit, provide a link to the license, and indicate if
+changes were made. You may do so in any reasonable manner, but not in any way
+that suggests the licensor endorses you or your use. You may not use the
+material for commercial purposes.
+
+* Where to get the file that this text file describes *
+
+The Usual: ftp://archives.gamers.org/pub/idgames/ and mirrors

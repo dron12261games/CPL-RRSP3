@@ -1,0 +1,66 @@
+===========================================================================
+Advanced engine needed  : Boom
+Primary purpose         : Single play
+===========================================================================
+Title                   : Putrid Fumes
+Filename                : PUTRID FUMES.WAD
+Release date            : 2 May 2024
+Author                  : Astar
+Email Address           : ~~~
+
+Description             : [EN]
+                          First try at speedmapping.
+                          
+                          [RU]
+                          Первая попытка спидмаппинга.
+
+===========================================================================
+* What is included *
+
+New levels              : One level
+Sounds                  : No
+Music                   : Yes ("Toxic Waves" by Astar)
+Graphics                : No
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : 01
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Yes
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : 8 hours
+Editor(s) used          : Ultimate Doom Builder
+Known Bugs              : Unknown
+May Not Run With        : None
+Tested With             : DSDA, Doom Retro 5.2
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons Attribution 4.0
+International License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by/4.0/
+
+You are free to copy and redistribute the material in any medium or format;
+and remix, transform, and build upon the material for any purpose, even
+commercially. If you do so, you must give appropriate credit, provide a link
+to the license, and indicate if changes were made. You may do so in any
+reasonable manner, but not in any way that suggests the licensor endorses you
+or your use.
+
+* Where to get the file that this text file describes *
+
+The Usual: ftp://archives.gamers.org/pub/idgames/ and mirrors

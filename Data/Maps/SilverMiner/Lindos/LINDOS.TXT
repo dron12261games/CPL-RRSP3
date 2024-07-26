@@ -1,0 +1,86 @@
+===========================================================================
+Advanced engine needed  : ZDoom
+Primary purpose         : Single play
+===========================================================================
+Title                   : Lindos
+Filename                : LINDOS.WAD
+Release date            : 5 June 2024
+Author                  : SilverMiner
+Email Address           : [redacted]
+Other Files By Author   : Plutonia 3 (multiple versions throughout 2017), 
+                          Boggy Region (multiple versions throughout 
+                          2018-2020 including builds of the Curse of Boggy 
+                          Region and Boggy Region United), Mudicewind 
+                          (texture pack for Negative Two and 96 Kilobytes 
+                          Challenge, 2021), Shadow Healer (2023)
+Misc. Author Info       : 
+
+Description             : [EN]
+                          Small place with a dam and a waterfall. The map 
+                          is playable and finishable in dsda-doom. Should 
+                          also be in prboom-plus.
+                          
+                          [RU]
+                          Маленькое местечко с плотиной и водопадом. Карта 
+                          играбельна и проходима в dsda-doom. Должна также
+                          быть проходима и на prboom-plus.
+
+Additional Credits to   : Music: "EDITSCRN" from Normality edited multiple 
+                          times for my maps in Walter Confetti's Fastest 
+                          Shovels series and Doomer Boards Project 55, 
+                          Nickelbak - Believe it or not, Yellowcard - 
+                          Breathing; Sounds: icibcxx1 and iciboxx1 from 
+                          Fallout (1997), mancubus pain sound by my brother, 
+                          Redneck Rampage translated to Russian by GSC Game 
+                          World, some from the Last Revenger, dsposact by 
+                          me, DSBAREXP - chasm the rift, some from yt videos
+===========================================================================
+* What is included *
+
+New levels              : 1
+Sounds                  : Yes
+Music                   : Yes
+Graphics                : No
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Plutonia
+Map #                   : MAP01
+Single Player           : Designed for
+Cooperative 2-4 Player  : Yes
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Hardly implemented
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : 5 hours
+Editor(s) used          : GZDB 1.14, Slade 3.1.1.5
+May Not Run With        : The map probably can't be finished in source 
+                          ports without jumping
+Tested With             : Zdoom 2.8.1f, dsda-doom 0.27.5
+
+
+* Copyright / Permissions *
+
+Authors MAY use the contents of this file as a base for modification or
+reuse as long as the authors of the used contents are mentioned in credits 
+of the derived mod.  Permissions have been obtained from original authors 
+for any of their resources modified or included in this file.
+
+You MAY distribute this file, provided you include this text file, with no
+modifications.  You may distribute this file in any electronic format (BBS,
+Diskette, CD, etc) as long as you include this file intact.  I have
+received permission from the original authors of any modified or included
+content in this file to allow further distribution.
+
+* Where to get the file that this text file describes *
+
+The Usual: ftp://archives.gamers.org/pub/idgames/ and mirrors

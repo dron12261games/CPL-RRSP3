@@ -1,0 +1,1 @@
+".\crispy-heretic-6.0.0-win64\crispy-heretic.exe" -iwad Heretic.WAD -file "BROYAL PANCAKES.WAD" -hhever 1.3

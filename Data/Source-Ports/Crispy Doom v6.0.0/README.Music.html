@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>README.Music</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<p>Doom has a memorable and atmospheric soundtrack. Like many games of
+the era, it is MIDI-based. Chocolate Doom includes a number of different
+options for music playback, detailed below.</p>
+<h1 id="native-midi-playback">Native MIDI playback</h1>
+<p>Most modern operating systems have some kind of built-in support for
+MIDI playback; some have very good quality MIDI playback (Mac OS X for
+example). To use this, choose “Native MIDI” in the sound configuration
+dialog in the setup tool.</p>
+<h1 id="timidity">Timidity</h1>
+<p>Timidity is a software-based MIDI synthesizer, and a version of it is
+included in the SDL2_mixer library used by Chocolate Doom. To use
+Timidity for MIDI playback, first download a sound font. An example of a
+good quality sound font is the eawpats font, which can be downloaded
+from the idgames archive as sounds/eawpats.zip:</p>
+<p><a
+href="https://www.doomworld.com/idgames/sounds/eawpats">https://www.doomworld.com/idgames/sounds/eawpats</a></p>
+<p>Having installed a sound font, select “Native MIDI” in the sound
+configuration dialog in the setup tool, and use the “Timidity
+configuration file” widget below to enter the path to the Timidity
+configuration file (normally named timidity.cfg).</p>
+<h1 id="gravis-ultrasound-gus">Gravis Ultrasound (GUS)</h1>
+<p>The Gravis Ultrasound (GUS) was a PC sound card popular in the ’90s,
+notable for having wavetable synthesis that provided MIDI playback that
+was superior to most other cards of the era. Chocolate Doom includes a
+“pseudo-GUS emulation” feature that simulates the GUS (using Timidity,
+under the hood).</p>
+<p>To use this feature you need a copy of the GUS patch files that were
+distributed with the original GUS patches. If you have Doom 3: BFG
+Edition, these patches are included with its version of classic Doom,
+and are automatically detected. Otherwise, they can be downloaded from
+the idgames archive as music/dgguspat.zip:</p>
+<p><a
+href="https://www.doomworld.com/idgames/music/dgguspat">https://www.doomworld.com/idgames/music/dgguspat</a></p>
+<p>Having downloaded the patches, select “GUS (emulated)” in the sound
+configuration dialog in the setup tool, and use the “GUS patch path”
+widget to enter the path to the directory containing the patch
+files.</p>
+<p>For the music not to sound weird, you will almost certainly want to
+load gusgonna.wad (sounds/gusgonna.zip in the idgames archive) when you
+run the game, to work around a bug in vanilla Doom's instrument mappings
+parser:</p>
+<p><a
+href="https://www.doomworld.com/idgames/sounds/gusgonna">https://www.doomworld.com/idgames/sounds/gusgonna</a></p>
+<p>By default a GUS card with 1024KB is simulated; to simulate a 256KB,
+512KB or 768KB card instead, change the gus_ram_kb option in
+chocolate-doom.cfg.</p>
+<h1 id="opl-soundblaster--adlib">OPL (Soundblaster / Adlib)</h1>
+<p>Most people playing Doom in the ’90s had Soundblaster-compatible
+sound cards, which used the Yamaha OPL series of chips for FM-based MIDI
+synthesis. Chocolate Doom includes the ability to emulate these chips
+for a retro experience. OPL emulation is the default MIDI playback, but
+can be selected in the setup tool as “OPL (Adlib/SB)”.</p>
+<p>Most modern computers do not include an OPL chip any more, as CPUs
+are fast enough to do decent software MIDI synthesis. However, no
+software emulator sounds exactly like a real (hardware) OPL chip, and a
+few cards do have real hardware OPL. If you have such a card, here’s how
+to configure Chocolate Doom to use it.</p>
+<h2 id="sound-cards-with-opl-chips">Sound cards with OPL chips</h2>
+<p>If you have an ISA sound card, it almost certainly includes an OPL
+chip. Modern computers don’t have slots for ISA cards though, so you
+must be running a pretty old machine.</p>
+<p>If you have a PCI sound card, you probably don’t have an OPL chip.
+However, there are some exceptions to this. The following cards are
+known to include “legacy” OPL support:</p>
+<ul>
+<li>C-Media CMI8738 (*)</li>
+<li>Forte Media FM801</li>
+<li>Cards based on the Yamaha YMF724 (*)</li>
+</ul>
+<p>Other cards that apparently have OPL support but have not been
+tested:</p>
+<ul>
+<li>S3 SonicVibes</li>
+<li>AZTech PCI 168 (AZT 3328 chipset)</li>
+<li>ESS Solo-1 sound cards (ES1938, ES1946, ES1969 chipset)</li>
+<li>Conexant Riptide Audio/Modem combo cards</li>
+<li>Cards based on the Crystal Semiconductors CS4281</li>
+<li>Cards based on the Avance Logic ALS300</li>
+<li>Cards based on the Avance Logic ALS4000</li>
+</ul>
+<p>If you desperately want hardware OPL music, you may be able to find
+one of these cards for sale cheap on eBay.</p>
+<p>For the cards listed above with (*) next to them, OPL support is
+disabled by default and must be explictly enabled in software. See
+sections below for operating system-specific instructions on how you may
+be able to do this.</p>
+<p>If your machine is not a PC, you don’t have an OPL chip, and you will
+have to use the software OPL.</p>
+<h2 id="operating-system-support">Operating System support</h2>
+<p>If you’re certain that you have a sound card with hardware OPL, you
+may need to take extra steps to configure your operating system to allow
+access to it. To do hardware OPL, Chocolate Doom must access the chip
+directly, which is usually not possible in modern operating systems
+unless you are running as the superuser (root/Administrator).</p>
+<h3 id="microsoft-windows">Microsoft Windows</h3>
+<p>On modern Windows systems it is not possible to directly access the
+OPL chip, even when running as Administrator. Fortunately, it is
+possible to use the “ioperm.sys” driver developed for Cygwin (look for
+iopermsys-0.2.1.tar.bz2):</p>
+<p><a
+href="http://openwince.sourceforge.net/ioperm/">http://openwince.sourceforge.net/ioperm/</a></p>
+<p>It is not necessary to have Cygwin installed to use this. Copy the
+ioperm.sys file into the same directory as the Chocolate Doom executable
+and it should be automatically loaded.</p>
+<p>You can confirm that hardware OPL is working by checking for this
+message in stdout.txt:</p>
+<pre><code>OPL_Init: Using driver &#39;Win32&#39;.</code></pre>
+<p>If you have a C-Media CMI8738, you may need to enable the
+<code>FM_EN</code> flag in Windows Device Manager to access hardware OPL
+output. See <a
+href="http://www.vogons.org/viewtopic.php?f=46&amp;t=36445">this</a>
+thread on vogons.org for some more information.</p>
+<h3 id="linux">Linux</h3>
+<p>If you are using a system based on the Linux kernel, you can access
+the OPL chip directly, but you must be running as root. You can confirm
+that hardware OPL is working, by checking for this message on
+startup:</p>
+<pre><code>OPL_Init: Using driver &#39;Linux&#39;.</code></pre>
+<p>If you are using one of the PCI cards in the list above with a (*)
+next to it, you may need to manually enable FM legacy support. Add the
+following to your /etc/modprobe.conf file to do this:</p>
+<pre><code>options snd-ymfpci fm_port=0x388
+options snd-cmipci fm_port=0x388</code></pre>
+<h3 id="openbsdnetbsd">OpenBSD/NetBSD</h3>
+<p>You must be running as root to access the hardware OPL directly. You
+can confirm that hardware OPL is working by checking for this message on
+startup:</p>
+<pre><code>OPL_Init: Using driver &#39;OpenBSD&#39;.</code></pre>
+<p>There is no native OPL backend for FreeBSD yet. Sorry!</p>
+<h1 id="other-options">Other options</h1>
+<p>If you have some other favorite MIDI playback option that isn’t
+listed above, you can set a hook to invoke an external command for MIDI
+playback using the ‘snd_musiccmd’ configuration file option. For
+example, set:</p>
+<pre><code>snd_musiccmd    &quot;aplaymidi -p 128:0&quot;</code></pre>
+<p>in your chocolate-doom.cfg file.</p>
+</body>
+</html>

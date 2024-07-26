@@ -1,0 +1,93 @@
+===========================================================================
+Advanced engine needed  : GZDoom
+Primary purpose         : Single + coop play
+===========================================================================
+Title                   : Your Personal Elevator To Hell
+Filename                : YOUR PERSONAL ELEVATOR RO HELL.WAD
+Release date            : 10 May 2024
+Author                  : RastaManGames
+Email Address           : nauseawithbeending@gmail.com
+Other Files By Author   : "Siberian Settlement", "Urban Crusade", "Another
+                          Doomed City District".
+
+Description             : [EN]
+                          Looks like you were forced to use this elevator. It
+                          is so slow! At least, the ride itself gonna be very
+                          chill and relaxing... Right?
+                          
+                          Hell nah, dawg! Prepare yourself for the extreme
+                          acts of violence in a way to save yourself from the
+                          raging Hell pawns.
+                          
+                          Q: "If this elevator goes to Hell, why does it
+                          moving up?"
+                          A: "Because Hell is on Earth already!"
+                          
+                          [RU]
+                          Похоже, вас заставили пользоваться этим лифтом. 
+                          Он такой медленный! По крайней мере, сама поездка 
+                          будет очень спокойной и расслабляющей... Верно?
+
+                          Ни черта подобного, чувак! Приготовься к 
+                          экстремальным актам насилия, чтобы спастись от 
+                          разъяренных пешек Ада.
+
+                          В: «Если этот лифт едет в Ад, почему он движется 
+                          вверх?»
+                          О: «Потому что Ад уже на Земле!»
+
+Additional Credits to   : "Doom Heaven" server in "Discord" for initial poke
+                          that led to creation of this level.
+===========================================================================
+* What is included *
+
+New levels              : 1
+Sounds                  : Yes
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : 1
+Single Player           : Designed for
+Cooperative 2-4 Player  : Player starts only
+Deathmatch 2-4 Player   : Player starts only
+Other game styles       : None
+Difficulty Settings     : Yes
+
+
+* Construction *
+
+Base                    : New from scratch.
+Build Time              : 4 hours
+Editor(s) used          : "Ultimate Doom Builder", "Slade".
+May Not Run With        : 100% not gonna work in semi-vanilla source-ports
+                          like "Woof!" and "DSDA-Doom",
+Tested With             : "GZDoom"/"QZDoom"/"LZDoom" just works. "VKDoom"
+                          started to crash in the later snapshots of the map,
+                          sadly.
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons Attribution-NonCommercial
+4.0 International License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by-nc/4.0/
+
+You are free to copy and redistribute the material in any medium or format;
+and remix, transform, and build upon the material. If you do so, you must
+give appropriate credit, provide a link to the license, and indicate if
+changes were made. You may do so in any reasonable manner, but not in any way
+that suggests the licensor endorses you or your use. You may not use the
+material for commercial purposes.
+
+* Where to get the file that this text file describes *
+
+The Usual: ftp://archives.gamers.org/pub/idgames/ and mirrors
+Web sites: Dron12261's server in "Discord" dedicated to speedmapping.

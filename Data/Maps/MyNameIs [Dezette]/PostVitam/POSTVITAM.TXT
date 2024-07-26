@@ -1,0 +1,91 @@
+===========================================================================
+Advanced engine needed  : GZDoom/VKDoom/LZDoom
+Primary purpose         : Single play
+===========================================================================
+Title                   : PostVitam
+Filename                : POSTVITAM.PK3
+Release date            : 14 July 2024
+Author                  : MyNameIs
+Email Address           : Cornaety@proton.me
+Other Files By Author   : Toward the hell, Autopsy, Pizza quest, freakmap/
+                          speedmaps events participation
+Misc. Author Info       : I like to sleep
+
+Description             : [EN]
+                          After 30 years of sweat and tears you've finally 
+                          made it.
+                          
+                          You own your own country house. No more cities, 
+                          no more noise. You're a master of your own destiny.
+                          Enjoy this moment.
+
+                          Check postvitam options if the map is laggy.
+                          There are some settings that hopefully could help.
+                          
+                          [RU]
+                          После 30 лет пота и слез вы наконец-то добились 
+                          своего.
+
+                          У вас есть собственный загородный дом. Больше 
+                          никаких городов, никакого шума. Вы хозяин своей 
+                          судьбы. Наслаждайтесь этим моментом.
+
+                          Проверьте настройки PostVitam, если карта лагает.
+                          Есть несколько настроек, которые, надеюсь, могут 
+                          помочь.
+
+Additional Credits to   : Id Software, Realm667, Bleed 
+                          (http://remusprites.carbonmade.com),
+                          Nine Inch Nails, Сектор газа
+===========================================================================
+* What is included *
+
+New levels              : 1
+Sounds                  : Yes
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : New Monsters and Weapons
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Yes
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : 10 hours (not counting resources assembly)
+Editor(s) used          : UDB, SLADE, Photoshop, Krita, Blender
+Known Bugs              : None
+May Not Run With        : Super old versions of GZDoom/LZDOOM
+Tested With             : GZDoom 4.10, 4.7.0; LZDOOM 3.88b; VKDOOM (i 
+                          can't check its version since it shows up as 
+                          "unknown version". 14/07/24 should work.)
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons Attribution 4.0
+International License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by/4.0/
+
+You are free to copy and redistribute the material in any medium or format;
+and remix, transform, and build upon the material for any purpose, even
+commercially. If you do so, you must give appropriate credit, provide a link
+to the license, and indicate if changes were made. You may do so in any
+reasonable manner, but not in any way that suggests the licensor endorses you
+or your use.
+
+* Where to get the file that this text file describes *
+
+The Usual: ftp://archives.gamers.org/pub/idgames/ and mirrors

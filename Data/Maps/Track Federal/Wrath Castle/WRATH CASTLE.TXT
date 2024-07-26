@@ -1,0 +1,118 @@
+===========================================================================
+Advanced engine needed  : MBF
+Primary purpose         : Single play
+===========================================================================
+Title                   : Wrath Castle
+Filename                : WRATH CASTLE.WAD
+Release date            : 27 June 2024
+Author                  : Track Federal
+
+Description             : [EN]
+                          The map is using Minicharge mod by Tango (it's 
+                          already in the wad files). Map inspired by the 
+                          second episode of Perdition's Gate.
+
+                          A brave warrior travels to the Castle of Wrath, 
+                          an outpost of the Ancient World nestled in the 
+                          middle of overgrown cliffs. Here, thousands of 
+                          years ago, the Ancients and humans fought side 
+                          by side against the first demon invasions. Today 
+                          the hero will have to repeat their feat. May the 
+                          force be with you, warrior!
+
+                          Today's gimmick is exploration! There's a little 
+                          bit of variation in the routing here, but you can 
+                          go through the level in different ways, all rooms 
+                          except the arenas have multiple entrances.
+
+                          Plus the map uses the Minicharge mod as a resource, 
+                          making gameplay faster than vanilla doom.
+
+                          While playing through SIGIL II, I noticed some 
+                          similarities between E6M5 and the maps from 
+                          Perdition's Gate, especially in the music. 
+                          Maybe I'm the only one who sees this, but 
+                          nevertheless I made it inspired by the Jimmy's midi.
+                          
+                          [RU]
+                          Карта использует мод Minicharge от Tango (он уже 
+                          есть в файлах wad). Карта вдохновлена вторым 
+                          эпизодом Perdition's Gate.
+
+                          Отважный воин отправляется в Замок Гнева - аванпост 
+                          Древнего мира, расположенный среди заросших скал. 
+                          Здесь тысячи лет назад Древние и люди бок о бок 
+                          сражались с первыми вторжениями демонов. Сегодня 
+                          герою предстоит повторить их подвиг. Да пребудет с 
+                          тобой сила, воин!
+
+                          Сегодняшний гиммик - исследование! Маршрут здесь 
+                          немного вариативный, но вы можете пройти уровень 
+                          разными способами, все комнаты, кроме арен, имеют 
+                          несколько входов.
+
+                          Кроме того, карта использует мод Minicharge в 
+                          качестве ресурса, что делает геймплей быстрее, 
+                          чем в ванильном Doom.
+
+                          Проходя SIGIL II, я заметил некоторые сходства 
+                          между E6M5 и картами из Perdition's Gate, особенно 
+                          в музыке. Может быть, я единственный, кто видит это, 
+                          но, тем не менее, я сделал ее, вдохновившись миди 
+                          Jimmy.
+
+                          OST: Title screen: "PG Title" by Tom Mustaine from 
+                               Perdition's Gate
+                               Map: "Hexaphobia" by James Paddock (Jimmy) 
+                               from SIGIL II
+                               Intermission screen: Untitled MIDI from MAP 30 
+                               of Perdition's Gate
+
+Additional Credits to   : Minicharge, Ultimate Doom, Perdition's Gate, 
+                          Mapgame, 32in24tex, Deathless, Sigil 2
+===========================================================================
+* What is included *
+
+New levels              : 1
+Sounds                  : Yes
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : Yes
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Not implemented
+
+
+* Construction *
+
+Base                    : New from scratch
+May Not Run With        : Unknown
+Tested With             : DSDA 0.27.5
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons Attribution 4.0
+International License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by/4.0/
+
+You are free to copy and redistribute the material in any medium or format;
+and remix, transform, and build upon the material for any purpose, even
+commercially. If you do so, you must give appropriate credit, provide a link
+to the license, and indicate if changes were made. You may do so in any
+reasonable manner, but not in any way that suggests the licensor endorses you
+or your use.
+
+* Where to get the file that this text file describes *
+
+The Usual: ftp://archives.gamers.org/pub/idgames/ and mirrors

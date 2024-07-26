@@ -1,0 +1,66 @@
+===========================================================================
+Advanced engine needed  : Eternity Engine 
+Primary purpose         : Single play
+===========================================================================
+Title                   : Eternal Heresy
+Release date            : 27 April 2024
+Author                  : George Nash
+Email Address           : qwertyone17@gmail.com
+
+Description             : [EN]
+                          Someday the Eternity UDMF (Heretic) configuration 
+                          will be added to Ultimate Doom Builder...
+                          
+                          [RU]
+                          Однажды в один прекрасный день конфигурация 
+                          Eternity UDMF (Heretic) будет добавлена в 
+                          Ultimate Doom Builder...
+
+===========================================================================
+* What is included *
+
+New levels              : 1
+Sounds                  : No
+Music                   : Yes
+Graphics                : No
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Heretic
+Map #                   : E1M1
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Not implemented
+
+
+* Construction *
+
+Build Time              : 2,5 hours
+Tested With             : Eternity Engine 4.02.00
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International License. To view a
+copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/
+
+You are free to copy and redistribute the material in any medium or format;
+and remix, transform, and build upon the material. If you do so, you must
+give appropriate credit, provide a link to the license, and indicate if
+changes were made. You may do so in any reasonable manner, but not in any way
+that suggests the licensor endorses you or your use. You may not use the
+material for commercial purposes. If you remix, transform, or build upon the
+material, you must distribute your contributions under the same license as
+the original.
+
+* Where to get the file that this text file describes *
+
+The Usual: ftp://archives.gamers.org/pub/idgames/ and mirrors

@@ -1,0 +1,261 @@
+== Command line parameters ==
+
+This is a full list of the supported command line parameters. A number of
+additional parameters are supported in addition to those present in the DOS
+version.
+
+=== General options ===
+
+  -config <file>        Load main configuration from the specified file,
+                        instead of the default.
+
+  -devparm              Developer mode.
+
+  -file <files>         Load the specified PWAD files.
+
+  -help                 Print command line help.
+
+  -iwad <file>          Specify an IWAD file to use.
+
+  -nomusic              Disable music.
+
+  -nosfx                Disable sound effects.
+
+  -nosound              Disable all sound output.
+
+  -quiet                Print with minimum verbosity.
+
+  -save <directory>     Specify a path from which to load and save games. If
+                        the directory does not exist then it will
+                        automatically be created.
+
+  -shotdir <directory>  Specify a path to save screenshots. If the directory
+                        does not exist then it will automatically be created.
+
+  -verbose              Print debugging info with maximum verbosity.
+
+  -version              Print the program version and exit.
+
+=== Game start options ===
+
+  -beta               Press beta emulation mode (complevel mbf only).
+
+  -coop_spawns        Start single player game with items spawns as in
+                      cooperative netgame.
+
+  -dog                Enables a single helper dog.
+
+  -dogs <n>           Overrides the current number of helper dogs, setting it
+                      to n.
+
+  -episode <n>        Start playing on episode n (1-99)
+
+  -fast               Monsters move faster.
+
+  -loadgame <s>       Load the game in slot s.
+
+  -nomonsters         Disable monsters.
+
+  -pistolstart        Enables automatic pistol starts on each level.
+
+  -respawn            Monsters respawn after being killed.
+
+  -skill <skill>      Set the game skill, 1-5 (1: easiest, 5: hardest). A
+                      skill of 0 disables all monsters only in -complevel
+                      vanilla.
+
+  -speed <n>          Increase or decrease game speed, percentage of normal.
+
+  -turbo <x>          Turbo mode. The player's speed is multiplied by x%. If
+                      unspecified, x defaults to 200. Values are rounded up to
+                      10 and down to 400.
+
+  -warp <x> <y>|<xy>  Start a game immediately, warping to ExMy (Doom 1) or
+                      MAPxy (Doom 2).
+
+=== Display options ===
+
+  -1             Don't scale up the screen. Implies -window.
+
+  -2             Double up the screen to 2x its normal size. Implies -window.
+
+  -3             Triple up the screen to 3x its normal size. Implies -window.
+
+  -fullscreen    Run in fullscreen mode.
+
+  -noblit        Disable blitting the screen.
+
+  -nodraw        Disable rendering the screen entirely.
+
+  -nograbmouse   Don't grab the mouse when running in windowed mode.
+
+  -nouncapped    Disables uncapped framerate.
+
+  -uncapped      Enables uncapped framerate.
+
+  -window        Run in a window.
+
+=== Networking options ===
+
+  -altdeath           Start a deathmatch 2.0 game. Weapons do not stay in
+                      place and all items respawn after 30 seconds.
+
+  -autojoin           Automatically search the local LAN for a multiplayer
+                      server and join it.
+
+  -avg                Austin Virtual Gaming: end levels after 20 minutes.
+
+  -connect <address>  Connect to a multiplayer server running on the given
+                      address.
+
+  -deathmatch         Start a deathmatch game.
+
+  -dedicated          Start a dedicated server, routing packets but not
+                      participating in the game itself.
+
+  -dm3                Start a deathmatch 3.0 game. Weapons stay in place and
+                      all items respawn after 30 seconds.
+
+  -dup <n>            Reduce the resolution of the game by a factor of n,
+                      reducing the amount of network bandwidth needed.
+
+  -extratics <n>      Send n extra tics in every packet as insurance against
+                      dropped packets.
+
+  -frags <n>          The -frags option allows you to deathmatch until one
+                      player achieves <n> frags, at which time the level ends
+                      and scores are displayed. If <n> is not specified the
+                      match is to 10 frags.
+
+  -left               Run as the left screen in three screen mode.
+
+  -nodes <n>          Autostart the netgame when n nodes (clients) have joined
+                      the server.
+
+  -oldsync            Use original network client sync code rather than the
+                      improved sync code.
+
+  -port <n>           Use the specified UDP port for communications, instead
+                      of the default (2342).
+
+  -privateserver      When running a server, don't register with the global
+                      master server. Implies -server.
+
+  -right              Run as the right screen in three screen mode.
+
+  -server             Start a multiplayer server, listening for connections.
+
+  -servername <name>  When starting a network server, specify a name for the
+                      server.
+
+  -solo-net           Start the game playing as though in a netgame with a
+                      single player. This can also be used to play back single
+                      player netgame demos.
+
+  -timer <n>          For multiplayer games: exit each level after n minutes.
+
+=== Dehacked and WAD merging ===
+
+  -bex <files>             Alias for -deh.
+
+  -bexout <filename>       Alias for -dehout.
+
+  -blockmap                Forces a (re-)building of the BLOCKMAP lumps for
+                           loaded maps.
+
+  -bsp                     Forces rebuilding of nodes.
+
+  -deh <files>             Load the given dehacked/bex patch(es).
+
+  -dehout <filename>       Enables verbose dehacked parser logging.
+
+  -dumplumps <wad>         Allow writing predefined lumps out as a WAD.
+
+  -dumptables <wad>        Allow writing generated lumps out as a WAD.
+
+  -force_old_zdoom_nodes   Forces extended (non-GL) ZDoom nodes.
+
+  -noautoload              Disable auto-loading of .wad and .deh files.
+
+  -nocheats                Ignore cheats in dehacked files.
+
+  -nodeh                   Avoid loading DEHACKED lumps embedded into WAD
+                           files.
+
+  -nomapinfo               Disable UMAPINFO loading.
+
+  -nooptions               Avoid loading OPTIONS lumps embedded into WAD
+                           files.
+
+  -tranmap                 Forces a (re-)building of the translucency and
+                           color translation tables.
+
+=== Demo options ===
+
+  -fastdemo <demo>               Plays the given demo as fast as possible.
+
+  -levelstat                     Write level statistics upon exit to
+                                 levelstat.txt
+
+  -longtics                      Record a high resolution "Doom 1.91" demo.
+
+  -longtics                      Play with low turning resolution to emulate
+                                 demo recording.
+
+  -maxdemo <size>                Sets the initial size of the demo recording
+                                 buffer (KiB). This is no longer a hard limit,
+                                 and the buffer will expand if the given limit
+                                 is exceeded.
+
+  -playdemo <demo>               Play back the demo named demo.lmp.
+
+  -record <demo>                 Record a demo named demo.lmp.
+
+  -recordfrom <s> <demo>         Record a demo, loading from the given save
+                                 slot. Equivalent to -loadgame <s> -record
+                                 <demo>.
+
+  -recordfromto <demo1> <demo2>  Allows continuing <demo1> after it ends or
+                                 when the user presses the join demo key, the
+                                 result getting saved as <demo2>. Equivalent
+                                 to -playdemo <demo1> -record <demo2>.
+
+  -skipsec <min:sec>             Skip min:sec time during viewing of the demo.
+                                 "-warp <x> -skipsec <min:sec>" will skip
+                                 min:sec time on level x.
+
+  -strict                        Sets compatibility and cosmetic settings
+                                 according to DSDA rules.
+
+  -timedemo <demo>               Play back the demo named demo.lmp,
+                                 determining the framerate of the screen.
+
+=== Compatibility ===
+
+  -complevel <version>    Emulate a specific version of Doom/Boom/MBF. Valid
+                          values are "vanilla", "boom", "mbf", "mbf21".
+
+  -gameversion <version>  Emulate a specific version of Doom. Valid values are
+                          "1.9", "ultimate", "final", "chex". Implies
+                          -complevel vanilla.
+
+  -setmem <version>       Specify DOS version to emulate for NULL pointer
+                          dereference emulation. Supported versions are:
+                          dos622, dos71, dosbox. The default is to emulate DOS
+                          7.1 (Windows 98).
+
+  -spechit <n>            Use the specified magic value when emulating spechit
+                          overruns.
+
+  -statdump <filename>    Dump statistics information to the specified file on
+                          the levels that were played. The output from this
+                          option matches the output from statdump.exe (see
+                          ctrlapi.zip in the /idgames archive).
+
+=== Obscure and less-used options ===
+
+  -cdrom   Save configuration data and savegames in c:\doomdata, allowing play
+           from CD. (windows only)
+
+  -nogui   Don't pop up a GUI dialog box to show the error message.
+

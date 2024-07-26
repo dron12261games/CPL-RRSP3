@@ -1,0 +1,1809 @@
+{
+    "Language": "en",
+    "Mappers": [
+        {
+            "altName": "a.k.a Andrey Skochko",
+            "avatarPath": "/Data/Maps/Dron12261/avatar.jpg",
+            "id": 1,
+            "mapperInfo": "DRON12261_INFO",
+            "maps": [
+                1,
+                2,
+                9,
+                21,
+                47
+            ],
+            "name": "Dron12261",
+            "status": "PROJECT_LEADER"
+        },
+        {
+            "altName": "a.k.a Andrei Ivashentsev",
+            "avatarPath": "/Data/Maps/Doom Wads/avatar.jpg",
+            "id": 2,
+            "mapperInfo": "DOOMWADS_INFO",
+            "maps": [
+                3,
+                11,
+                14,
+                18,
+                30,
+                49
+            ],
+            "name": "Doom Wads",
+            "status": "PROJECT_ASSIST"
+        },
+        {
+            "altName": "a.k.a Sergey Burow",
+            "avatarPath": "/Data/Maps/SilverMiner/avatar.png",
+            "id": 3,
+            "mapperInfo": "SILVERMINER_INFO",
+            "maps": [
+                4,
+                37
+            ],
+            "name": "SilverMiner",
+            "status": ""
+        },
+        {
+            "altName": "",
+            "avatarPath": "/Data/Maps/StorkGreen/avatar.png",
+            "id": 4,
+            "mapperInfo": "STORKGREEN_INFO",
+            "maps": [
+                5,
+                19,
+                27,
+                31,
+                34,
+                39,
+                60
+            ],
+            "name": "StorkGreen",
+            "status": ""
+        },
+        {
+            "altName": "",
+            "avatarPath": "/Data/Maps/George Nash/avatar.jpg",
+            "id": 5,
+            "mapperInfo": "GEORGENASH_INFO",
+            "maps": [
+                6,
+                33
+            ],
+            "name": "George Nash",
+            "status": ""
+        },
+        {
+            "altName": "",
+            "avatarPath": "/Data/Maps/GranitMaster/avatar.jpg",
+            "id": 6,
+            "mapperInfo": "GRANITMASTER_INFO",
+            "maps": [
+                7,
+                17,
+                25
+            ],
+            "name": "GranitMaster",
+            "status": ""
+        },
+        {
+            "altName": "",
+            "avatarPath": "/Data/Maps/Track Federal/avatar.png",
+            "id": 7,
+            "mapperInfo": "TRACKFEDERAL_INFO",
+            "maps": [
+                8,
+                41,
+                56
+            ],
+            "name": "Track Federal",
+            "status": ""
+        },
+        {
+            "altName": "",
+            "avatarPath": "/Data/Maps/Ear1h/avatar.jpg",
+            "id": 8,
+            "mapperInfo": "EAR1H_INFO",
+            "maps": [
+                10,
+                15,
+                20,
+                35,
+                48,
+                58,
+                59
+            ],
+            "name": "Ear1h",
+            "status": ""
+        },
+        {
+            "altName": "",
+            "avatarPath": "/Data/Maps/Winnkar/avatar.jpg",
+            "id": 9,
+            "mapperInfo": "WINNKAR_INFO",
+            "maps": [
+                12,
+                51,
+                55
+            ],
+            "name": "Winnkar",
+            "status": ""
+        },
+        {
+            "altName": "a.k.a Niko Kozlowitz",
+            "avatarPath": "/Data/Maps/Astar/avatar.png",
+            "id": 10,
+            "mapperInfo": "ASTAR_INFO",
+            "maps": [
+                13
+            ],
+            "name": "Astar",
+            "status": ""
+        },
+        {
+            "altName": "",
+            "avatarPath": "/Data/Maps/Kras/avatar.png",
+            "id": 11,
+            "mapperInfo": "KRAS_INFO",
+            "maps": [
+                16,
+                22,
+                32,
+                36,
+                57
+            ],
+            "name": "Kras",
+            "status": ""
+        },
+        {
+            "altName": "a.k.a RMG",
+            "avatarPath": "/Data/Maps/RastaManGames/avatar.jpg",
+            "id": 12,
+            "mapperInfo": "RASTAMANGAMES_INFO",
+            "maps": [
+                23
+            ],
+            "name": "RastaManGames",
+            "status": ""
+        },
+        {
+            "altName": "a.k.a Slavius [B0S]",
+            "avatarPath": "/Data/Maps/Shiroi Akuma [Slavius]/avatar.png",
+            "id": 13,
+            "mapperInfo": "SHIRIOAKUMA_INFO",
+            "maps": [
+                24,
+                29,
+                38,
+                42
+            ],
+            "name": "Shiroi Akuma",
+            "status": "GREAT_TESTER"
+        },
+        {
+            "altName": "a.k.a ChaingunnerX [B0S]",
+            "avatarPath": "/Data/Maps/Chainie/avatar.png",
+            "id": 14,
+            "mapperInfo": "CHAINIE_INFO",
+            "maps": [
+                26,
+                54
+            ],
+            "name": "Chainie",
+            "status": ""
+        },
+        {
+            "altName": "a.k.a Domka Hoturg",
+            "avatarPath": "/Data/Maps/VoltareVoltage [Domka Hoturg]/avatar.jpg",
+            "id": 15,
+            "mapperInfo": "VOLTAREVOLTAGE_INFO",
+            "maps": [
+                28
+            ],
+            "name": "Voltare/Voltage",
+            "status": ""
+        },
+        {
+            "altName": "a.k.a Roman Dvorak",
+            "avatarPath": "/Data/Maps/Broy/avatar.png",
+            "id": 16,
+            "mapperInfo": "BROY_INFO",
+            "maps": [
+                40,
+                61
+            ],
+            "name": "Broy",
+            "status": ""
+        },
+        {
+            "altName": "",
+            "avatarPath": "/Data/Maps/DeathWish/avatar.jpg",
+            "id": 17,
+            "mapperInfo": "DEATHWISH_INFO",
+            "maps": [
+                43,
+                64
+            ],
+            "name": "DeathWish",
+            "status": ""
+        },
+        {
+            "altName": "",
+            "avatarPath": "/Data/Maps/Nikolanchik/avatar.jpg",
+            "id": 18,
+            "mapperInfo": "NIKOLANCHIK_INFO",
+            "maps": [
+                44,
+                45
+            ],
+            "name": "Nikolanchik",
+            "status": ""
+        },
+        {
+            "altName": "",
+            "avatarPath": "/Data/Maps/Fishgoggles/avatar.png",
+            "id": 19,
+            "mapperInfo": "FISHGOGGLES_INFO",
+            "maps": [
+                48
+            ],
+            "name": "Fishgoggles",
+            "status": ""
+        },
+        {
+            "altName": "",
+            "avatarPath": "/Data/Maps/Hoveq/avatar.png",
+            "id": 20,
+            "mapperInfo": "HOVEQ_INFO",
+            "maps": [
+                46
+            ],
+            "name": "Hoveq",
+            "status": ""
+        },
+        {
+            "altName": "",
+            "avatarPath": "/Data/Maps/Petyan/avatar.png",
+            "id": 21,
+            "mapperInfo": "PETYAN_INFO",
+            "maps": [
+                50
+            ],
+            "name": "Petyan",
+            "status": ""
+        },
+        {
+            "altName": "",
+            "avatarPath": "/Data/Maps/Async Unicorn/avatar.jpg",
+            "id": 22,
+            "mapperInfo": "ASYNCUNICORN_INFO",
+            "maps": [
+                52
+            ],
+            "name": "Async Unicorn",
+            "status": ""
+        },
+        {
+            "altName": "a.k.a Dezette",
+            "avatarPath": "/Data/Maps/MyNameIs [Dezette]/avatar.png",
+            "id": 23,
+            "mapperInfo": "MYNAMEIS_INFO",
+            "maps": [
+                53
+            ],
+            "name": "MyNameIs",
+            "status": ""
+        },
+        {
+            "altName": "",
+            "avatarPath": "/Data/Maps/Heretic926/avatar.png",
+            "id": 24,
+            "mapperInfo": "HERETIC926_INFO",
+            "maps": [
+                62
+            ],
+            "name": "Heretic926",
+            "status": ""
+        },
+        {
+            "altName": "a.k.a MWG",
+            "avatarPath": "/Data/Maps/Man With A Gun/avatar.png",
+            "id": 25,
+            "mapperInfo": "MANWITHAGUN_INFO",
+            "maps": [
+                63
+            ],
+            "name": "Man With A Gun",
+            "status": ""
+        }
+    ],
+    "Maps": [
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 403,
+            "hasLiteVersion": false,
+            "hours": 10,
+            "id": 1,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/Dron12261/Drowsy Journey/DROWSY JOURNEY.PKE",
+            "name": "Drowsy Journey",
+            "recommendedSourcePort": 9,
+            "screen1Path": "/Data/Maps/Dron12261/Drowsy Journey/screen1.png",
+            "screen2Path": "/Data/Maps/Dron12261/Drowsy Journey/screen2.png",
+            "sourcePorts": [
+                9
+            ],
+            "txtPath": "/Data/Maps/Dron12261/Drowsy Journey/DROWSY JOURNEY.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 9,
+            "hasLiteVersion": false,
+            "hours": 4,
+            "id": 2,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/Dron12261/Quaked in Heat/QUAKED IN HEAT.WAD",
+            "name": "Quaked in Heat",
+            "recommendedSourcePort": 3,
+            "screen1Path": "/Data/Maps/Dron12261/Quaked in Heat/screen1.png",
+            "screen2Path": "/Data/Maps/Dron12261/Quaked in Heat/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                9
+            ],
+            "txtPath": "/Data/Maps/Dron12261/Quaked in Heat/QUAKED IN HEAT.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 9,
+            "hasLiteVersion": false,
+            "hours": 1,
+            "id": 3,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/Doom Wads/Helicopter/HELICOPTER.WAD",
+            "name": "Helicopter",
+            "recommendedSourcePort": 1,
+            "screen1Path": "/Data/Maps/Doom Wads/Helicopter/screen1.png",
+            "screen2Path": "/Data/Maps/Doom Wads/Helicopter/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                9
+            ],
+            "txtPath": "/Data/Maps/Doom Wads/Helicopter/HELICOPTER.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 281,
+            "hasLiteVersion": false,
+            "hours": 4.5,
+            "id": 4,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/SilverMiner/Pesochniy Island/PESOCHNIY ISLAND.WAD",
+            "name": "Pesochniy Island",
+            "recommendedSourcePort": 7,
+            "screen1Path": "/Data/Maps/SilverMiner/Pesochniy Island/screen1.png",
+            "screen2Path": "/Data/Maps/SilverMiner/Pesochniy Island/screen2.png",
+            "sourcePorts": [
+                7,
+                8
+            ],
+            "txtPath": "/Data/Maps/SilverMiner/Pesochniy Island/PESOCHNIY ISLAND.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 21,
+            "hasLiteVersion": false,
+            "hours": 1,
+            "id": 5,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/StorkGreen/Map Collision is Overrated/MAP COLLISION IS OVERRATED.WAD",
+            "name": "Map Collision is Overrated",
+            "recommendedSourcePort": 1,
+            "screen1Path": "/Data/Maps/StorkGreen/Map Collision is Overrated/screen1.png",
+            "screen2Path": "/Data/Maps/StorkGreen/Map Collision is Overrated/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                9
+            ],
+            "txtPath": "/Data/Maps/StorkGreen/Map Collision is Overrated/MAP COLLISION IS OVERRATED.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 403,
+            "hasLiteVersion": false,
+            "hours": 2.5,
+            "id": 6,
+            "iwad": 5,
+            "mapPath": "/Data/Maps/George Nash/Eternal Heresy/ETERNAL HERESY.WAD",
+            "name": "Eternal Heresy",
+            "recommendedSourcePort": 9,
+            "screen1Path": "/Data/Maps/George Nash/Eternal Heresy/screen1.png",
+            "screen2Path": "/Data/Maps/George Nash/Eternal Heresy/screen2.png",
+            "sourcePorts": [
+                9
+            ],
+            "txtPath": "/Data/Maps/George Nash/Eternal Heresy/ETERNAL HERESY.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 228,
+            "hasLiteVersion": false,
+            "hours": 6.5,
+            "id": 7,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/GranitMaster/Mechanarium/MECHANARIUM.WAD",
+            "name": "Mechanarium",
+            "recommendedSourcePort": 8,
+            "screen1Path": "/Data/Maps/GranitMaster/Mechanarium/screen1.png",
+            "screen2Path": "/Data/Maps/GranitMaster/Mechanarium/screen2.png",
+            "sourcePorts": [
+                8
+            ],
+            "txtPath": "/Data/Maps/GranitMaster/Mechanarium/MECHANARIUM.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 2,
+            "hasLiteVersion": false,
+            "hours": 4,
+            "id": 8,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/Track Federal/2005/2005.WAD",
+            "name": "2005",
+            "recommendedSourcePort": 5,
+            "screen1Path": "/Data/Maps/Track Federal/2005/screen1.png",
+            "screen2Path": "/Data/Maps/Track Federal/2005/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                9
+            ],
+            "txtPath": "/Data/Maps/Track Federal/2005/2005.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "/Data/Maps/Dron12261/Tech Gone Mad/TECHMAD_WIDE.WAD",
+            "completed": false,
+            "complevel": 3,
+            "hasLiteVersion": false,
+            "hours": 7,
+            "id": 9,
+            "iwad": 1,
+            "mapPath": "/Data/Maps/Dron12261/Tech Gone Mad/TECHMAD.WAD",
+            "name": "Tech Gone Mad",
+            "recommendedSourcePort": 6,
+            "screen1Path": "/Data/Maps/Dron12261/Tech Gone Mad/screen1.png",
+            "screen2Path": "/Data/Maps/Dron12261/Tech Gone Mad/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                9
+            ],
+            "txtPath": "/Data/Maps/Dron12261/Tech Gone Mad/TECHMAD.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 228,
+            "hasLiteVersion": false,
+            "hours": 9.5,
+            "id": 10,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/Ear1h/Return To Shattered Nazi Dream/RETURN TO SHATTERED NAZI DREAM.PK3",
+            "name": "Return To Shattered Nazi Dream",
+            "recommendedSourcePort": 8,
+            "screen1Path": "/Data/Maps/Ear1h/Return To Shattered Nazi Dream/screen1.png",
+            "screen2Path": "/Data/Maps/Ear1h/Return To Shattered Nazi Dream/screen2.png",
+            "sourcePorts": [
+                8
+            ],
+            "txtPath": "/Data/Maps/Ear1h/Return To Shattered Nazi Dream/RETURN TO SHATTERED NAZI DREAM.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 9,
+            "hasLiteVersion": false,
+            "hours": 9,
+            "id": 11,
+            "iwad": 1,
+            "mapPath": "/Data/Maps/Doom Wads/The Toxicity Of Our City/THE TOXICITY OF OUR CITY.WAD",
+            "name": "The Toxicity Of Our City",
+            "recommendedSourcePort": 1,
+            "screen1Path": "/Data/Maps/Doom Wads/The Toxicity Of Our City/screen1.png",
+            "screen2Path": "/Data/Maps/Doom Wads/The Toxicity Of Our City/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                9
+            ],
+            "txtPath": "/Data/Maps/Doom Wads/The Toxicity Of Our City/THE TOXICITY OF OUR CITY.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 9,
+            "hasLiteVersion": false,
+            "hours": 3,
+            "id": 12,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/Winnkar/An apple a day keeps the doctor away/AN APPLE A DAY KEEPS THE DOCTOR AWAY.WAD",
+            "name": "An apple a day keeps the doctor away",
+            "recommendedSourcePort": 1,
+            "screen1Path": "/Data/Maps/Winnkar/An apple a day keeps the doctor away/screen1.png",
+            "screen2Path": "/Data/Maps/Winnkar/An apple a day keeps the doctor away/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                9
+            ],
+            "txtPath": "/Data/Maps/Winnkar/An apple a day keeps the doctor away/AN APPLE A DAY KEEPS THE DOCTOR AWAY.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 9,
+            "hasLiteVersion": false,
+            "hours": 8,
+            "id": 13,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/Astar/Putrid Fumes/PUTRID FUMES.WAD",
+            "name": "Putrid Fumes",
+            "recommendedSourcePort": 1,
+            "screen1Path": "/Data/Maps/Astar/Putrid Fumes/screen1.png",
+            "screen2Path": "/Data/Maps/Astar/Putrid Fumes/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                9
+            ],
+            "txtPath": "/Data/Maps/Astar/Putrid Fumes/PUTRID FUMES.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 9,
+            "hasLiteVersion": false,
+            "hours": 5,
+            "id": 14,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/Doom Wads/Infected Mushroom/INFECTED MUSHROOM.WAD",
+            "name": "Infected Mushroom",
+            "recommendedSourcePort": 1,
+            "screen1Path": "/Data/Maps/Doom Wads/Infected Mushroom/screen1.png",
+            "screen2Path": "/Data/Maps/Doom Wads/Infected Mushroom/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                9
+            ],
+            "txtPath": "/Data/Maps/Doom Wads/Infected Mushroom/INFECTED MUSHROOM.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 9,
+            "hasLiteVersion": false,
+            "hours": 10,
+            "id": 15,
+            "iwad": 4,
+            "mapPath": "/Data/Maps/Ear1h/Another UAC-Like Base/ANOTHER UAC-LIKE BASE.WAD",
+            "name": "Another UAC-Like Base",
+            "recommendedSourcePort": 4,
+            "screen1Path": "/Data/Maps/Ear1h/Another UAC-Like Base/screen1.png",
+            "screen2Path": "/Data/Maps/Ear1h/Another UAC-Like Base/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                9
+            ],
+            "txtPath": "/Data/Maps/Ear1h/Another UAC-Like Base/ANOTHER UAC-LIKE BASE.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 2,
+            "hasLiteVersion": false,
+            "hours": 10,
+            "id": 16,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/Kras/Hell city/HELL CITY.WAD",
+            "name": "Hell city",
+            "recommendedSourcePort": 4,
+            "screen1Path": "/Data/Maps/Kras/Hell city/screen1.png",
+            "screen2Path": "/Data/Maps/Kras/Hell city/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                9
+            ],
+            "txtPath": "/Data/Maps/Kras/Hell city/HELL CITY.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 228,
+            "hasLiteVersion": false,
+            "hours": 8,
+            "id": 17,
+            "iwad": 5,
+            "mapPath": "/Data/Maps/GranitMaster/DarkDungeon/DARKDUNGEON.WAD",
+            "name": "DarkDungeon",
+            "recommendedSourcePort": 8,
+            "screen1Path": "/Data/Maps/GranitMaster/DarkDungeon/screen1.png",
+            "screen2Path": "/Data/Maps/GranitMaster/DarkDungeon/screen2.png",
+            "sourcePorts": [
+                8
+            ],
+            "txtPath": "/Data/Maps/GranitMaster/DarkDungeon/DARKDUNGEON.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 9,
+            "hasLiteVersion": false,
+            "hours": 8,
+            "id": 18,
+            "iwad": 1,
+            "mapPath": "/Data/Maps/Doom Wads/Because I Got High/BECAUSE I GOT HIGH.WAD",
+            "name": "Because I Got High",
+            "recommendedSourcePort": 1,
+            "screen1Path": "/Data/Maps/Doom Wads/Because I Got High/screen1.png",
+            "screen2Path": "/Data/Maps/Doom Wads/Because I Got High/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                9
+            ],
+            "txtPath": "/Data/Maps/Doom Wads/Because I Got High/BECAUSE I GOT HIGH.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 21,
+            "hasLiteVersion": false,
+            "hours": 4.5,
+            "id": 19,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/StorkGreen/Caverns of Blood never stand a visitor/CAVERNS OF BLOOD NEVER STAND A VISITOR.WAD",
+            "name": "Caverns of Blood never stand a visitor",
+            "recommendedSourcePort": 1,
+            "screen1Path": "/Data/Maps/StorkGreen/Caverns of Blood never stand a visitor/screen1.png",
+            "screen2Path": "/Data/Maps/StorkGreen/Caverns of Blood never stand a visitor/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                9
+            ],
+            "txtPath": "/Data/Maps/StorkGreen/Caverns of Blood never stand a visitor/CAVERNS OF BLOOD NEVER STAND A VISITOR.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 2,
+            "hasLiteVersion": false,
+            "hours": 7,
+            "id": 20,
+            "iwad": 1,
+            "mapPath": "/Data/Maps/Ear1h/Vengeanсe/VENGEANCE.WAD",
+            "name": "Vengeanсe",
+            "recommendedSourcePort": 5,
+            "screen1Path": "/Data/Maps/Ear1h/Vengeanсe/screen1.png",
+            "screen2Path": "/Data/Maps/Ear1h/Vengeanсe/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                9
+            ],
+            "txtPath": "/Data/Maps/Ear1h/Vengeanсe/VENGEANCE.TXT",
+            "warpMap": "4 1"
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 9,
+            "hasLiteVersion": false,
+            "hours": 10,
+            "id": 21,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/Dron12261/ZX-27 Outpost/ZX-27 OUTPOST.WAD",
+            "name": "ZX-27 Outpost",
+            "recommendedSourcePort": 3,
+            "screen1Path": "/Data/Maps/Dron12261/ZX-27 Outpost/screen1.png",
+            "screen2Path": "/Data/Maps/Dron12261/ZX-27 Outpost/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                9
+            ],
+            "txtPath": "/Data/Maps/Dron12261/ZX-27 Outpost/ZX-27 OUTPOST.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 9,
+            "hasLiteVersion": false,
+            "hours": 3,
+            "id": 22,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/Kras/A shard of memory/A SHARD OF MEMORY.WAD",
+            "name": "A shard of memory",
+            "recommendedSourcePort": 4,
+            "screen1Path": "/Data/Maps/Kras/A shard of memory/screen1.png",
+            "screen2Path": "/Data/Maps/Kras/A shard of memory/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                9
+            ],
+            "txtPath": "/Data/Maps/Kras/A shard of memory/A SHARD OF MEMORY.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 228,
+            "hasLiteVersion": false,
+            "hours": 4,
+            "id": 23,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/RastaManGames/Your Personal Elevator To Hell/YOUR PERSONAL ELEVATOR TO HELL.WAD",
+            "name": "Your Personal Elevator To Hell",
+            "recommendedSourcePort": 8,
+            "screen1Path": "/Data/Maps/RastaManGames/Your Personal Elevator To Hell/screen1.png",
+            "screen2Path": "/Data/Maps/RastaManGames/Your Personal Elevator To Hell/screen2.png",
+            "sourcePorts": [
+                8
+            ],
+            "txtPath": "/Data/Maps/RastaManGames/Your Personal Elevator To Hell/YOUR PERSONAL ELEVATOR TO HELL.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 228,
+            "hasLiteVersion": false,
+            "hours": 10,
+            "id": 24,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/Shiroi Akuma [Slavius]/Colosseum of the Fuckers/COLOSSEUM OF THE FUCKERS.WAD",
+            "name": "Colosseum of the Fuckers",
+            "recommendedSourcePort": 8,
+            "screen1Path": "/Data/Maps/Shiroi Akuma [Slavius]/Colosseum of the Fuckers/screen1.png",
+            "screen2Path": "/Data/Maps/Shiroi Akuma [Slavius]/Colosseum of the Fuckers/screen2.png",
+            "sourcePorts": [
+                8
+            ],
+            "txtPath": "/Data/Maps/Shiroi Akuma [Slavius]/Colosseum of the Fuckers/COLOSSEUM OF THE FUCKERS.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 228,
+            "hasLiteVersion": false,
+            "hours": 8.5,
+            "id": 25,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/GranitMaster/U.N.I.T/U.N.I.T.WAD",
+            "name": "U.N.I.T",
+            "recommendedSourcePort": 8,
+            "screen1Path": "/Data/Maps/GranitMaster/U.N.I.T/screen1.png",
+            "screen2Path": "/Data/Maps/GranitMaster/U.N.I.T/screen2.png",
+            "sourcePorts": [
+                8
+            ],
+            "txtPath": "/Data/Maps/GranitMaster/U.N.I.T/U.N.I.T.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 2,
+            "hasLiteVersion": false,
+            "hours": 6,
+            "id": 26,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/Chainie/Delusions/DELUSION.WAD",
+            "name": "Delusions",
+            "recommendedSourcePort": 6,
+            "screen1Path": "/Data/Maps/Chainie/Delusions/screen1.png",
+            "screen2Path": "/Data/Maps/Chainie/Delusions/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                9
+            ],
+            "txtPath": "/Data/Maps/Chainie/Delusions/DELUSION.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 21,
+            "hasLiteVersion": false,
+            "hours": 1.5,
+            "id": 27,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/StorkGreen/Unconditional Love is non-existened/UNCONDITIONAL LOVE IS NON-EXISTENED.WAD",
+            "name": "Unconditional Love is non-existened",
+            "recommendedSourcePort": 1,
+            "screen1Path": "/Data/Maps/StorkGreen/Unconditional Love is non-existened/screen1.png",
+            "screen2Path": "/Data/Maps/StorkGreen/Unconditional Love is non-existened/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                9
+            ],
+            "txtPath": "/Data/Maps/StorkGreen/Unconditional Love is non-existened/UNCONDITIONAL LOVE IS NON-EXISTENED.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 9,
+            "hasLiteVersion": false,
+            "hours": 8.5,
+            "id": 28,
+            "iwad": 1,
+            "mapPath": "/Data/Maps/VoltareVoltage [Domka Hoturg]/What the formula/WHAT THE FORMULA.WAD",
+            "name": "What the formula?",
+            "recommendedSourcePort": 2,
+            "screen1Path": "/Data/Maps/VoltareVoltage [Domka Hoturg]/What the formula/screen1.png",
+            "screen2Path": "/Data/Maps/VoltareVoltage [Domka Hoturg]/What the formula/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                9
+            ],
+            "txtPath": "/Data/Maps/VoltareVoltage [Domka Hoturg]/What the formula/WHAT THE FORMULA.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "/Data/Maps/Shiroi Akuma [Slavius]/Snowman/SNOWMAN_L.PK3",
+            "completed": false,
+            "complevel": 228,
+            "hasLiteVersion": true,
+            "hours": 10,
+            "id": 29,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/Shiroi Akuma [Slavius]/Snowman/SNOWMAN.PK3",
+            "name": "Snowman",
+            "recommendedSourcePort": 8,
+            "screen1Path": "/Data/Maps/Shiroi Akuma [Slavius]/Snowman/screen1.png",
+            "screen2Path": "/Data/Maps/Shiroi Akuma [Slavius]/Snowman/screen2.png",
+            "sourcePorts": [
+                8
+            ],
+            "txtPath": "/Data/Maps/Shiroi Akuma [Slavius]/Snowman/SNOWMAN.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 9,
+            "hasLiteVersion": false,
+            "hours": 7,
+            "id": 30,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/Doom Wads/DOS/DOS.WAD",
+            "name": "DOS",
+            "recommendedSourcePort": 1,
+            "screen1Path": "/Data/Maps/Doom Wads/DOS/screen1.png",
+            "screen2Path": "/Data/Maps/Doom Wads/DOS/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                9
+            ],
+            "txtPath": "/Data/Maps/Doom Wads/DOS/DOS.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 2,
+            "hasLiteVersion": false,
+            "hours": 1.5,
+            "id": 31,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/StorkGreen/Vanilla ice cream is cool, yet pistachio is gold/VANILLA ICE CREAM IS COOL, YET PISTACHIO IS GOLD.WAD",
+            "name": "Vanilla ice cream is cool, yet pistachio is gold",
+            "recommendedSourcePort": 1,
+            "screen1Path": "/Data/Maps/StorkGreen/Vanilla ice cream is cool, yet pistachio is gold/screen1.png",
+            "screen2Path": "/Data/Maps/StorkGreen/Vanilla ice cream is cool, yet pistachio is gold/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                9
+            ],
+            "txtPath": "/Data/Maps/StorkGreen/Vanilla ice cream is cool, yet pistachio is gold/VANILLA ICE CREAM IS COOL, YET PISTACHIO IS GOLD.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 9,
+            "hasLiteVersion": false,
+            "hours": 5,
+            "id": 32,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/Kras/They`re here!/THEY'RE HERE!.WAD",
+            "name": "They`re here!",
+            "recommendedSourcePort": 1,
+            "screen1Path": "/Data/Maps/Kras/They`re here!/screen1.png",
+            "screen2Path": "/Data/Maps/Kras/They`re here!/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                9
+            ],
+            "txtPath": "/Data/Maps/Kras/They`re here!/THEY'RE HERE!.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 228,
+            "hasLiteVersion": false,
+            "hours": 10,
+            "id": 33,
+            "iwad": 6,
+            "mapPath": "/Data/Maps/George Nash/Atmospheric Dreams of The Distant Realms/ATMOSPHERIC DREAMS OF THE DISTANT REALMS.PK3",
+            "name": "Atmospheric Dreams of The Distant Realms",
+            "recommendedSourcePort": 8,
+            "screen1Path": "/Data/Maps/George Nash/Atmospheric Dreams of The Distant Realms/screen1.png",
+            "screen2Path": "/Data/Maps/George Nash/Atmospheric Dreams of The Distant Realms/screen2.png",
+            "sourcePorts": [
+                8
+            ],
+            "txtPath": "/Data/Maps/George Nash/Atmospheric Dreams of The Distant Realms/ATMOSPHERIC DREAMS OF THE DISTANT REALMS.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 21,
+            "hasLiteVersion": false,
+            "hours": 1.5,
+            "id": 34,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/StorkGreen/Unfinished Dream of All Living Drons/UNFINISHED DREAM OF ALL LIVING DRONS.WAD",
+            "name": "Unfinished Dream of All Living Drons",
+            "recommendedSourcePort": 1,
+            "screen1Path": "/Data/Maps/StorkGreen/Unfinished Dream of All Living Drons/screen1.png",
+            "screen2Path": "/Data/Maps/StorkGreen/Unfinished Dream of All Living Drons/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                9
+            ],
+            "txtPath": "/Data/Maps/StorkGreen/Unfinished Dream of All Living Drons/UNFINISHED DREAM OF ALL LIVING DRONS.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 2,
+            "hasLiteVersion": false,
+            "hours": 3.5,
+            "id": 35,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/Ear1h/Experiment 666/EXPERIMENT 666.WAD",
+            "name": "Experiment 666",
+            "recommendedSourcePort": 5,
+            "screen1Path": "/Data/Maps/Ear1h/Experiment 666/screen1.png",
+            "screen2Path": "/Data/Maps/Ear1h/Experiment 666/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                9
+            ],
+            "txtPath": "/Data/Maps/Ear1h/Experiment 666/EXPERIMENT 666.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 9,
+            "hasLiteVersion": false,
+            "hours": 8.5,
+            "id": 36,
+            "iwad": 4,
+            "mapPath": "/Data/Maps/Kras/Heart hell/HEART HELL.WAD",
+            "name": "Heart hell",
+            "recommendedSourcePort": 4,
+            "screen1Path": "/Data/Maps/Kras/Heart hell/screen1.png",
+            "screen2Path": "/Data/Maps/Kras/Heart hell/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                9
+            ],
+            "txtPath": "/Data/Maps/Kras/Heart hell/HEART HELL.TXT",
+            "warpMap": "30"
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 281,
+            "hasLiteVersion": false,
+            "hours": 5,
+            "id": 37,
+            "iwad": 3,
+            "mapPath": "/Data/Maps/SilverMiner/Lindos/LINDOS.WAD",
+            "name": "Lindos",
+            "recommendedSourcePort": 7,
+            "screen1Path": "/Data/Maps/SilverMiner/Lindos/screen1.png",
+            "screen2Path": "/Data/Maps/SilverMiner/Lindos/screen2.png",
+            "sourcePorts": [
+                7,
+                8
+            ],
+            "txtPath": "/Data/Maps/SilverMiner/Lindos/LINDOS.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 9,
+            "hasLiteVersion": false,
+            "hours": 8,
+            "id": 38,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/Shiroi Akuma [Slavius]/Pigster will come/PIGSTER WILL COME.WAD",
+            "name": "Pigster will come",
+            "recommendedSourcePort": 2,
+            "screen1Path": "/Data/Maps/Shiroi Akuma [Slavius]/Pigster will come/screen1.png",
+            "screen2Path": "/Data/Maps/Shiroi Akuma [Slavius]/Pigster will come/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                9
+            ],
+            "txtPath": "/Data/Maps/Shiroi Akuma [Slavius]/Pigster will come/PIGSTER WILL COME.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 21,
+            "hasLiteVersion": false,
+            "hours": 4.5,
+            "id": 39,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/StorkGreen/Oh no my pockets have holes (sad)/OH NO MY POCKETS HAVE HOLES (SAD).WAD",
+            "name": "Oh no my pockets have holes (sad)",
+            "recommendedSourcePort": 1,
+            "screen1Path": "/Data/Maps/StorkGreen/Oh no my pockets have holes (sad)/screen1.png",
+            "screen2Path": "/Data/Maps/StorkGreen/Oh no my pockets have holes (sad)/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                9
+            ],
+            "txtPath": "/Data/Maps/StorkGreen/Oh no my pockets have holes (sad)/OH NO MY POCKETS HAVE HOLES (SAD).TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 3,
+            "hasLiteVersion": false,
+            "hours": 7.5,
+            "id": 40,
+            "iwad": 1,
+            "mapPath": "/Data/Maps/Broy/Fueled by Hate/FUELED BY HATE.WAD",
+            "name": "Fueled by Hate",
+            "recommendedSourcePort": 5,
+            "screen1Path": "/Data/Maps/Broy/Fueled by Hate/screen1.png",
+            "screen2Path": "/Data/Maps/Broy/Fueled by Hate/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                9
+            ],
+            "txtPath": "/Data/Maps/Broy/Fueled by Hate/FUELED BY HATE.TXT",
+            "warpMap": "3 8"
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 11,
+            "hasLiteVersion": false,
+            "hours": 10,
+            "id": 41,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/Track Federal/Wrath Castle/WRATH CASTLE.WAD",
+            "name": "Wrath Castle",
+            "recommendedSourcePort": 1,
+            "screen1Path": "/Data/Maps/Track Federal/Wrath Castle/screen1.png",
+            "screen2Path": "/Data/Maps/Track Federal/Wrath Castle/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                9
+            ],
+            "txtPath": "/Data/Maps/Track Federal/Wrath Castle/WRATH CASTLE.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "/Data/Maps/Shiroi Akuma [Slavius]/Arc Pacifica/ARC PACIFICA_L.WAD",
+            "completed": false,
+            "complevel": 228,
+            "hasLiteVersion": true,
+            "hours": 10,
+            "id": 42,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/Shiroi Akuma [Slavius]/Arc Pacifica/ARC PACIFICA.WAD",
+            "name": "Arc Pacifica",
+            "recommendedSourcePort": 8,
+            "screen1Path": "/Data/Maps/Shiroi Akuma [Slavius]/Arc Pacifica/screen1.png",
+            "screen2Path": "/Data/Maps/Shiroi Akuma [Slavius]/Arc Pacifica/screen2.png",
+            "sourcePorts": [
+                8
+            ],
+            "txtPath": "/Data/Maps/Shiroi Akuma [Slavius]/Arc Pacifica/ARC PACIFICA.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 9,
+            "hasLiteVersion": false,
+            "hours": 10,
+            "id": 43,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/DeathWish/Vietnam 1968/VIETNAM 1968.WAD",
+            "name": "Vietnam 1968",
+            "recommendedSourcePort": 1,
+            "screen1Path": "/Data/Maps/DeathWish/Vietnam 1968/screen1.png",
+            "screen2Path": "/Data/Maps/DeathWish/Vietnam 1968/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                9
+            ],
+            "txtPath": "/Data/Maps/DeathWish/Vietnam 1968/VIETNAM 1968.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 228,
+            "hasLiteVersion": false,
+            "hours": 4.5,
+            "id": 44,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/Nikolanchik/Are you Serious/ARE YOU SERIOUS.PK3",
+            "name": "Are you Serious?",
+            "recommendedSourcePort": 8,
+            "screen1Path": "/Data/Maps/Nikolanchik/Are you Serious/screen1.png",
+            "screen2Path": "/Data/Maps/Nikolanchik/Are you Serious/screen2.png",
+            "sourcePorts": [
+                8
+            ],
+            "txtPath": "/Data/Maps/Nikolanchik/Are you Serious/ARE YOU SERIOUS.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 9,
+            "hasLiteVersion": false,
+            "hours": 3,
+            "id": 45,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/Nikolanchik/Abandoned Area/ABANDONED AREA.WAD",
+            "name": "Abandoned Area",
+            "recommendedSourcePort": 1,
+            "screen1Path": "/Data/Maps/Nikolanchik/Abandoned Area/screen1.png",
+            "screen2Path": "/Data/Maps/Nikolanchik/Abandoned Area/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                9
+            ],
+            "txtPath": "/Data/Maps/Nikolanchik/Abandoned Area/ABANDONED AREA.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 2,
+            "hasLiteVersion": false,
+            "hours": 5,
+            "id": 46,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/Hoveq/Imp hunting season is upon us!/IMP HUNTING SEASON IS UPON US!.WAD",
+            "name": "Imp hunting season is upon us!",
+            "recommendedSourcePort": 5,
+            "screen1Path": "/Data/Maps/Hoveq/Imp hunting season is upon us!/screen1.png",
+            "screen2Path": "/Data/Maps/Hoveq/Imp hunting season is upon us!/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                9
+            ],
+            "txtPath": "/Data/Maps/Hoveq/Imp hunting season is upon us!/IMP HUNTING SEASON IS UPON US!.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 21,
+            "hasLiteVersion": false,
+            "hours": 10,
+            "id": 47,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/Dron12261/Forgotten Eden/FORGOTTEN EDEN.WAD",
+            "name": "Forgotten Eden",
+            "recommendedSourcePort": 3,
+            "screen1Path": "/Data/Maps/Dron12261/Forgotten Eden/screen1.png",
+            "screen2Path": "/Data/Maps/Dron12261/Forgotten Eden/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                9
+            ],
+            "txtPath": "/Data/Maps/Dron12261/Forgotten Eden/FORGOTTEN EDEN.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 228,
+            "hasLiteVersion": false,
+            "hours": 10,
+            "id": 48,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/Ear1h/Slipgate Complex/SLIPGATE COMPLEX.PK3",
+            "name": "Slipgate Complex",
+            "recommendedSourcePort": 8,
+            "screen1Path": "/Data/Maps/Ear1h/Slipgate Complex/screen1.png",
+            "screen2Path": "/Data/Maps/Ear1h/Slipgate Complex/screen2.png",
+            "sourcePorts": [
+                8
+            ],
+            "txtPath": "/Data/Maps/Ear1h/Slipgate Complex/SLIPGATE COMPLEX.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 9,
+            "hasLiteVersion": false,
+            "hours": 9,
+            "id": 49,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/Doom Wads/Friday Evening/FRIDAY EVENING.WAD",
+            "name": "Friday Evening",
+            "recommendedSourcePort": 1,
+            "screen1Path": "/Data/Maps/Doom Wads/Friday Evening/screen1.png",
+            "screen2Path": "/Data/Maps/Doom Wads/Friday Evening/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                9
+            ],
+            "txtPath": "/Data/Maps/Doom Wads/Friday Evening/FRIDAY EVENING.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 21,
+            "hasLiteVersion": false,
+            "hours": 10,
+            "id": 50,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/Petyan/Rain currently known as purple/RAIN CURRENTLY KNOWN AS PURPLE.WAD",
+            "name": "Rain currently known as purple",
+            "recommendedSourcePort": 2,
+            "screen1Path": "/Data/Maps/Petyan/Rain currently known as purple/screen1.png",
+            "screen2Path": "/Data/Maps/Petyan/Rain currently known as purple/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                9
+            ],
+            "txtPath": "/Data/Maps/Petyan/Rain currently known as purple/RAIN CURRENTLY KNOWN AS PURPLE.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 3,
+            "hasLiteVersion": false,
+            "hours": 2,
+            "id": 51,
+            "iwad": 1,
+            "mapPath": "/Data/Maps/Winnkar/Nobody told me about this wad/NOBODY TOLD ME ABOUT THIS WAD.WAD",
+            "name": "Nobody told me about this wad",
+            "recommendedSourcePort": 5,
+            "screen1Path": "/Data/Maps/Winnkar/Nobody told me about this wad/screen1.png",
+            "screen2Path": "/Data/Maps/Winnkar/Nobody told me about this wad/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                9
+            ],
+            "txtPath": "/Data/Maps/Winnkar/Nobody told me about this wad/NOBODY TOLD ME ABOUT THIS WAD.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 21,
+            "hasLiteVersion": false,
+            "hours": 10,
+            "id": 52,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/Async Unicorn/If You're Into It, I'm Out of It/IF YOU'RE INTO IT, I'M OUT OF IT.WAD",
+            "name": "If You're Into It, I'm Out of It",
+            "recommendedSourcePort": 2,
+            "screen1Path": "/Data/Maps/Async Unicorn/If You're Into It, I'm Out of It/screen1.png",
+            "screen2Path": "/Data/Maps/Async Unicorn/If You're Into It, I'm Out of It/screen2.png",
+            "sourcePorts": [
+                2,
+                3,
+                4,
+                9
+            ],
+            "txtPath": "/Data/Maps/Async Unicorn/If You're Into It, I'm Out of It/IF YOU'RE INTO IT, I'M OUT OF IT.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 228,
+            "hasLiteVersion": false,
+            "hours": 10,
+            "id": 53,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/MyNameIs [Dezette]/PostVitam/POSTVITAM.PK3",
+            "name": "PostVitam",
+            "recommendedSourcePort": 8,
+            "screen1Path": "/Data/Maps/MyNameIs [Dezette]/PostVitam/screen1.png",
+            "screen2Path": "/Data/Maps/MyNameIs [Dezette]/PostVitam/screen2.png",
+            "sourcePorts": [
+                8
+            ],
+            "txtPath": "/Data/Maps/MyNameIs [Dezette]/PostVitam/POSTVITAM.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 2,
+            "hasLiteVersion": false,
+            "hours": 2,
+            "id": 54,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/Chainie/From all evil/FAE.WAD",
+            "name": "From all evil",
+            "recommendedSourcePort": 6,
+            "screen1Path": "/Data/Maps/Chainie/From all evil/screen1.png",
+            "screen2Path": "/Data/Maps/Chainie/From all evil/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                9
+            ],
+            "txtPath": "/Data/Maps/Chainie/From all evil/FAE.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 9,
+            "hasLiteVersion": false,
+            "hours": 5,
+            "id": 55,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/Winnkar/Something strange was happening in my house/SOMETHING STRANGE WAS HAPPENING IN MY HOUSE.WAD",
+            "name": "Something strange was happening in my house",
+            "recommendedSourcePort": 1,
+            "screen1Path": "/Data/Maps/Winnkar/Something strange was happening in my house/screen1.png",
+            "screen2Path": "/Data/Maps/Winnkar/Something strange was happening in my house/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                9
+            ],
+            "txtPath": "/Data/Maps/Winnkar/Something strange was happening in my house/SOMETHING STRANGE WAS HAPPENING IN MY HOUSE.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 21,
+            "hasLiteVersion": false,
+            "hours": 4,
+            "id": 56,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/Track Federal/Bad to the Bone/BAD TO THE BONE.WAD",
+            "name": "Bad to the Bone",
+            "recommendedSourcePort": 4,
+            "screen1Path": "/Data/Maps/Track Federal/Bad to the Bone/screen1.png",
+            "screen2Path": "/Data/Maps/Track Federal/Bad to the Bone/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                9
+            ],
+            "txtPath": "/Data/Maps/Track Federal/Bad to the Bone/BAD TO THE BONE.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 2,
+            "hasLiteVersion": false,
+            "hours": 6,
+            "id": 57,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/Kras/The main system hangar/THE MAIN SYSTEM HANGAR.WAD",
+            "name": "The main system hangar",
+            "recommendedSourcePort": 1,
+            "screen1Path": "/Data/Maps/Kras/The main system hangar/screen1.png",
+            "screen2Path": "/Data/Maps/Kras/The main system hangar/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                9
+            ],
+            "txtPath": "/Data/Maps/Kras/The main system hangar/THE MAIN SYSTEM HANGAR.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 228,
+            "hasLiteVersion": false,
+            "hours": 10,
+            "id": 58,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/Ear1h/Pumping Station/PUMPING STATION.PK3",
+            "name": "Pumping Station",
+            "recommendedSourcePort": 8,
+            "screen1Path": "/Data/Maps/Ear1h/Pumping Station/screen1.png",
+            "screen2Path": "/Data/Maps/Ear1h/Pumping Station/screen2.png",
+            "sourcePorts": [
+                8
+            ],
+            "txtPath": "/Data/Maps/Ear1h/Pumping Station/PUMPING STATION.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 228,
+            "hasLiteVersion": false,
+            "hours": 10,
+            "id": 59,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/Ear1h/Ancient Chambers/ANCIENT CHAMBERS.PK3",
+            "name": "Ancient Chambers",
+            "recommendedSourcePort": 8,
+            "screen1Path": "/Data/Maps/Ear1h/Ancient Chambers/screen1.png",
+            "screen2Path": "/Data/Maps/Ear1h/Ancient Chambers/screen2.png",
+            "sourcePorts": [
+                8
+            ],
+            "txtPath": "/Data/Maps/Ear1h/Ancient Chambers/ANCIENT CHAMBERS.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 21,
+            "hasLiteVersion": false,
+            "hours": 6,
+            "id": 60,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/StorkGreen/Spin my cloudy tower, spin!/SPIN MY CLOUDY TOWER, SPIN!.WAD",
+            "name": "Spin my cloudy tower, spin!",
+            "recommendedSourcePort": 1,
+            "screen1Path": "/Data/Maps/StorkGreen/Spin my cloudy tower, spin!/screen1.png",
+            "screen2Path": "/Data/Maps/StorkGreen/Spin my cloudy tower, spin!/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                9
+            ],
+            "txtPath": "/Data/Maps/StorkGreen/Spin my cloudy tower, spin!/SPIN MY CLOUDY TOWER, SPIN!.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "-hhever 1.3",
+            "completed": false,
+            "complevel": 2,
+            "hasLiteVersion": false,
+            "hours": 7,
+            "id": 61,
+            "iwad": 5,
+            "mapPath": "/Data/Maps/Broy/Broyal Pancakes/BROYAL PANCAKES.WAD",
+            "name": "Broyal Pancakes",
+            "recommendedSourcePort": 10,
+            "screen1Path": "/Data/Maps/Broy/Broyal Pancakes/screen1.png",
+            "screen2Path": "/Data/Maps/Broy/Broyal Pancakes/screen2.png",
+            "sourcePorts": [
+                10
+            ],
+            "txtPath": "/Data/Maps/Broy/Broyal Pancakes/BROYAL PANCAKES.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 4,
+            "hasLiteVersion": false,
+            "hours": 9.5,
+            "id": 62,
+            "iwad": 3,
+            "mapPath": "/Data/Maps/Heretic926/Malachite/MALACHITE.WAD",
+            "name": "Malachite",
+            "recommendedSourcePort": 5,
+            "screen1Path": "/Data/Maps/Heretic926/Malachite/screen1.png",
+            "screen2Path": "/Data/Maps/Heretic926/Malachite/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                9
+            ],
+            "txtPath": "/Data/Maps/Heretic926/Malachite/MALACHITE.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 9,
+            "hasLiteVersion": false,
+            "hours": 8.5,
+            "id": 63,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/Man With A Gun/Base Buster/BASE BUSTER.WAD",
+            "name": "Base Buster",
+            "recommendedSourcePort": 1,
+            "screen1Path": "/Data/Maps/Man With A Gun/Base Buster/screen1.png",
+            "screen2Path": "/Data/Maps/Man With A Gun/Base Buster/screen2.png",
+            "sourcePorts": [
+                1,
+                2,
+                3,
+                4,
+                9
+            ],
+            "txtPath": "/Data/Maps/Man With A Gun/Base Buster/BASE BUSTER.TXT",
+            "warpMap": ""
+        },
+        {
+            "addWadPath": "",
+            "completed": false,
+            "complevel": 9,
+            "hasLiteVersion": false,
+            "hours": 10,
+            "id": 64,
+            "iwad": 2,
+            "mapPath": "/Data/Maps/DeathWish/Faster Than Light/FASTER THAN LIGHT.WAD",
+            "name": "Faster Than Light",
+            "recommendedSourcePort": 4,
+            "screen1Path": "/Data/Maps/DeathWish/Faster Than Light/screen1.png",
+            "screen2Path": "/Data/Maps/DeathWish/Faster Than Light/screen2.png",
+            "sourcePorts": [
+                2,
+                3,
+                4
+            ],
+            "txtPath": "/Data/Maps/DeathWish/Faster Than Light/FASTER THAN LIGHT.TXT",
+            "warpMap": ""
+        }
+    ],
+    "MusicMute": false,
+    "MusicVolume": -20,
+    "SourcePorts": [
+        {
+            "addConfig": "",
+            "exeFile": "dsda-doom.exe",
+            "id": 1,
+            "name": "DSDA",
+            "path": "/Data/Source-Ports/DSDA v0.27.5/"
+        },
+        {
+            "addConfig": "",
+            "exeFile": "woof.exe",
+            "id": 2,
+            "name": "Woof!",
+            "path": "/Data/Source-Ports/Woof! v14.5.0/"
+        },
+        {
+            "addConfig": "",
+            "exeFile": "nugget-doom.exe",
+            "id": 3,
+            "name": "Nugget Doom",
+            "path": "/Data/Source-Ports/Nugget Doom v3.1.0/"
+        },
+        {
+            "addConfig": "",
+            "exeFile": "doomretro.exe",
+            "id": 4,
+            "name": "Doom Retro",
+            "path": "/Data/Source-Ports/Doom Retro v5.5/"
+        },
+        {
+            "addConfig": "",
+            "exeFile": "crispy-doom.exe",
+            "id": 5,
+            "name": "Crispy Doom",
+            "path": "/Data/Source-Ports/Crispy Doom v6.0.0/"
+        },
+        {
+            "addConfig": "",
+            "exeFile": "chocolate-doom.exe",
+            "id": 6,
+            "name": "Chocolate Doom",
+            "path": "/Data/Source-Ports/Chocolate Doom v3.0.1/"
+        },
+        {
+            "addConfig": "",
+            "exeFile": "rzdoom.exe",
+            "id": 7,
+            "name": "RZDoom",
+            "path": "/Data/Source-Ports/RZDoom v3.1.0/"
+        },
+        {
+            "addConfig": "",
+            "exeFile": "gzdoom.exe",
+            "id": 8,
+            "name": "GZDoom Classic",
+            "path": "/Data/Source-Ports/GZDoom Classic v4.12.2/"
+        },
+        {
+            "addConfig": "",
+            "exeFile": "eternity.exe",
+            "id": 9,
+            "name": "Eternity Engine 4.03",
+            "path": "/Data/Source-Ports/Eternity Engine v4.03 (04-jan-2024)/"
+        },
+        {
+            "addConfig": "",
+            "exeFile": "crispy-heretic.exe",
+            "id": 10,
+            "name": "Crispy Heretic",
+            "path": "/Data/Source-Ports/Crispy Heretic v6.0.0/"
+        }
+    ],
+    "Version": "v1.0.6",
+    "firstLaunch": true
+}
