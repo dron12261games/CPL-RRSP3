@@ -665,7 +665,6 @@
                 2,
                 3,
                 4,
-                5,
                 9
             ],
             "txtPath": "/Data/Maps/Kras/Hell city/HELL CITY.TXT",
@@ -753,7 +752,6 @@
                 1,
                 2,
                 3,
-                4,
                 5,
                 9
             ],
@@ -1773,7 +1771,7 @@
             "exeFile": "chocolate-doom.exe",
             "id": 6,
             "name": "Chocolate Doom",
-            "path": "/Data/Source-Ports/Chocolate Doom v3.0.1/"
+            "path": "/Data/Source-Ports/Chocolate Doom v3.0.0/"
         },
         {
             "addConfig": "",
@@ -1804,6 +1802,6 @@
             "path": "/Data/Source-Ports/Crispy Heretic v6.0.0/"
         }
     ],
-    "Version": "v1.0.6",
+    "Version": "v1.0.7",
     "firstLaunch": true
 }
