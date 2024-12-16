@@ -4,7 +4,7 @@ The biggest community project organized by me for russian doom community
 
 # STATUS: ✅RELEASED
 
-### Download - [Latest Release](https://github.com/dron12261games/CPL-RRSP1/releases/download/v1/RRSP1.zip)
+### Download - [Latest Release](https://github.com/dron12261games/CPL-RRSP3/releases/download/v1.0.7/RRSP3_v1.0.7.zip)
 
 # Links (all information inside)
 - [Official Site](https://rrsp3.github.io)
